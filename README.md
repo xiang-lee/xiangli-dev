@@ -1,54 +1,53 @@
 # Xiang Li - Personal Site
 
-这是 xiangli.dev 的主站源码（多页静态站点）。包含 Home / About / Projects / Notes。
+Source for the xiangli.dev main site (multi-page static site). Includes Home / About / Projects / Notes.
 
-## 本地开发
+## Local Development
 
 ```bash
 python3 -m http.server 8080
 ```
 
-浏览器打开 `http://localhost:8080`。
+Open `http://localhost:8080` in the browser.
 
-## 写文章（Notes）
+## Write Notes
 
-1. 编辑 `notes.html` 的卡片列表，填写标题和摘要。
-2. 同步更新 `index.html` 的 “Recent Notes” 区块，以展示最新文章。
+1. Edit `notes.html` and update the note cards.
+2. Update the "Recent Notes" list in `index.html` to keep the homepage in sync.
 
-## 添加项目（Projects）
+## Add Projects
 
-1. 编辑 `projects.html` 的 “Featured Projects” 区块。
-2. 每个卡片建议包含：项目名称、简短描述、状态/标签、链接（可选）。
+1. Edit the "Featured Projects" section in `projects.html`.
+2. Each card should include a name, short description, status tag, and optional link.
 
-## 联系方式
+## Contact Info
 
-- Email 展示在 `index.html` 的 Connect 区块。
-- 需要替换成你的真实邮箱（当前为占位）。
+- Email is shown in the Connect section of `index.html`.
+- Replace the placeholder email with your real address.
 
-## 部署（Cloudflare Pages + GitHub）
+## Deploy (Cloudflare Pages + GitHub)
 
-1. 推送仓库到 GitHub：`https://github.com/xiang-lee/xiangli-dev`。
-2. 登录 Cloudflare Dashboard -> Pages。
-3. 选择 “Connect to Git” 并授权 GitHub。
-4. 选择仓库 `xiang-lee/xiangli-dev`。
-5. 构建配置：
+1. Push this repo to GitHub: `https://github.com/xiang-lee/xiangli-dev`.
+2. Cloudflare Dashboard -> Pages.
+3. "Connect to Git" and authorize GitHub.
+4. Choose repo `xiang-lee/xiangli-dev`.
+5. Build settings:
    - Framework preset: None
-   - Build command: 留空
+   - Build command: leave empty
    - Build output directory: `.`
-6. 点击 Deploy，等待构建完成。
+6. Deploy and wait for the build to finish.
 
-## 绑定自定义域名（xiangli.dev）
+## Custom Domain (xiangli.dev)
 
-1. Cloudflare Pages 项目 -> Custom domains -> Add custom domain。
-2. 填写 `xiangli.dev` 并确认。
-3. 若 DNS 托管在 Cloudflare：
-   - 按提示自动添加/更新 DNS 记录。
-   - 确认 `A`/`CNAME` 记录已指向 Cloudflare Pages。
-4. 若 DNS 不在 Cloudflare：
-   - 在当前 DNS 服务商添加 Cloudflare 提示的 `CNAME`/`A` 记录。
-5. 等待 SSL 证书签发（通常几分钟到数小时）。
+1. Cloudflare Pages project -> Custom domains -> Add custom domain.
+2. Add `xiangli.dev`.
+3. If DNS is hosted in Cloudflare:
+   - Follow the prompt to add or update DNS records.
+4. If DNS is hosted elsewhere:
+   - Add the CNAME or A records shown by Cloudflare at your DNS provider.
+5. Wait for SSL issuance (minutes to hours).
 
-## 未来子域名规划
+## Future Subdomain Apps
 
-- `project1.xiangli.dev` 等子域名会在 Cloudflare Pages 或 Workers 中单独部署。
-- 为每个子项目创建独立 Pages 项目，并按 Cloudflare 的指引配置 DNS。
+- `project1.xiangli.dev` and similar subdomains can be deployed as separate Pages projects.
+- Each subdomain will need its own DNS record pointing to the new Pages project.
