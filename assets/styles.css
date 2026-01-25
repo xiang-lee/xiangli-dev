@@ -244,6 +244,14 @@ img {
   padding: 64px 0;
 }
 
+.section-intro {
+  padding-bottom: 36px;
+}
+
+.section-featured {
+  padding-top: 36px;
+}
+
 .section h2 {
   font-family: "Quicksand", sans-serif;
   font-size: clamp(1.7rem, 3.4vw, 2.4rem);
