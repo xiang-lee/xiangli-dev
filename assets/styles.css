@@ -532,6 +532,14 @@ img {
 }
 
 @media (max-width: 720px) {
+  .container {
+    padding: 0 22px;
+  }
+
+  .section {
+    padding: 52px 0;
+  }
+
   .nav-bar {
     border-radius: 24px;
     justify-content: center;
