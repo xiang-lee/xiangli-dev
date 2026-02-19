@@ -1,6 +1,6 @@
 # Xiang Li - Personal Site
 
-Source for the xiangli.dev main site (multi-page static site). Includes Home / About / Projects / Notes.
+Source for the xiangli.dev main site (multi-page static site). Includes Home / About / Projects.
 
 ## Local Development
 
@@ -9,11 +9,6 @@ python3 -m http.server 8080
 ```
 
 Open `http://localhost:8080` in the browser.
-
-## Write Notes
-
-1. Edit `notes.html` and update the note cards.
-2. Update the "Recent Notes" list in `index.html` to keep the homepage in sync.
 
 ## Add Projects
 
