@@ -245,6 +245,10 @@ img {
   padding: 36px 0;
 }
 
+#connect {
+  scroll-margin-top: 104px;
+}
+
 .section-intro {
   padding-bottom: 24px;
 }
