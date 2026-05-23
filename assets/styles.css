@@ -19,6 +19,39 @@
   --ring: 0 0 0 2px hsla(212, 100%, 48%, 1);
 }
 
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --bg-strong: #f9fafb;
+  --surface: #ffffff;
+  --surface-solid: #f3f4f6;
+  --text: #111827;
+  --muted: #6b7280;
+  --primary: #000000;
+  --accent: #2563eb;
+  --accent-strong: #1d4ed8;
+  --accent-soft: rgba(37, 99, 235, 0.1);
+  --accent-warm: #f97316;
+  --border: rgba(0, 0, 0, 0.1);
+  --border-strong: rgba(0, 0, 0, 0.2);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-soft: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Card hover animation */
+.project-card, .contact-item {
+  transition: transform 0.25s ease-out, box-shadow 0.25s ease-out, border-color 0.25s ease-out;
+}
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(37, 99, 235, 0.25);
+  border-color: rgba(37, 99, 235, 0.3);
+}
+
+/* Scroll margin fixed globally */
+section[id] {
+  scroll-margin-top: 100px;
+}
 
 * {
   box-sizing: border-box;
@@ -141,7 +174,7 @@ img {
 .nav a:hover {
   background: rgba(37, 99, 235, 0.12);
   color: var(--primary);
-  transform: translateY(-1px);
+  transform: translateY(-3px); box-shadow: var(--shadow); border-color: rgba(37, 99, 235, 0.4);
 }
 
 .hero {
@@ -268,7 +301,6 @@ img {
 body {
     background-color: var(--bg);
     color: var(--text);
-  }
 }
 
 .page-title {
@@ -440,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn:hover {
-  transform: translateY(-1px);
+  transform: translateY(-3px); box-shadow: var(--shadow); border-color: rgba(37, 99, 235, 0.4);
   box-shadow: 0 18px 32px rgba(37, 99, 235, 0.25);
   color: #fff;
 }
@@ -472,7 +504,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-item:hover {
   background: rgba(37, 99, 235, 0.1);
   border-color: rgba(37, 99, 235, 0.3);
-  transform: translateY(-1px);
+  transform: translateY(-3px); box-shadow: var(--shadow); border-color: rgba(37, 99, 235, 0.4);
 }
 
 .contact-item svg {
