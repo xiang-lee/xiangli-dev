@@ -54,7 +54,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
@@ -71,7 +71,7 @@
           <a href="about.html">About</a>
           <a href="projects.html">Projects</a>
           <a href="index.html#connect">Connect</a>
-          <button id="theme-toggle" class="btn secondary" aria-label="Toggle Dark Mode" style="padding: 6px; min-height: 36px; margin-left: 8px;">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
           </button>
         </nav>
@@ -81,24 +81,25 @@
     <main id="main">
       <section class="container hero">
         <div class="hero-content reveal">
-          <div class="profile-image" style="border-radius: 50%;">
+          <p class="eyebrow">Amazon Web Services &middot; Ireland</p>
+          <h1>Xiang <span class="grad">Li</span></h1>
+          <p class="hero-lead">
+            Tech Lead &amp; Engineering Manager at Amazon Web Services. Focused on reliable systems,
+            healthy teams, and practical AI tooling.
+          </p>
+          <div class="cta-row">
+            <a class="btn" href="projects.html">View Projects</a>
+            <a class="btn secondary" href="#connect">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="profile-image">
             <picture>
               <source srcset="assets/avatar.webp" type="image/webp" />
               <img src="assets/avatar.png" alt="Xiang Li" width="460" height="460" />
             </picture>
           </div>
-          <div class="profile-text">
-            <h1>Xiang Li</h1>
-            <p>
-              Tech Lead & Engineering Manager at Amazon Web Services. Focused on reliable systems,
-              healthy teams, and practical AI tooling.
-            </p>
-            <div class="cta-row">
-              <a class="btn" href="projects.html">View Projects</a>
-            </div>
-          </div>
-        </div>
-        <div class="hero-card reveal">
+          <div class="hero-card">
           <h2>Now</h2>
           <div class="hero-metrics">
             <div class="metric">
@@ -114,6 +115,7 @@
               <span>Ireland</span>
             </div>
           </div>
+        </div>
         </div>
       </section>
 
