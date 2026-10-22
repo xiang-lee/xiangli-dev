@@ -35,14 +35,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
+    <noscript><link rel="stylesheet" href="assets/noscript.css" /></noscript>
     <script defer src="assets/main.js"></script>
     <script defer src="assets/theme.js"></script>
+    <script defer src="assets/effects.js"></script>
   </head>
   <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="container nav-bar">
@@ -284,5 +288,6 @@
         <p>Built by Xiang Li.</p>
       </div>
     </footer>
+    <div class="cursor-glow" aria-hidden="true"></div>
   </body>
 </html>

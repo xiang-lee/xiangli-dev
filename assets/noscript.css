@@ -1,0 +1,13 @@
+/* No-JS fallback: everything visible, decorative JS layers hidden. */
+.reveal,
+.hero-content > *,
+.hero-visual .profile-image,
+.hero-visual .hero-card {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.scroll-progress,
+.cursor-glow {
+  display: none !important;
+}
