@@ -10,6 +10,12 @@ python3 -m http.server 8080
 
 Open `http://localhost:8080` in the browser.
 
+### Dublin weekend listings
+
+`weekend/` is a static Chinese-language Dublin family weekend page, same shape as `opendiandu/`. After merge, Cloudflare Pages serves the repo root with no build step, so the page is [https://xiangli.dev/weekend/](https://xiangli.dev/weekend/). Filters read `weekend/events.json` from the same origin.
+
+Open `http://localhost:8080/weekend/`.
+
 ## Add Projects
 
 1. Edit the "Featured Projects" section in `projects.html`.
