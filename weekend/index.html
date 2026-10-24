@@ -30,6 +30,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
     <link rel="stylesheet" href="styles.css" />
     <script src="theme-init.js"></script>
   </head>
@@ -130,11 +131,28 @@
         </form>
 
         <div id="notice" class="notice" hidden></div>
-        <p id="result-count" class="result-count" aria-live="polite">正在整理活动…</p>
-        <div id="event-list" class="event-grid"></div>
-        <div id="empty-state" class="empty" hidden>
-          <p id="empty-text">这个条件下没有活动。</p>
-          <button id="reset-filters" class="chip chip-solid" type="button">查看全部活动</button>
+        <div class="explorer-toolbar">
+          <div>
+            <p id="result-count" class="result-count" aria-live="polite">正在整理活动…</p>
+            <p class="map-hint">点卡片，地图会移到对应的针。点地图上的数字，会打开这条活动。</p>
+          </div>
+          <div class="view-toggle" role="group" aria-label="查看方式">
+            <button class="chip" id="view-list" type="button" aria-pressed="true">列表</button>
+            <button class="chip" id="view-map" type="button" aria-pressed="false">地图</button>
+          </div>
+        </div>
+        <div id="explorer" class="explorer">
+          <div class="explorer-list">
+            <div id="event-list" class="event-list"></div>
+            <div id="empty-state" class="empty" hidden>
+              <p id="empty-text">这个条件下没有活动。</p>
+              <button id="reset-filters" class="chip chip-solid" type="button">查看全部活动</button>
+            </div>
+          </div>
+          <div class="explorer-map">
+            <div id="map" role="region" aria-label="活动地图"></div>
+            <div id="map-peek" class="map-peek" hidden></div>
+          </div>
         </div>
       </section>
     </main>
@@ -142,7 +160,7 @@
     <footer class="site-footer">
       <div class="container">
         <p>
-          这些是为 MVP 整理的策展样本，不是实时票务。活动可能改期、满员或已经结束。出发前请打开每条里的「查看来源」，核对时间、年龄、是否需要预约以及票价。
+          这些是核对过来源页的家庭清单，不是实时票务。活动可能改期、满员或临时取消。出发前请打开每条里的「查看来源」，核对时间、年龄、是否需要预约以及票价。地图针按场馆地址标在 OpenStreetMap 底图上。
         </p>
         <p class="footer-links">
           <a href="../">返回 xiangli.dev</a>
@@ -152,8 +170,9 @@
       </div>
     </footer>
     <noscript>
-      <p class="noscript">筛选和活动卡片需要 JavaScript。本页脚本只在本站加载，不请求第三方接口。</p>
+      <p class="noscript">筛选、列表和地图需要 JavaScript。活动数据来自本站；地图底图来自 OpenStreetMap。</p>
     </noscript>
+    <script src="vendor/leaflet/leaflet.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
