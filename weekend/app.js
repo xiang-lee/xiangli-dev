@@ -6,6 +6,10 @@
     dlr: "邓莱里-拉思当",
     fingal: "芬戈尔",
   };
+  /* CARTO raster tiles now watermark without an API key. OSM standard tiles stay keyless. */
+  var TILE_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+  var TILE_ATTR =
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
   var state = {
     region: "all",
@@ -18,6 +22,15 @@
   };
 
   var data = null;
+  var viewMode = "list";
+  var selectedId = null;
+  var pendingUrlEvent = null;
+  var visibleEvents = [];
+  var map = null;
+  var tileLayer = null;
+  var markerById = {};
+  var lastFitKey = "";
+  var urlPanDone = false;
 
   document.addEventListener("DOMContentLoaded", init);
 
@@ -30,8 +43,12 @@
 
     readStateFromUrl();
     bindFilters();
+    applyViewClass();
     reflectControls();
     loadEvents();
+    window.addEventListener("resize", function () {
+      if (map && mapIsVisible()) map.invalidateSize();
+    });
   }
 
   function onThemeToggle() {
@@ -66,6 +83,8 @@
     state.q = params.get("q") || "";
     state.from = isIsoDate(params.get("from")) ? params.get("from") : "";
     state.to = isIsoDate(params.get("to")) ? params.get("to") : "";
+    viewMode = params.get("view") === "map" ? "map" : "list";
+    pendingUrlEvent = params.get("event");
   }
 
   function writeStateToUrl() {
@@ -79,6 +98,8 @@
       if (state.from) params.set("from", state.from);
       if (state.to) params.set("to", state.to);
     }
+    if (viewMode === "map") params.set("view", "map");
+    if (selectedId) params.set("event", selectedId);
     var query = params.toString();
     var next = query ? "?" + query : window.location.pathname;
     window.history.replaceState(null, "", next);
@@ -133,6 +154,13 @@
       publish();
     });
 
+    document.getElementById("view-list").addEventListener("click", function () {
+      setViewMode("list");
+    });
+    document.getElementById("view-map").addEventListener("click", function () {
+      setViewMode("map");
+    });
+
     var form = document.getElementById("filters");
     form.addEventListener("submit", function (event) {
       event.preventDefault();
@@ -157,12 +185,33 @@
     document.getElementById("date-from").value = state.from;
     document.getElementById("date-to").value = state.to;
     document.getElementById("custom-range").hidden = state.when !== "custom";
+    applyViewClass();
   }
 
   function setPressed(selector, attr, value) {
     var buttons = document.querySelectorAll(selector + " button[" + attr + "]");
     buttons.forEach(function (button) {
       button.setAttribute("aria-pressed", button.getAttribute(attr) === value ? "true" : "false");
+    });
+  }
+
+  function applyViewClass() {
+    var explorer = document.getElementById("explorer");
+    if (explorer) explorer.classList.toggle("is-map", viewMode === "map");
+    var listBtn = document.getElementById("view-list");
+    var mapBtn = document.getElementById("view-map");
+    if (listBtn) listBtn.setAttribute("aria-pressed", viewMode === "list" ? "true" : "false");
+    if (mapBtn) mapBtn.setAttribute("aria-pressed", viewMode === "map" ? "true" : "false");
+  }
+
+  function setViewMode(mode) {
+    viewMode = mode === "map" ? "map" : "list";
+    applyViewClass();
+    writeStateToUrl();
+    if (!data || !mapIsVisible()) return;
+    window.requestAnimationFrame(function () {
+      syncMap(visibleEvents, { fit: !selectedId });
+      if (selectedId) panToEvent(selectedId);
     });
   }
 
@@ -190,17 +239,43 @@
 
   function publish() {
     reflectControls();
-    writeStateToUrl();
+    if (!data) {
+      writeStateToUrl();
+      return;
+    }
     renderWhenCaption();
-    if (!data) return;
-    renderNotice();
     var range = selectedRange();
     var rangeError = document.getElementById("range-error");
     rangeError.hidden = !(state.when === "custom" && range && range.invalid);
+    renderNotice(range);
 
     var events = filterEvents(range);
     sortEvents(events);
+    resolveSelection(events);
+    visibleEvents = events;
     renderEvents(events, range);
+    syncMap(events);
+    updatePeek();
+    writeStateToUrl();
+    if (!urlPanDone) {
+      urlPanDone = true;
+      if (selectedId) {
+        if (map) panToEvent(selectedId);
+        if (viewMode !== "map") scrollCard(selectedId, "nearest");
+      }
+    }
+  }
+
+  function resolveSelection(events) {
+    if (pendingUrlEvent) {
+      if (events.some(function (event) { return event.id === pendingUrlEvent; })) {
+        selectedId = pendingUrlEvent;
+      }
+      pendingUrlEvent = null;
+    }
+    if (selectedId && !events.some(function (event) { return event.id === selectedId; })) {
+      selectedId = null;
+    }
   }
 
   function renderWhenCaption() {
@@ -219,12 +294,11 @@
     caption.textContent = prefix + "：" + ymdLabel(weekend.start) + " – " + ymdLabel(weekend.end) + "（周六至周日）";
   }
 
-  function renderNotice() {
+  function renderNotice(range) {
     var box = document.getElementById("notice");
-    var range = selectedRange();
+    box.replaceChildren();
     if (!data.notices || !range || range.invalid || range.incomplete) {
       box.hidden = true;
-      box.textContent = "";
       return;
     }
     var matches = data.notices.filter(function (notice) {
@@ -232,11 +306,14 @@
     });
     if (!matches.length) {
       box.hidden = true;
-      box.textContent = "";
       return;
     }
     box.hidden = false;
-    box.textContent = matches.map(function (notice) { return notice.text_zh; }).join(" ");
+    matches.forEach(function (notice) {
+      var paragraph = document.createElement("p");
+      paragraph.textContent = notice.text_zh;
+      box.appendChild(paragraph);
+    });
   }
 
   function filterEvents(range) {
@@ -311,20 +388,36 @@
     }
 
     var now = new Date();
-    events.forEach(function (event) {
-      list.appendChild(renderCard(event, now));
+    events.forEach(function (event, index) {
+      list.appendChild(renderCard(event, now, index + 1));
     });
   }
 
-  function renderCard(event, now) {
+  function renderCard(event, now, number) {
     var card = document.createElement("article");
     card.className = "event-card";
+    card.id = "event-" + event.id;
+    card.setAttribute("data-id", event.id);
     var status = eventStatus(event, now);
     if (status === "ended") card.classList.add("is-ended");
+    var expanded = selectedId === event.id;
+    if (expanded) card.classList.add("is-active");
+
+    var button = document.createElement("button");
+    button.type = "button";
+    button.className = "card-open";
+    button.setAttribute("aria-expanded", expanded ? "true" : "false");
+    button.setAttribute("aria-controls", "details-" + event.id);
+    button.setAttribute("aria-label", number + " " + event.title_zh + "，" + formatWhen(event));
 
     var top = document.createElement("div");
     top.className = "card-top";
-    top.appendChild(pricePill(event.price));
+    var lead = document.createElement("div");
+    lead.className = "tag-row";
+    var num = document.createElement("span");
+    num.className = "pin-num";
+    num.textContent = String(number);
+    lead.append(num, pricePill(event.price));
     var side = document.createElement("div");
     side.className = "tag-row";
     var region = document.createElement("span");
@@ -333,7 +426,11 @@
     side.appendChild(region);
     if (status === "live") side.appendChild(statusPill("进行中"));
     if (status === "ended") side.appendChild(statusPill("已结束"));
-    top.appendChild(side);
+    var cue = document.createElement("span");
+    cue.className = "expand-cue";
+    cue.textContent = expanded ? "收起" : "详情";
+    side.appendChild(cue);
+    top.append(lead, side);
 
     var title = document.createElement("h2");
     title.textContent = event.title_zh;
@@ -346,19 +443,31 @@
     venue.className = "venue";
     venue.textContent = event.venue;
 
-    card.append(top, title, when, venue);
+    button.append(top, title, when, venue);
 
     if (event.address) {
       var address = document.createElement("p");
       address.className = "address";
       address.textContent = event.address;
-      card.appendChild(address);
+      button.appendChild(address);
     }
+
+    if (event.price && event.price.note_zh) {
+      var fare = document.createElement("p");
+      fare.className = "fare";
+      fare.textContent = event.price.note_zh;
+      button.appendChild(fare);
+    }
+
+    var details = document.createElement("div");
+    details.className = "card-details";
+    details.id = "details-" + event.id;
+    details.hidden = !expanded;
 
     var blurb = document.createElement("p");
     blurb.className = "blurb";
     blurb.textContent = event.description_zh;
-    card.appendChild(blurb);
+    details.appendChild(blurb);
 
     var tags = document.createElement("div");
     tags.className = "tag-row";
@@ -367,7 +476,7 @@
     (event.tags || []).forEach(function (tag) {
       tags.appendChild(makeTag(tag));
     });
-    card.appendChild(tags);
+    details.appendChild(tags);
 
     var actions = document.createElement("div");
     actions.className = "card-actions";
@@ -381,15 +490,238 @@
       actions.appendChild(link);
     }
     if (event.address) {
-      var map = document.createElement("a");
-      map.href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(event.venue + " " + event.address);
-      map.target = "_blank";
-      map.rel = "noopener noreferrer";
-      map.textContent = "地图";
-      actions.appendChild(map);
+      var mapLink = document.createElement("a");
+      mapLink.href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(event.venue + " " + event.address);
+      mapLink.target = "_blank";
+      mapLink.rel = "noopener noreferrer";
+      mapLink.textContent = "外部地图";
+      actions.appendChild(mapLink);
     }
-    card.appendChild(actions);
+    details.appendChild(actions);
+
+    button.addEventListener("click", function () {
+      var open = selectedId === event.id && !details.hidden;
+      if (open) {
+        details.hidden = true;
+        button.setAttribute("aria-expanded", "false");
+        cue.textContent = "详情";
+        return;
+      }
+      selectEvent(event.id, { pan: true, scroll: false, expand: true });
+    });
+
+    card.append(button, details);
     return card;
+  }
+
+  function selectEvent(id, opts) {
+    opts = opts || {};
+    selectedId = id;
+    document.querySelectorAll(".event-card").forEach(function (card) {
+      var cardId = card.getAttribute("data-id");
+      var on = cardId === id;
+      card.classList.toggle("is-active", on);
+      var details = card.querySelector(".card-details");
+      var button = card.querySelector(".card-open");
+      var cue = card.querySelector(".expand-cue");
+      if (!details || !button) return;
+      if (!on) details.hidden = true;
+      else if (opts.expand) details.hidden = false;
+      button.setAttribute("aria-expanded", details.hidden ? "false" : "true");
+      if (cue) cue.textContent = details.hidden ? "详情" : "收起";
+    });
+    styleMarkers();
+    if (opts.pan) panToEvent(id);
+    else if (markerById[id]) markerById[id].openPopup();
+    if (opts.scroll) scrollCard(id, "nearest");
+    updatePeek();
+    writeStateToUrl();
+  }
+
+  function scrollCard(id, block) {
+    var card = document.getElementById("event-" + id);
+    if (!card) return;
+    card.scrollIntoView({ block: block || "nearest", behavior: reduceMotion() ? "auto" : "smooth" });
+  }
+
+  function updatePeek() {
+    var peek = document.getElementById("map-peek");
+    if (!peek) return;
+    peek.replaceChildren();
+    var event = findEvent(selectedId);
+    if (!event) {
+      peek.hidden = true;
+      return;
+    }
+    peek.hidden = false;
+    var title = document.createElement("p");
+    title.className = "peek-title";
+    title.textContent = event.title_zh;
+    var meta = document.createElement("p");
+    meta.className = "peek-meta";
+    meta.textContent = (REGION_LABELS[event.region] || "") + " · " + formatWhen(event);
+    var open = document.createElement("button");
+    open.type = "button";
+    open.className = "chip";
+    open.textContent = "在列表中打开";
+    open.addEventListener("click", function () {
+      setViewMode("list");
+      window.requestAnimationFrame(function () {
+        scrollCard(event.id, "center");
+      });
+    });
+    peek.append(title, meta, open);
+  }
+
+  function findEvent(id) {
+    if (!id || !data) return null;
+    var found = null;
+    (data.events || []).some(function (event) {
+      if (event.id === id) {
+        found = event;
+        return true;
+      }
+      return false;
+    });
+    return found;
+  }
+
+  function mapIsVisible() {
+    return window.matchMedia("(min-width: 960px)").matches || viewMode === "map";
+  }
+
+  function ensureMap() {
+    if (map || typeof L === "undefined") return map;
+    var el = document.getElementById("map");
+    if (!el) return null;
+    map = L.map(el, { scrollWheelZoom: true, zoomControl: true });
+    map.setView([53.35, -6.26], 11);
+    applyTiles();
+    return map;
+  }
+
+  function applyTiles() {
+    if (!map || tileLayer || typeof L === "undefined") return;
+    tileLayer = L.tileLayer(TILE_URL, {
+      maxZoom: 19,
+      attribution: TILE_ATTR,
+    });
+    tileLayer.addTo(map);
+  }
+
+  function syncMap(events, opts) {
+    opts = opts || {};
+    visibleEvents = events;
+    if (!mapIsVisible()) return;
+    if (!ensureMap()) return;
+    map.invalidateSize();
+    applyTiles();
+    Object.keys(markerById).forEach(function (id) {
+      map.removeLayer(markerById[id]);
+    });
+    markerById = {};
+    var positions = pinPositions(events);
+    events.forEach(function (event, index) {
+      var at = positions[event.id];
+      if (!at) return;
+      var free = event.price && event.price.kind === "free";
+      var marker = L.marker(at, {
+        icon: pinIcon(index + 1, event.id === selectedId, free),
+        title: event.title_zh,
+        keyboard: true,
+        zIndexOffset: event.id === selectedId ? 800 : index,
+      });
+      marker._pin = { n: index + 1, free: free };
+      marker.bindPopup(
+        "<strong>" + escapeHtml(event.title_zh) + "</strong><br>" + escapeHtml(formatWhen(event)),
+        { maxWidth: 240 }
+      );
+      marker.on("click", function () {
+        selectEvent(event.id, {
+          pan: false,
+          scroll: window.matchMedia("(min-width: 960px)").matches,
+          expand: true,
+        });
+      });
+      marker.addTo(map);
+      markerById[event.id] = marker;
+    });
+    var key = events.map(function (event) { return event.id; }).join("|");
+    if (opts.fit !== false && key !== lastFitKey) fitEvents(events);
+    lastFitKey = key;
+    if (selectedId && markerById[selectedId]) markerById[selectedId].openPopup();
+  }
+
+  function styleMarkers() {
+    Object.keys(markerById).forEach(function (id) {
+      var marker = markerById[id];
+      var pin = marker._pin;
+      marker.setIcon(pinIcon(pin.n, id === selectedId, pin.free));
+      marker.setZIndexOffset(id === selectedId ? 800 : pin.n);
+    });
+  }
+
+  function pinIcon(number, active, free) {
+    var cls = "pin" + (free ? " is-free" : " is-paid") + (active ? " is-active" : "");
+    return L.divIcon({
+      className: "pin-wrap",
+      html: '<span class="' + cls + '">' + number + "</span>",
+      iconSize: [30, 30],
+      iconAnchor: [15, 15],
+      popupAnchor: [0, -16],
+    });
+  }
+
+  function pinPositions(events) {
+    var groups = {};
+    events.forEach(function (event) {
+      if (typeof event.lat !== "number" || typeof event.lng !== "number") return;
+      var key = event.lat.toFixed(5) + "," + event.lng.toFixed(5);
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(event);
+    });
+    var pos = {};
+    Object.keys(groups).forEach(function (key) {
+      var group = groups[key];
+      group.forEach(function (event, index) {
+        if (group.length === 1) {
+          pos[event.id] = [event.lat, event.lng];
+          return;
+        }
+        var angle = (2 * Math.PI * index) / group.length - Math.PI / 2;
+        pos[event.id] = [
+          event.lat + Math.sin(angle) * 0.00035,
+          event.lng + Math.cos(angle) * 0.00055,
+        ];
+      });
+    });
+    return pos;
+  }
+
+  function fitEvents(events) {
+    var points = events.filter(function (event) {
+      return typeof event.lat === "number" && typeof event.lng === "number";
+    });
+    if (!points.length) {
+      map.setView([53.35, -6.26], 11, { animate: false });
+      return;
+    }
+    var bounds = L.latLngBounds(points.map(function (event) {
+      return [event.lat, event.lng];
+    }));
+    map.fitBounds(bounds.pad(0.18), {
+      padding: [28, 28],
+      maxZoom: 14,
+      animate: !reduceMotion(),
+    });
+  }
+
+  function panToEvent(id) {
+    var marker = markerById[id];
+    if (!marker || !map) return;
+    var zoom = Math.max(map.getZoom(), 14);
+    map.setView(marker.getLatLng(), zoom, { animate: !reduceMotion() });
+    marker.openPopup();
   }
 
   function pricePill(price) {
@@ -611,5 +943,17 @@
       return null;
     }
     return null;
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function reduceMotion() {
+    return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   }
 })();

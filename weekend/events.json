@@ -2,69 +2,91 @@
   "updated": "2026-10-24",
   "timezone": "Europe/Dublin",
   "regions": [
-    { "id": "dublin-city", "label": "都柏林市" },
-    { "id": "south-dublin", "label": "南都柏林" },
-    { "id": "dlr", "label": "邓莱里-拉思当" },
-    { "id": "fingal", "label": "芬戈尔" }
+    {
+      "id": "dublin-city",
+      "label": "都柏林市"
+    },
+    {
+      "id": "south-dublin",
+      "label": "南都柏林"
+    },
+    {
+      "id": "dlr",
+      "label": "邓莱里-拉思当"
+    },
+    {
+      "id": "fingal",
+      "label": "芬戈尔"
+    }
   ],
   "notices": [
     {
       "id": "october-bank-holiday-2026",
       "start": "2026-10-24",
       "end": "2026-10-26",
-      "text_zh": "10 月 24 日至 26 日是十月银行假日，都柏林市、南都柏林、邓莱里-拉思当和芬戈尔的公立图书馆都闭馆。这个周末改看博物馆、公园和景点；图书馆的万圣节场次集中在 10 月 31 日。"
+      "text_zh": "十月银行假日：都柏林市和邓莱里-拉思当已通知，公立图书馆 10 月 24 日至 26 日闭馆，27 日重开。南都柏林、芬戈尔的时间表也是银行假日周末周六和周一闭馆，周日不开放。已登记的 My Open Library 自助时段除外（市里 Drumcondra、Pembroke、Raheny、Walkinstown；邓莱里 Dalkey、Deansgrange），没有儿童活动。图书馆万圣节场次在 10 月 31 日。"
+    },
+    {
+      "id": "dublin-marathon-phoenix-park-2026-10-25",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "text_zh": "10 月 25 日凤凰公园有马拉松，道路和大门大约到 13:45 前封闭。动物园照常开，但周日上午很难开车进去或停车，请多留时间。"
+    },
+    {
+      "id": "nmi-industrial-action-2026",
+      "start": "2026-10-24",
+      "end": "2026-11-01",
+      "text_zh": "国立博物馆因劳资行动取消了柯林斯军营 10 月 25 日的家庭面具工坊，以及死动物园实验室 10 月 31 日和 11 月 1 日的抽签导览。馆方还说展厅可能临时关闭，出发前再打开来源看一眼。"
     }
   ],
   "events": [
     {
       "id": "stokerland-2026-10-24",
       "title_zh": "圣帕特里克公园：斯托克乐园",
-      "description_zh": "都柏林市议会布兰·斯托克艺术节的免费亲子乐园。教堂旁边有说故事、街头表演、游戏、脸部彩绘和维多利亚旋转木马。周六和周日都是同一时段，不用预约。",
+      "description_zh": "都柏林市议会布兰·斯托克艺术节的免费亲子乐园。教堂旁边有说故事、街头表演、游戏、脸部彩绘和维多利亚旋转木马。周六到周一都是 11:00–16:30，不用预约。周一 11:00–13:00 是声音更小的安静场。",
       "region": "dublin-city",
       "venue": "圣帕特里克公园（St Patrick’s Park）",
       "address": "Bull Alley Street, Dublin 8",
+      "lat": 53.34018,
+      "lng": -6.271034,
       "start": "2026-10-24T11:00:00+01:00",
-      "end": "2026-10-25T16:30:00+00:00",
-      "schedule_note_zh": "周六、周日均 11:00–16:30",
-      "price": { "kind": "free", "note_zh": "免费入场，无需预约" },
-      "tags": ["万圣节", "户外", "演出"],
+      "end": "2026-10-26T16:30:00+00:00",
+      "schedule_note_zh": "周六至周一 11:00–16:30；周一 11:00–13:00 为安静场",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费入场，无需预约"
+      },
+      "tags": [
+        "万圣节",
+        "户外",
+        "演出"
+      ],
       "source_url": "https://www.dublincity.ie/news/dublin-city-council-bram-stoker-festival-returns-dark-delights-across-four-days-and-nights-deadly",
       "source_name": "都柏林市议会",
       "age_hint": "全家，含低龄",
       "booking_zh": "不用预约"
     },
     {
-      "id": "collins-masks-2026-10-25",
-      "title_zh": "柯林斯军营：家庭面具工坊",
-      "description_zh": "国立装饰艺术与历史博物馆的免费面具工坊，随到随玩，最晚 14:30 入场。博物馆本身不收门票。银行假日想避开商场时，这是市中心稳妥的室内选择。",
-      "region": "dublin-city",
-      "venue": "国立博物馆柯林斯军营（Collins Barracks）",
-      "address": "Benburb Street, Dublin 7",
-      "start": "2026-10-25T13:30:00+00:00",
-      "end": "2026-10-25T15:00:00+00:00",
-      "price": { "kind": "free", "note_zh": "免费，随到随玩，最晚 14:30 入场" },
-      "tags": ["博物馆", "手工", "万圣节"],
-      "source_url": "https://www.dublincity.ie/news/dublin-city-council-bram-stoker-festival-returns-dark-delights-across-four-days-and-nights-deadly",
-      "source_name": "都柏林市议会",
-      "age_hint": "家庭场",
-      "booking_zh": "不用预约"
-    },
-    {
       "id": "zoo-trail-2026-10-24",
       "title_zh": "都柏林动物园：超自然寻宝小径",
-      "description_zh": "10 月 24 日到 11 月 1 日，园内有一条寻宝小径，走完可以参加少年饲养员体验抽选。儿童线上日票 €17（3–15 岁），成人 €22.50，3 岁以下免费。10 月 31 日按官网规则，在门口购票时一名穿着万圣节服装的儿童可免票，不能与家庭套票同享。",
+      "description_zh": "10 月 24 日到 11 月 1 日，园内有一条寻宝小径，做完交给出口处的收集箱，可抽小熊猫少年饲养员体验。周六和周日主要就是这条小径；吸血鬼角色和游戏在 10 月 26 日至 30 日 11:00–15:00。10 月开放到 17:30，最晚 16:30 入园；11 月 1 日改按 11 月时间，17:00 前闭园、最晚 15:00 入园。10 月 25 日马拉松期间，凤凰公园大约到 13:45 前不好开车和停车。",
       "region": "dublin-city",
       "venue": "都柏林动物园（Dublin Zoo）",
       "address": "Phoenix Park, Dublin 8, D08 AC98",
+      "lat": 53.352669,
+      "lng": -6.305163,
       "start": "2026-10-24T09:30:00+01:00",
-      "end": "2026-11-01T17:00:00+00:00",
-      "schedule_note_zh": "10月24日–11月1日，随开放时间入园",
+      "end": "2026-11-01T16:00:00+00:00",
+      "schedule_note_zh": "小径随开放时间；10 月 9:30–17:30（最晚 16:30），11 月 1 日 9:30–16:00（最晚 15:00）",
       "price": {
         "kind": "paid",
-        "amount_eur": 17,
-        "note_zh": "儿童线上日票 €17（3–15 岁）；成人 €22.50；3 岁以下免费。10 月 31 日着装儿童免票规则见官网。"
+        "note_zh": "线上日票成人 €22.50、儿童（3–15 岁）€17，3 岁以下免费。门口成人 €26.50、儿童 €20。2 大 2 小线上日票 €62.50。10 月 31 日只在门口买普通日票时，一名着装儿童可免票，不能与家庭票或其他优惠同用。"
       },
-      "tags": ["动物园", "万圣节", "户外"],
+      "tags": [
+        "动物园",
+        "万圣节",
+        "户外"
+      ],
       "source_url": "https://www.dublinzoo.ie/events/boo-at-the-zoo/",
       "source_name": "都柏林动物园",
       "age_hint": "全家",
@@ -73,153 +95,225 @@
     {
       "id": "airfield-2026-10-24",
       "title_zh": "艾尔菲尔德庄园：农场半日",
-      "description_zh": "邓德拉姆市区里的农场庄园，有动物、花园和给孩子跑的草地。银行假日周末照常开放，最后入场比闭园早一小时。官网写明成人票最高约 €15，2 岁及以下免费，儿童票更低。",
+      "description_zh": "邓德拉姆市区里的农场庄园，有动物、花园和给孩子跑的草地。周二到周日以及银行假日 9:30–17:30，最后入场 16:30，所以 10 月 26 日周一也开。成人票最高约 €15，2 岁及以下免费，儿童票官网没有写成一个固定数字。",
       "region": "dlr",
       "venue": "艾尔菲尔德庄园（Airfield Estate）",
-      "address": "Overend Avenue, Dundrum, Dublin 14",
+      "address": "Overend Way, Dundrum, Dublin 14, D14 EE77",
+      "lat": 53.288194,
+      "lng": -6.237056,
       "start": "2026-10-24T09:30:00+01:00",
-      "end": "2026-10-25T17:30:00+00:00",
-      "schedule_note_zh": "周六、周日 9:30–17:30，最后入场 16:30",
+      "end": "2026-10-26T17:30:00+00:00",
+      "schedule_note_zh": "周六至周一 9:30–17:30，最后入场 16:30",
       "price": {
         "kind": "paid",
-        "amount_eur": 15,
-        "note_zh": "成人约 €15 封顶；2 岁及以下免费；儿童票以官网为准"
+        "note_zh": "成人最高约 €15；2 岁及以下免费；儿童票以官网为准"
       },
-      "tags": ["农场", "户外"],
+      "tags": [
+        "农场",
+        "户外"
+      ],
       "source_url": "https://www.airfield.ie/where-to-find-us/",
       "source_name": "Airfield Estate",
       "age_hint": "全家，含低龄",
-      "booking_zh": "可现场购票，假日建议提前看开放时间"
+      "booking_zh": "可现场购票，假日建议先看开放时间"
     },
     {
       "id": "botanic-2026-10-24",
       "title_zh": "国家植物园：免费秋游",
-      "description_zh": "格拉斯内文的国家植物园免费入园，温室和户外秋色都推得动婴儿车。银行假日图书馆关门时，这是最省事的半日安排。温室往往比园区更早关闭。",
+      "description_zh": "格拉斯内文的国家植物园免费入园，周末和银行假日按夏季时间 10:00–18:00 开放，四个门提前 15 分钟关。10 月 26 日是银行假日，同一套时间。婴儿车可以进园区。",
       "region": "dublin-city",
       "venue": "国家植物园（National Botanic Gardens）",
       "address": "Botanic Road, Glasnevin, Dublin 9",
-      "start": "2026-10-24T09:00:00+01:00",
-      "end": "2026-10-25T17:00:00+00:00",
-      "schedule_note_zh": "周六、周日大约 9:00–17:00，以官网当日为准",
-      "price": { "kind": "free", "note_zh": "园区免费" },
-      "tags": ["户外", "公园"],
-      "source_url": "https://botanicgardens.ie/",
+      "lat": 53.372236,
+      "lng": -6.272147,
+      "start": "2026-10-24T10:00:00+01:00",
+      "end": "2026-10-26T18:00:00+00:00",
+      "schedule_note_zh": "周六至周一 10:00–18:00，门口 17:45 关",
+      "price": {
+        "kind": "free",
+        "note_zh": "园区免费"
+      },
+      "tags": [
+        "户外",
+        "公园"
+      ],
+      "source_url": "https://www.botanicgardens.ie/glasnevin/opening-hours/",
       "source_name": "国家植物园",
       "age_hint": "全家，婴儿车友好",
       "booking_zh": "不用预约"
     },
     {
-      "id": "malahide-gardens-2026-10-24",
-      "title_zh": "马拉海德城堡花园",
-      "description_zh": "芬戈尔这边的城堡花园，草坪大，适合小孩放风。花园和城堡室内通常分开售票，本页不写死价格。坐火车到 Malahide 或自驾都行。",
-      "region": "fingal",
-      "venue": "马拉海德城堡花园（Malahide Castle & Gardens）",
-      "address": "Malahide, Co. Dublin",
-      "start": "2026-10-24T09:30:00+01:00",
-      "end": "2026-10-25T17:00:00+00:00",
-      "schedule_note_zh": "周六、周日开放，具体开关门以官网为准",
-      "price": { "kind": "paid", "note_zh": "需购票，花园与城堡套票价格不同，以官网为准" },
-      "tags": ["城堡", "户外"],
-      "source_url": "https://www.malahidecastleandgardens.ie/",
-      "source_name": "Malahide Castle",
+      "id": "barracks-trail-2026-10-24",
+      "title_zh": "柯林斯军营：博物馆惊魂自助小径",
+      "description_zh": "国立博物馆柯林斯军营的免费自助小径，10 月开放时间内可以解谜、找藏品。不用预约。周二至周六 10:00–17:00，周日和周一 13:00–17:00，建议 16:30 前入场。10 月 25 日的面具工坊已取消。馆方提醒劳资行动期间展厅可能临时关闭。",
+      "region": "dublin-city",
+      "venue": "国立博物馆柯林斯军营（Collins Barracks）",
+      "address": "Benburb Street, Dublin 7, D07 XKV4",
+      "lat": 53.348857,
+      "lng": -6.286682,
+      "start": "2026-10-24T10:00:00+01:00",
+      "end": "2026-10-31T17:00:00+00:00",
+      "schedule_note_zh": "周二至周六 10:00–17:00；周日、周一 13:00–17:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "博物馆和这条小径都免费"
+      },
+      "tags": [
+        "博物馆",
+        "万圣节"
+      ],
+      "source_url": "https://source.museum.ie/en-IE/News/Halloween-Events-at-the-National-Museum-of-Ireland",
+      "source_name": "爱尔兰国立博物馆",
       "age_hint": "全家",
-      "booking_zh": "建议网上买票"
+      "booking_zh": "不用预约"
     },
     {
-      "id": "pearse-2026-10-25",
+      "id": "malahide-haunted-2026-10-24",
+      "title_zh": "马拉海德城堡：幽灵小径",
+      "description_zh": "城堡园方 10 月 17 日至 31 日办的家庭万圣节小径，大约 1 公里，可以推婴儿车。日场适合容易被吓到的小孩；夜场 16:45 以后，有说故事和音乐。官网通知写明，活动期间植物园、蝴蝶屋和精灵小径不对普通门票开放。不是每天都有场，必须提前买票。",
+      "region": "fingal",
+      "venue": "马拉海德城堡（Malahide Castle）",
+      "address": "Malahide Demesne, Malahide, Co. Dublin, K36 YP65",
+      "lat": 53.444937,
+      "lng": -6.164611,
+      "start": "2026-10-24T09:30:00+01:00",
+      "end": "2026-10-31T23:59:00+00:00",
+      "schedule_note_zh": "10 月 17–31 日的指定日期；日场最晚 16:30 入场，夜场 16:45 起",
+      "price": {
+        "kind": "paid",
+        "note_zh": "日场成人 €17 或 €20，儿童（2–16 岁）€14 或 €17；夜场成人 €21 或 €24，儿童 €18 或 €21。两组价是平峰和高峰。2 岁以下免费，但仍要写入订单。每张票另加 €1.95 订票费。哪一天有场，以购票日历为准。"
+      },
+      "tags": [
+        "城堡",
+        "万圣节",
+        "户外"
+      ],
+      "source_url": "https://malahidecastleandgardens.ie/the-haunted-trail-2026/",
+      "source_name": "Malahide Castle",
+      "age_hint": "日场更适合低龄",
+      "booking_zh": "必须提前在 thehauntedtrail.ie 买票"
+    },
+    {
+      "id": "pearse-2026-10-24",
       "title_zh": "皮尔斯博物馆与圣恩达公园",
-      "description_zh": "遗产局场馆，位于拉思法纳姆的圣恩达公园，门票免费。对小孩来说，公园草地往往比展厅更好玩。南都柏林银行假日周末图书馆闭馆，可以改来这里。",
+      "description_zh": "遗产局场馆，在拉思法纳姆的圣恩达公园，门票免费。对小孩来说，公园草地往往比展厅更好玩。3 月到 10 月博物馆 9:30–17:30；10 月公园 9:00–18:00。页面按这个季节时间列出，没有另写周末缩短。",
       "region": "south-dublin",
       "venue": "皮尔斯博物馆（Pearse Museum, St Enda's Park）",
-      "address": "Grange Road, Rathfarnham, Dublin 16",
-      "start": "2026-10-25T10:00:00+00:00",
-      "end": "2026-10-25T16:00:00+00:00",
-      "price": { "kind": "free", "note_zh": "博物馆与公园免费，开放时段以遗产局当天页面为准" },
-      "tags": ["博物馆", "公园"],
+      "address": "Grange Road, Rathfarnham, Dublin 16, D16 Y7Y5",
+      "lat": 53.282938,
+      "lng": -6.281543,
+      "start": "2026-10-24T09:30:00+01:00",
+      "end": "2026-10-25T17:30:00+00:00",
+      "schedule_note_zh": "博物馆 9:30–17:30；10 月公园 9:00–18:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "博物馆与公园免费"
+      },
+      "tags": [
+        "博物馆",
+        "公园"
+      ],
       "source_url": "https://heritageireland.ie/visit/places-to-visit/pearse-museum-st-endas-park/",
       "source_name": "Heritage Ireland",
       "age_hint": "全家",
       "booking_zh": "不用预约"
     },
     {
-      "id": "imaginosity-2026-10-24",
-      "title_zh": "想象博物馆：周末开放",
-      "description_zh": "桑迪福德的儿童博物馆，主要面向大约 9 岁以下。展厅按玩中学设计，周末常有手工或小活动，当天安排以馆方为准。第三方页面曾列成人与 3 岁以上儿童约 €8，可能已调整，以下单页为准。假日建议预约时段。",
-      "region": "dlr",
-      "venue": "想象博物馆（Imaginosity）",
-      "address": "The Plaza, Beacon South Quarter, Sandyford, Dublin 18",
-      "start": "2026-10-24T10:00:00+01:00",
-      "end": "2026-10-25T18:00:00+00:00",
-      "schedule_note_zh": "周六、周日大约 10:00–18:00",
-      "price": {
-        "kind": "paid",
-        "note_zh": "参考价曾见约 €8（成人 / 3 岁以上），可能已调整，以官网为准"
-      },
-      "tags": ["博物馆", "室内"],
-      "source_url": "https://www.imaginosity.ie/",
-      "source_name": "Imaginosity",
-      "age_hint": "约 9 岁以下",
-      "booking_zh": "建议预约时段"
-    },
-    {
       "id": "charleville-story-2026-10-31",
       "title_zh": "北岸图书馆：万圣节故事会",
-      "description_zh": "Charleville Mall 图书馆的万圣节故事会，讲述人 Aisling Breen，10:30 开始。故事面向各年龄儿童，必须有大人陪同。免费，名额有限。银行假日结束后，市立图书馆周六恢复开放。",
+      "description_zh": "Charleville Mall 图书馆的万圣节故事会，讲述人 Aisling Breen，10 月 31 日 10:30 开始。故事面向各年龄儿童，必须有大人陪同。一张票含一名儿童和一名大人。免费，名额有限。",
       "region": "dublin-city",
       "venue": "查尔维尔摩尔图书馆（Charleville Mall Library）",
       "address": "North Strand, Dublin 1, D01 AX99",
+      "lat": 53.357158,
+      "lng": -6.246067,
       "start": "2026-10-31T10:30:00+00:00",
       "end": null,
-      "price": { "kind": "free", "note_zh": "免费，一名儿童票通常含一名大人" },
-      "tags": ["图书馆", "故事会", "万圣节"],
-      "source_url": "https://www.dublincity.ie/events/library-events-children",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费。一张票含一名儿童和一名大人"
+      },
+      "tags": [
+        "图书馆",
+        "故事会",
+        "万圣节"
+      ],
+      "source_url": "https://www.dublincity.ie/events/halloween-storytime-aisling-breen",
       "source_name": "都柏林市立图书馆",
       "age_hint": "各年龄，须大人陪同",
-      "booking_zh": "建议预约，名额有限"
+      "booking_zh": "建议预约。charlevillemalllibrary@dublincity.ie，01 222 8411"
     },
     {
       "id": "howth-magic-2026-10-31",
       "title_zh": "豪斯图书馆：万圣节魔术",
-      "description_zh": "豪斯图书馆请 Reuben 做全家向的万圣节魔术，10:00 开始。免费。预约可邮件 howth.library@fingal.ie，或打电话 01 890 5026。看完若去码头，海风大，带外套。",
+      "description_zh": "豪斯图书馆请 Reuben 做全家向的万圣节魔术，10 月 31 日 10:00 开始。免费。预约可邮件 howth.library@fingal.ie，或打电话 01 890 5026。看完若去码头，海风大，带外套。",
       "region": "fingal",
       "venue": "豪斯图书馆（Howth Library）",
       "address": "61-65 Main Street, Howth, D13 VY50",
+      "lat": 53.385548,
+      "lng": -6.064722,
       "start": "2026-10-31T10:00:00+00:00",
       "end": null,
-      "price": { "kind": "free", "note_zh": "免费" },
-      "tags": ["图书馆", "演出", "万圣节"],
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，须向图书馆预约"
+      },
+      "tags": [
+        "图书馆",
+        "演出",
+        "万圣节"
+      ],
       "source_url": "https://explorefingal.ie/whats-on/halloween-magic-show/",
       "source_name": "Explore Fingal",
       "age_hint": "全家",
-      "booking_zh": "联系图书馆预约"
+      "booking_zh": "邮件 howth.library@fingal.ie 或致电 01 890 5026"
     },
     {
       "id": "rush-masks-2026-10-31",
       "title_zh": "拉什图书馆：面具手工",
-      "description_zh": "艺术家 Kim Jenkinson 带孩子做万圣节面具，可做搞怪的，也可做闪闪的。适合 6 岁以上，14:00 开始。图书馆活动，预约方式见芬戈尔活动页，或直接联系拉什图书馆。",
+      "description_zh": "艺术家 Kim Jenkinson 带孩子做万圣节面具，可做搞怪的，也可做闪闪的。适合 6 岁以上，10 月 31 日 14:00 开始。芬戈尔图书馆总表在同一时间还列了另一场 4–7 岁的故事手工，预约时请跟馆员确认你要的是面具工坊。",
       "region": "fingal",
       "venue": "拉什图书馆（Rush Library）",
       "address": "Chapel Green, Rush, K56 ED95",
+      "lat": 53.521862,
+      "lng": -6.10195,
       "start": "2026-10-31T14:00:00+00:00",
       "end": null,
-      "price": { "kind": "free", "note_zh": "图书馆活动，免费，请按页面方式预约" },
-      "tags": ["图书馆", "手工", "万圣节"],
-      "source_url": "https://explorefingal.ie/whats-on/",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，须向图书馆预约"
+      },
+      "tags": [
+        "图书馆",
+        "手工",
+        "万圣节"
+      ],
+      "source_url": "https://explorefingal.ie/whats-on/halloween-mask-making-workshop/",
       "source_name": "Explore Fingal",
       "age_hint": "6 岁以上",
-      "booking_zh": "需要预约"
+      "booking_zh": "邮件 rushlibrary@fingal.ie 或致电 01 870 8484"
     },
     {
       "id": "lexicon-repair-2026-10-31",
       "title_zh": "LexIcon：社区修理咖啡",
-      "description_zh": "邓莱里 LexIcon 与 Rediscovery Centre 合办。把开线的衣服或晃动的小木家具带去，和师傅一起修。上午场 11:00–13:30，下午场 13:30–16:00，每人限一件。不是儿童专场，学龄孩子可以跟着学。",
+      "description_zh": "邓莱里 LexIcon 与 Rediscovery Centre 合办。把开线的衣服或晃动的小木家具带去，和师傅一起修。上午场 11:00–13:30，下午场 13:30–16:00，每人限一件，每段大约 30–50 分钟。不是儿童专场，学龄孩子可以跟着学。",
       "region": "dlr",
       "venue": "dlr LexIcon 图书馆",
       "address": "Haigh Terrace, Dún Laoghaire, A96 H283",
+      "lat": 53.292419,
+      "lng": -6.132268,
       "start": "2026-10-31T11:00:00+00:00",
       "end": "2026-10-31T16:00:00+00:00",
-      "price": { "kind": "free", "note_zh": "免费，须预约上午场或下午场" },
-      "tags": ["图书馆", "手工", "社区"],
+      "schedule_note_zh": "上午 11:00–13:30，下午 13:30–16:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，须预约上午场或下午场，每人一件"
+      },
+      "tags": [
+        "图书馆",
+        "手工",
+        "社区"
+      ],
       "source_url": "https://www.eventbrite.ie/e/free-repair-cafe-at-dlr-lexicon-library-tickets-1993689967361",
       "source_name": "Eventbrite · Rediscovery Centre",
       "age_hint": "更适合学龄儿童",
@@ -228,65 +322,49 @@
     {
       "id": "tallaght-movie-2026-10-31",
       "title_zh": "塔拉图书馆：儿童惊悚电影",
-      "description_zh": "南都柏林郡图书馆塔拉分馆的万圣节儿童电影，15:00 开场，适合 8 岁以上，小孩必须有大人陪同。免费，但要在图书馆的 Eventbrite 订票。年纪更小就不必硬看。",
+      "description_zh": "南都柏林郡图书馆塔拉分馆的万圣节儿童电影，10 月 31 日 15:00 开场，适合 8 岁以上。小孩必须有大人陪同，一人一票。订票在 talib.eventbrite.ie，手册写 10 月 22 日 10:00 起放票。年纪更小就不必硬看。",
       "region": "south-dublin",
       "venue": "塔拉郡图书馆（County Library, Tallaght）",
       "address": "Library Square, Tallaght, Dublin 24",
+      "lat": 53.288434,
+      "lng": -6.373511,
       "start": "2026-10-31T15:00:00+00:00",
       "end": null,
-      "price": { "kind": "free", "note_zh": "免费，需在图书馆 Eventbrite 订票" },
-      "tags": ["图书馆", "电影", "万圣节"],
+      "price": {
+        "kind": "free",
+        "note_zh": "图书馆场次。须在 talib.eventbrite.ie 订票，手册没有另写票价"
+      },
+      "tags": [
+        "图书馆",
+        "电影",
+        "万圣节"
+      ],
       "source_url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/library-services/newsletters/tallaght-october-brochure.pdf",
       "source_name": "南都柏林郡图书馆",
       "age_hint": "8 岁以上",
-      "booking_zh": "需要预约"
-    },
-    {
-      "id": "deadzoo-lottery-2026-10-31",
-      "title_zh": "死动物园实验室：抽签导览（周六）",
-      "description_zh": "柯林斯军营新开的死动物园实验室，家庭导览大约 30 分钟，观众抽动物名字决定路线。周六三场：11:00、12:00、12:40。免费，不用预约。同馆还有自助寻宝小径，胆子小的孩子只跟导览即可。",
-      "region": "dublin-city",
-      "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
-      "address": "Benburb Street, Dublin 7",
-      "start": "2026-10-31T11:00:00+00:00",
-      "end": "2026-10-31T13:10:00+00:00",
-      "schedule_note_zh": "三场：11:00、12:00、12:40，每场约 30 分钟",
-      "price": { "kind": "free", "note_zh": "免费，不用预约" },
-      "tags": ["博物馆", "导览", "万圣节"],
-      "source_url": "https://source.museum.ie/en-IE/News/Halloween-Events-at-the-National-Museum-of-Ireland",
-      "source_name": "爱尔兰国立博物馆",
-      "age_hint": "家庭场",
-      "booking_zh": "不用预约"
-    },
-    {
-      "id": "deadzoo-lottery-2026-11-01",
-      "title_zh": "死动物园实验室：抽签导览（周日）",
-      "description_zh": "同一场家庭抽签导览的周日时段：13:15、14:15、15:00。博物馆免费。适合不想再赶夜间派对、只想安静逛一圈的家庭。",
-      "region": "dublin-city",
-      "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
-      "address": "Benburb Street, Dublin 7",
-      "start": "2026-11-01T13:15:00+00:00",
-      "end": "2026-11-01T15:30:00+00:00",
-      "schedule_note_zh": "三场：13:15、14:15、15:00",
-      "price": { "kind": "free", "note_zh": "免费，不用预约" },
-      "tags": ["博物馆", "导览", "万圣节"],
-      "source_url": "https://source.museum.ie/en-IE/News/Halloween-Events-at-the-National-Museum-of-Ireland",
-      "source_name": "爱尔兰国立博物馆",
-      "age_hint": "家庭场",
-      "booking_zh": "不用预约"
+      "booking_zh": "需要预约，一人一票"
     },
     {
       "id": "liberties-haunt-2026-10-31",
       "title_zh": "自由区万圣夜",
-      "description_zh": "都柏林 8 区的社区万圣夜，在 Digital Hub。16:30–17:30 是感官友好时段，之后到 20:30 有舞台和鬼屋。鬼屋可能吓到幼儿，低龄可以只留在前一小时。免费。",
+      "description_zh": "都柏林 8 区的社区万圣夜，在 Digital Hub Depot。16:30–17:30 是专门的感官友好时段，17:30–20:30 是舞台和鬼屋，这段里仍有感官友好活动。鬼屋可能吓到幼儿，低龄可以只留在前一小时。免费。",
       "region": "dublin-city",
       "venue": "数字中心仓库（The Digital Hub Depot）",
       "address": "Roe Lane, The Liberties, Dublin 8, D08 TCV4",
+      "lat": 53.344125,
+      "lng": -6.283322,
       "start": "2026-10-31T16:30:00+00:00",
       "end": "2026-10-31T20:30:00+00:00",
       "schedule_note_zh": "感官友好 16:30–17:30，主场 17:30–20:30",
-      "price": { "kind": "free", "note_zh": "社区活动，免费" },
-      "tags": ["万圣节", "社区", "晚间"],
+      "price": {
+        "kind": "free",
+        "note_zh": "社区活动，免费"
+      },
+      "tags": [
+        "万圣节",
+        "社区",
+        "晚间"
+      ],
       "source_url": "https://www.dublincity.ie/events/liberties-haunt",
       "source_name": "都柏林市议会",
       "age_hint": "低龄优先走感官友好时段",
@@ -295,63 +373,100 @@
     {
       "id": "swords-dia-2026-11-01",
       "title_zh": "斯沃兹城堡：亡灵节家庭日",
-      "description_zh": "斯沃兹城堡庭院里的亡灵节活动，周日 12:00–18:00，免费，强调包容。比夜里的火焰节更适合白天出门，也方便跟孩子讲这个节日从哪儿来。",
+      "description_zh": "斯沃兹城堡庭院里的亡灵节，11 月 1 日 12:00–18:00，免费。修复后的小教堂有追忆祭坛和讲解，室内有故事，室外有拉丁美洲食物、音乐，以及皮克斯电影《寻梦环游记》。有一段在户外，带外套。",
       "region": "fingal",
       "venue": "斯沃兹城堡（Swords Castle）",
       "address": "Bridge Street, Swords, Co. Dublin",
+      "lat": 53.459398,
+      "lng": -6.220022,
       "start": "2026-11-01T12:00:00+00:00",
       "end": "2026-11-01T18:00:00+00:00",
-      "price": { "kind": "free", "note_zh": "庭院活动免费" },
-      "tags": ["城堡", "户外", "万圣节"],
-      "source_url": "https://explorefingal.ie/whats-on/",
+      "price": {
+        "kind": "free",
+        "note_zh": "庭院活动免费"
+      },
+      "tags": [
+        "城堡",
+        "户外",
+        "万圣节"
+      ],
+      "source_url": "https://explorefingal.ie/whats-on/swords-castle-dia-de-los-muertos/",
       "source_name": "Explore Fingal",
       "age_hint": "全家，含低龄",
       "booking_zh": "不用预约"
     },
     {
       "id": "swords-fire-2026-10-31",
-      "title_zh": "斯沃兹城堡：火焰节",
-      "description_zh": "斯沃兹城堡的社区火焰节，18:30 开始有音乐序幕。免费户外夜场，声音大、结束得晚，更适合能晚睡的大孩子。具体流程以芬戈尔活动页为准。",
+      "title_zh": "斯沃兹城镇公园：火焰节",
+      "description_zh": "芬戈尔火焰节的斯沃兹场在城堡后面的城镇公园，不是城堡室内。10 月 31 日 18:30 开始有现场万圣节音乐，19:30 放烟花。免费。声音大，结束时间页面没写，更适合能晚睡的大孩子。",
       "region": "fingal",
-      "venue": "斯沃兹城堡（Swords Castle）",
-      "address": "Bridge Street, Swords, Co. Dublin",
+      "venue": "斯沃兹城镇公园（Swords Town Park）",
+      "address": "Swords Town Park, behind Swords Castle, Swords, Co. Dublin",
+      "lat": 53.46168,
+      "lng": -6.220173,
       "start": "2026-10-31T18:30:00+00:00",
       "end": null,
-      "price": { "kind": "free", "note_zh": "社区夜场，免费" },
-      "tags": ["城堡", "晚间", "万圣节"],
-      "source_url": "https://explorefingal.ie/whats-on/",
-      "source_name": "Explore Fingal",
+      "schedule_note_zh": "18:30 音乐，19:30 烟花",
+      "price": {
+        "kind": "free",
+        "note_zh": "社区夜场，免费"
+      },
+      "tags": [
+        "户外",
+        "晚间",
+        "万圣节"
+      ],
+      "source_url": "https://www.fingal.ie/events/fingal-festival-fire",
+      "source_name": "芬戈尔郡议会",
       "age_hint": "更适合能晚睡的孩子",
       "booking_zh": "户外开放活动"
     },
     {
       "id": "blanchardstown-fire-2026-10-31",
       "title_zh": "布兰查德斯敦：火焰节",
-      "description_zh": "千禧公园的社区火焰节，18:30 开始。住在 Dublin 15 不用进市中心。免费。幼儿如果怕鼓声和火焰，改选白天的图书馆或城堡活动更合适。",
+      "description_zh": "同一火焰节在千禧公园的场次。10 月 31 日 18:30 是吓人迪斯科，19:30 放烟花。住在 Dublin 15 不用进市中心。免费。幼儿如果怕鼓声、迪斯科和火焰，改选白天的活动。",
       "region": "fingal",
       "venue": "千禧公园（Millennium Park, Blanchardstown）",
-      "address": "Millennium Park, Blanchardstown, Dublin 15",
+      "address": "Millennium Park, Blanchardstown, Dublin 15, D15 NH94",
+      "lat": 53.389497,
+      "lng": -6.398603,
       "start": "2026-10-31T18:30:00+00:00",
       "end": null,
-      "price": { "kind": "free", "note_zh": "社区夜场，免费" },
-      "tags": ["户外", "晚间", "万圣节"],
-      "source_url": "https://explorefingal.ie/whats-on/",
-      "source_name": "Explore Fingal",
+      "schedule_note_zh": "18:30 吓人迪斯科，19:30 烟花",
+      "price": {
+        "kind": "free",
+        "note_zh": "社区夜场，免费"
+      },
+      "tags": [
+        "户外",
+        "晚间",
+        "万圣节"
+      ],
+      "source_url": "https://www.fingal.ie/events/fingal-festival-fire",
+      "source_name": "芬戈尔郡议会",
       "age_hint": "更适合能晚睡的孩子",
       "booking_zh": "户外开放活动"
     },
     {
       "id": "lexicon-hellenic-2026-10-31",
       "title_zh": "LexIcon：希腊航海传统展",
-      "description_zh": "「希腊航海传统一万年」在 LexIcon 展到 11 月 29 日，免费。周六 9:30–17:00 有工作人员；周日 12:00–16:00 多为自助开放，不要当成有主持的儿童场。想安静看展，优先周六。",
+      "description_zh": "「希腊航海传统一万年」在 LexIcon 从 10 月 15 日展到 11 月 29 日。10 月 24 日至 26 日全馆闭馆，所以这几天去不了；27 日重新开放后可以看。周六 9:30–17:00 有工作人员，周日 12:00–16:00 只有自助。不是有主持的儿童场。",
       "region": "dlr",
       "venue": "dlr LexIcon 图书馆",
       "address": "Haigh Terrace, Dún Laoghaire, A96 H283",
-      "start": "2026-10-31T09:30:00+00:00",
+      "lat": 53.292419,
+      "lng": -6.132268,
+      "start": "2026-10-27T09:30:00+00:00",
       "end": "2026-11-29T16:00:00+00:00",
-      "schedule_note_zh": "展至 11 月 29 日；周六有馆员，周日多为自助",
-      "price": { "kind": "free", "note_zh": "展览免费" },
-      "tags": ["图书馆", "展览"],
+      "schedule_note_zh": "10 月 27 日起可看，展至 11 月 29 日；周六有馆员，周日仅自助",
+      "price": {
+        "kind": "free",
+        "note_zh": "图书馆展览，活动页没有另标票价"
+      },
+      "tags": [
+        "图书馆",
+        "展览"
+      ],
       "source_url": "https://libraries.dlrcoco.ie/events-listing",
       "source_name": "dlr 图书馆",
       "age_hint": "学龄儿童更合适",
@@ -360,34 +475,98 @@
     {
       "id": "archaeology-2026-11-01",
       "title_zh": "考古馆：周日免费开放",
-      "description_zh": "基尔代尔街的国立考古馆，门票免费。金饰和沼泽古物比鬼屋更好跟小学孩子讲。周日下午通常开放，开关门以 museum.ie 当天页面为准。",
+      "description_zh": "基尔代尔街的国立考古馆，门票免费。周日和周一 13:00–17:00，周二到周六 10:00–17:00。11 月 1 日是周日。建议 16:30 前入场。金饰和沼泽古物适合跟小学孩子讲。展厅偶尔会临时关，要看某一件藏品可以先打电话 01 677 7444。",
       "region": "dublin-city",
       "venue": "国立考古馆（National Museum of Ireland – Archaeology）",
-      "address": "Kildare Street, Dublin 2",
+      "address": "Kildare Street, Dublin 2, D02 FH48",
+      "lat": 53.340235,
+      "lng": -6.254964,
       "start": "2026-11-01T13:00:00+00:00",
       "end": "2026-11-01T17:00:00+00:00",
-      "price": { "kind": "free", "note_zh": "门票免费，周日时段以官网为准" },
-      "tags": ["博物馆"],
+      "schedule_note_zh": "周日 13:00–17:00，建议 16:30 前入场",
+      "price": {
+        "kind": "free",
+        "note_zh": "门票免费"
+      },
+      "tags": [
+        "博物馆"
+      ],
       "source_url": "https://www.museum.ie/en-IE/Museums/Archaeology",
       "source_name": "爱尔兰国立博物馆",
       "age_hint": "学龄儿童更合适",
       "booking_zh": "不用预约"
     },
     {
+      "id": "deadzoo-lottery-2026-11-07",
+      "title_zh": "死动物园实验室：抽签导览（周六）",
+      "description_zh": "柯林斯军营死动物园实验室的家庭抽签导览，大约 30 分钟，观众抽动物名字决定路线。11 月 7 日三场：11:00、12:00、12:45，主题是「暗中的生命」。适合 7 岁以上，免费，不用预约，先到先得。10 月 31 日和 11 月 1 日的场已经取消，出发前再看馆方页面有没有新的取消。",
+      "region": "dublin-city",
+      "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
+      "address": "Benburb Street, Dublin 7, D07 XKV4",
+      "lat": 53.348857,
+      "lng": -6.286682,
+      "start": "2026-11-07T11:00:00+00:00",
+      "end": "2026-11-07T13:15:00+00:00",
+      "schedule_note_zh": "三场：11:00、12:00、12:45，每场约 30 分钟",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，不用预约，先到先得"
+      },
+      "tags": [
+        "博物馆",
+        "导览"
+      ],
+      "source_url": "https://source.museum.ie/en-IE/Museums/Decorative-Arts-History/Events/DZL-Drop-ins/Family-Tours-in-the-Dead-Zoo-Lab",
+      "source_name": "爱尔兰国立博物馆",
+      "age_hint": "7 岁以上，须大人陪同",
+      "booking_zh": "不用预约"
+    },
+    {
+      "id": "deadzoo-lottery-2026-11-08",
+      "title_zh": "死动物园实验室：抽签导览（周日）",
+      "description_zh": "同一抽签导览的 11 月 8 日场：13:15、14:15、15:00，主题是「暗中的生命」。博物馆周日 13:00 开门，时间对得上。免费，不用预约。10 月 31 日和 11 月 1 日的场已经取消。",
+      "region": "dublin-city",
+      "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
+      "address": "Benburb Street, Dublin 7, D07 XKV4",
+      "lat": 53.348857,
+      "lng": -6.286682,
+      "start": "2026-11-08T13:15:00+00:00",
+      "end": "2026-11-08T15:30:00+00:00",
+      "schedule_note_zh": "三场：13:15、14:15、15:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，不用预约，先到先得"
+      },
+      "tags": [
+        "博物馆",
+        "导览"
+      ],
+      "source_url": "https://source.museum.ie/en-IE/Museums/Decorative-Arts-History/Events/DZL-Drop-ins/Family-Tours-in-the-Dead-Zoo-Lab",
+      "source_name": "爱尔兰国立博物馆",
+      "age_hint": "7 岁以上，须大人陪同",
+      "booking_zh": "不用预约"
+    },
+    {
       "id": "zoo-dino-2026-11-07",
       "title_zh": "都柏林动物园：恐龙发现体验",
-      "description_zh": "动物园秋冬日历写明 11 月 7 日有「恐龙发现」家庭体验，对象是 3–8 岁孩子和陪同大人。这是另售的体验，不是普通门票附赠。具体钟点和是否还要日票，以预订页为准。",
+      "description_zh": "动物园秋冬日历写明 11 月 7 日有「恐龙发现」家庭体验，对象是 3–8 岁孩子和陪同大人。日历把它和限量工作坊放在一起，需要预约。没有写钟点，也没有写是否还要另买日票。",
       "region": "dublin-city",
       "venue": "都柏林动物园（Dublin Zoo）",
       "address": "Phoenix Park, Dublin 8, D08 AC98",
+      "lat": 53.352669,
+      "lng": -6.305163,
       "start": "2026-11-07",
       "end": "2026-11-07",
       "time_tbc": true,
+      "schedule_note_zh": "日历没有写开始时间",
       "price": {
         "kind": "paid",
-        "note_zh": "体验另售，价格与场次以动物园预订页为准"
+        "note_zh": "体验另售，钟点和是否包含日票以预订页为准"
       },
-      "tags": ["动物园", "工作坊"],
+      "tags": [
+        "动物园",
+        "工作坊"
+      ],
       "source_url": "https://www.dublinzoo.ie/wp-content/uploads/2026/10/Autumn-Winter-Calendar-2026-Dublin-Zoo.pdf",
       "source_name": "都柏林动物园日历",
       "age_hint": "3–8 岁",
@@ -396,18 +575,24 @@
     {
       "id": "zoo-tots-2026-11-07",
       "title_zh": "都柏林动物园：小鸟亲子团",
-      "description_zh": "同一天的 Zoo Tots「羽毛朋友」，对象大约 1–4 岁和大人。低龄专场，需要预约。是否包含入园门票，以下单页说明为准。",
+      "description_zh": "日历上的 Zoo Tots「羽毛朋友」，对象大约 1–4 岁和大人。11 月 4 日和 11 月 7 日都有，本条是周六这场。低龄专场，需要预约。日历没有写钟点，也没有写清是否包含入园门票。",
       "region": "dublin-city",
       "venue": "都柏林动物园（Dublin Zoo）",
       "address": "Phoenix Park, Dublin 8, D08 AC98",
+      "lat": 53.352669,
+      "lng": -6.305163,
       "start": "2026-11-07",
       "end": "2026-11-07",
       "time_tbc": true,
+      "schedule_note_zh": "11 月 4 日另有一场；周六这场没有写钟点",
       "price": {
         "kind": "paid",
-        "note_zh": "低龄专场，票价以动物园预订页为准"
+        "note_zh": "低龄专场，票价和钟点以动物园预订页为准"
       },
-      "tags": ["动物园", "低龄"],
+      "tags": [
+        "动物园",
+        "低龄"
+      ],
       "source_url": "https://www.dublinzoo.ie/wp-content/uploads/2026/10/Autumn-Winter-Calendar-2026-Dublin-Zoo.pdf",
       "source_name": "都柏林动物园日历",
       "age_hint": "1–4 岁",
@@ -416,15 +601,24 @@
     {
       "id": "imma-2026-11-08",
       "title_zh": "爱尔兰现代艺术博物馆：周日免费",
-      "description_zh": "基尔迈纳姆的现代艺术博物馆，门票免费，建筑和院子本身就值得带孩子走走。按馆方常例周日下午开放；11 月 8 日有没有家庭工作坊，请看 imma.ie 当天安排。",
+      "description_zh": "基尔迈纳姆的现代艺术博物馆，门票免费，建筑和院子本身可以带孩子走走。周日 12:00–17:30，展览最晚 17:15 入场。周一平常关闭，银行假日按周日时间。11 月 8 日只是周日开放，页面没有单列家庭工作坊。",
       "region": "dublin-city",
       "venue": "爱尔兰现代艺术博物馆（IMMA）",
-      "address": "Royal Hospital Kilmainham, Military Road, Dublin 8",
+      "address": "Royal Hospital Kilmainham, Military Road, Dublin 8, D08 FW31",
+      "lat": 53.342917,
+      "lng": -6.299465,
       "start": "2026-11-08T12:00:00+00:00",
       "end": "2026-11-08T17:30:00+00:00",
-      "price": { "kind": "free", "note_zh": "门票免费，开放时间以官网当天为准" },
-      "tags": ["博物馆", "户外"],
-      "source_url": "https://imma.ie/visit/",
+      "schedule_note_zh": "周日 12:00–17:30，展览最晚 17:15 入场",
+      "price": {
+        "kind": "free",
+        "note_zh": "门票免费"
+      },
+      "tags": [
+        "博物馆",
+        "户外"
+      ],
+      "source_url": "https://imma.ie/visit/info/",
       "source_name": "IMMA",
       "age_hint": "全家",
       "booking_zh": "入馆不用预约"

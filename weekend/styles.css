@@ -178,7 +178,7 @@ a:hover {
 }
 
 .container {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1240px, calc(100% - 32px));
   margin: 0 auto;
 }
 
@@ -455,17 +455,44 @@ h1 {
   background: var(--paid-bg);
   color: var(--text);
   font-size: 0.95rem;
+  display: grid;
+  gap: 8px;
+}
+
+.notice p {
+  margin: 0;
+}
+
+.explorer-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 14px;
+  flex-wrap: wrap;
 }
 
 .result-count {
-  margin-top: 14px;
+  margin: 0;
 }
 
-.event-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
-  gap: 14px;
+.map-hint {
+  margin: 2px 0 0;
+}
+
+.view-toggle {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.explorer {
   margin: 12px 0 28px;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .event-card {
@@ -479,8 +506,59 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.event-card.is-active {
+  border-color: var(--accent);
+  box-shadow: var(--ring), var(--shadow);
+}
+
 .event-card.is-ended {
   opacity: 0.72;
+}
+
+.card-open {
+  appearance: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.expand-cue {
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.pin-num {
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.fare {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
 }
 
 .card-top,
@@ -614,9 +692,137 @@ h1 {
 }
 
 .noscript {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1240px, calc(100% - 32px));
   margin: 0 auto 32px;
   color: var(--danger);
+}
+
+.explorer-map {
+  display: none;
+  margin-top: 12px;
+}
+
+@media (max-width: 959px) {
+  .explorer.is-map .explorer-list {
+    display: none;
+  }
+
+  .explorer.is-map .explorer-map {
+    display: block;
+  }
+}
+
+#map {
+  height: min(68vh, 640px);
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  isolation: isolate;
+}
+
+.map-peek {
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  display: grid;
+  gap: 6px;
+}
+
+.peek-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+.peek-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.leaflet-container {
+  font-family: var(--font-body);
+  background: var(--bg-elevated);
+}
+
+/* OSM ships one light raster. Invert only the tile pane so pins and attribution stay readable in dark mode. */
+html:not([data-theme="light"]) .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) saturate(0.8) brightness(0.95) contrast(0.92);
+}
+
+.leaflet-div-icon.pin-wrap {
+  background: transparent;
+  border: 0;
+}
+
+.pin {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  border: 2px solid #fff;
+  color: #041018;
+  font-size: 12px;
+  font-weight: 800;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.pin.is-free {
+  background: #2dd4bf;
+}
+
+.pin.is-paid {
+  background: #fbbf24;
+}
+
+.pin.is-active {
+  outline: 3px solid #3b82f6;
+  transform: scale(1.12);
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--surface-solid);
+  color: var(--text);
+}
+
+.leaflet-popup-content {
+  margin: 10px 12px;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--muted);
+}
+
+.leaflet-bar a,
+.leaflet-control-attribution {
+  background: var(--surface-solid);
+  color: var(--muted);
+}
+
+.leaflet-bar a {
+  border-bottom-color: var(--border);
+  color: var(--text);
+}
+
+.leaflet-bar a:hover {
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
+.leaflet-control-attribution {
+  font-size: 11px;
+  line-height: 1.35;
+  max-width: min(100%, 280px);
+}
+
+.leaflet-control-attribution a {
+  color: var(--accent-strong);
 }
 
 :focus-visible {
@@ -635,6 +841,43 @@ h1 {
   }
 }
 
+@media (min-width: 960px) {
+  .view-toggle,
+  .map-peek {
+    display: none !important;
+  }
+
+  .explorer {
+    display: grid;
+    grid-template-columns: minmax(340px, 460px) minmax(0, 1fr);
+    gap: 14px;
+    align-items: start;
+    margin-bottom: 36px;
+  }
+
+  .explorer-list,
+  .explorer-map {
+    position: sticky;
+    top: calc(var(--header) + 12px);
+    height: calc(100vh - var(--header) - 24px);
+  }
+
+  .explorer-list {
+    overflow: auto;
+    padding-right: 4px;
+  }
+
+  .explorer-map {
+    display: block;
+    margin-top: 0;
+  }
+
+  #map {
+    height: 100%;
+    min-height: 420px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -642,5 +885,9 @@ h1 {
 
   .aurora span {
     filter: blur(40px);
+  }
+
+  .pin.is-active {
+    transform: none;
   }
 }
