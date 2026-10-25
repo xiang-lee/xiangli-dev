@@ -98,7 +98,8 @@
       if (state.from) params.set("from", state.from);
       if (state.to) params.set("to", state.to);
     }
-    if (viewMode === "list") params.set("view", "list");
+    /* View is session-only. readStateFromUrl still honors a pasted ?view=list once;
+       writing it back made list stick on the next reload of /weekend/. */
     if (selectedId) params.set("event", selectedId);
     var query = params.toString();
     var next = query ? "?" + query : window.location.pathname;
