@@ -481,15 +481,8 @@
 
     var actions = document.createElement("div");
     actions.className = "card-actions";
-    var source = safeHttpUrl(event.source_url);
-    if (source) {
-      var link = document.createElement("a");
-      link.href = source;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      link.textContent = event.source_name ? "查看来源 · " + event.source_name : "查看来源";
-      actions.appendChild(link);
-    }
+    var link = makeSourceLink(event);
+    if (link) actions.appendChild(link);
     if (event.address) {
       var mapLink = document.createElement("a");
       mapLink.href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(event.venue + " " + event.address);
@@ -571,7 +564,9 @@
         scrollCard(event.id, "center");
       });
     });
-    peek.append(title, meta, open);
+    var source = makeSourceLink(event, "peek-source");
+    if (source) peek.append(title, meta, source, open);
+    else peek.append(title, meta, open);
   }
 
   function findEvent(id) {
@@ -627,16 +622,13 @@
       if (!at) return;
       var free = event.price && event.price.kind === "free";
       var marker = L.marker(at, {
-        icon: pinIcon(index + 1, event.id === selectedId, free),
+        icon: pinIcon(event.id === selectedId, free),
         title: event.title_zh,
         keyboard: true,
         zIndexOffset: event.id === selectedId ? 800 : index,
       });
-      marker._pin = { n: index + 1, free: free };
-      marker.bindPopup(
-        "<strong>" + escapeHtml(event.title_zh) + "</strong><br>" + escapeHtml(formatWhen(event)),
-        { maxWidth: 240 }
-      );
+      marker._pin = { order: index, free: free };
+      marker.bindPopup(markerPopup(event), { maxWidth: 260 });
       marker.on("click", function () {
         selectEvent(event.id, {
           pan: false,
@@ -657,20 +649,51 @@
     Object.keys(markerById).forEach(function (id) {
       var marker = markerById[id];
       var pin = marker._pin;
-      marker.setIcon(pinIcon(pin.n, id === selectedId, pin.free));
-      marker.setZIndexOffset(id === selectedId ? 800 : pin.n);
+      marker.setIcon(pinIcon(id === selectedId, pin.free));
+      marker.setZIndexOffset(id === selectedId ? 800 : pin.order);
     });
   }
 
-  function pinIcon(number, active, free) {
+  function pinIcon(active, free) {
     var cls = "pin" + (free ? " is-free" : " is-paid") + (active ? " is-active" : "");
     return L.divIcon({
       className: "pin-wrap",
-      html: '<span class="' + cls + '">' + number + "</span>",
+      html: '<span class="' + cls + '"></span>',
       iconSize: [30, 30],
       iconAnchor: [15, 15],
       popupAnchor: [0, -16],
     });
+  }
+
+  function markerPopup(event) {
+    var wrap = document.createElement("div");
+    var title = document.createElement("strong");
+    title.textContent = event.title_zh;
+    wrap.appendChild(title);
+    wrap.appendChild(document.createElement("br"));
+    wrap.appendChild(document.createTextNode(formatWhen(event)));
+    var source = makeSourceLink(event, "popup-source");
+    if (source) {
+      wrap.appendChild(document.createElement("br"));
+      wrap.appendChild(source);
+    }
+    return wrap;
+  }
+
+  function sourceLinkText(event) {
+    return event.source_name ? "查看来源 · " + event.source_name : "查看来源";
+  }
+
+  function makeSourceLink(event, className) {
+    var source = safeHttpUrl(event.source_url);
+    if (!source) return null;
+    var link = document.createElement("a");
+    if (className) link.className = className;
+    link.href = source;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = sourceLinkText(event);
+    return link;
   }
 
   function pinPositions(events) {
