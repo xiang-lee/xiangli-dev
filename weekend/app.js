@@ -22,7 +22,7 @@
   };
 
   var data = null;
-  var viewMode = "list";
+  var viewMode = "map";
   var selectedId = null;
   var pendingUrlEvent = null;
   var visibleEvents = [];
@@ -83,7 +83,7 @@
     state.q = params.get("q") || "";
     state.from = isIsoDate(params.get("from")) ? params.get("from") : "";
     state.to = isIsoDate(params.get("to")) ? params.get("to") : "";
-    viewMode = params.get("view") === "map" ? "map" : "list";
+    viewMode = params.get("view") === "list" ? "list" : "map";
     pendingUrlEvent = params.get("event");
   }
 
@@ -98,7 +98,7 @@
       if (state.from) params.set("from", state.from);
       if (state.to) params.set("to", state.to);
     }
-    if (viewMode === "map") params.set("view", "map");
+    if (viewMode === "list") params.set("view", "list");
     if (selectedId) params.set("event", selectedId);
     var query = params.toString();
     var next = query ? "?" + query : window.location.pathname;

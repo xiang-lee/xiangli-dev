@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "timezone": "Europe/Dublin",
   "regions": [
     {
@@ -622,6 +622,458 @@
       "source_name": "IMMA",
       "age_hint": "全家",
       "booking_zh": "入馆不用预约"
+    },
+    {
+      "id": "draculas-disco-2026-10-26",
+      "title_zh": "府邸圆厅：德古拉迪斯科",
+      "description_zh": "布兰·斯托克艺术节和 The Ark 合办的免费迪斯科，10 月 26 日银行假日在市长官邸圆厅，12:00 和 14:00 各一场，大约 45 分钟。DJ Donal Dineen 放万圣节歌。适合 4 岁以上，小孩必须有大人陪，大人也要票。有闪光灯和烟雾。免费但要领票。",
+      "region": "dublin-city",
+      "venue": "市长官邸圆厅（The Round Room, Mansion House）",
+      "address": "Dawson Street, Dublin 2, D02 AF30",
+      "lat": 53.340279,
+      "lng": -6.258042,
+      "start": "2026-10-26T12:00:00+00:00",
+      "end": "2026-10-26T14:45:00+00:00",
+      "schedule_note_zh": "两场：12:00 与 14:00，各约 45 分钟",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，但必须领票。小孩和陪同的大人都要票"
+      },
+      "tags": [
+        "万圣节",
+        "演出",
+        "室内"
+      ],
+      "source_url": "https://ark.ie/events/view/draculas-disco-2026",
+      "source_name": "The Ark",
+      "age_hint": "4 岁以上，须大人陪同",
+      "booking_zh": "免费但要领票"
+    },
+    {
+      "id": "dublinia-halloween-2026-10-27",
+      "title_zh": "都柏林尼亚：咒语瓶和魔杖工坊",
+      "description_zh": "中期假周二到周五的随到随做工坊，含在都柏林尼亚门票里。10 月 27 日和 28 日做咒语瓶，29 日和 30 日做魔杖，每天 11:00–15:00。适合 7 岁以上，必须有大人陪，材料馆方提供，名额有限。周六日没有这场手工。博物馆 10 月到 3 月每天 10:00–17:00，最晚 16:00 入场。",
+      "region": "dublin-city",
+      "venue": "都柏林尼亚（Dublinia）",
+      "address": "St Michael's Hill, Christchurch, Dublin 8",
+      "lat": 53.343238,
+      "lng": -6.272016,
+      "start": "2026-10-27T11:00:00+00:00",
+      "end": "2026-10-30T15:00:00+00:00",
+      "schedule_note_zh": "工坊 11:00–15:00；27–28 日咒语瓶，29–30 日魔杖",
+      "price": {
+        "kind": "paid",
+        "note_zh": "工坊含在门票里。网上成人 €16、儿童 €11.50、学生或老人 €14.50。门口成人 €18、儿童 €11.50；家庭票 2 大 2 小 €50.50，1 大 2 小 €34.85"
+      },
+      "tags": [
+        "博物馆",
+        "手工",
+        "万圣节"
+      ],
+      "source_url": "https://www.dublinia.ie/events_news/magical-mystical-fun-this-halloween/",
+      "source_name": "Dublinia",
+      "age_hint": "7 岁以上，须大人陪同",
+      "booking_zh": "工坊不用另约，门票建议网上买"
+    },
+    {
+      "id": "epic-dracula-2026-10-26",
+      "title_zh": "EPIC：小心德古拉家庭导览",
+      "description_zh": "在 EPIC 移民博物馆里找「跑出书本的德古拉」，有线索、说故事和两个小活动。10 月 26 日到 11 月 1 日，每天 10:00、11:30、13:30、15:00、16:30。适合 6–12 岁。同一页后半还写了每天 13:00 的爱尔兰万圣节起源内容，买票时看清场次名字。红线 Luas 的 George's Dock 站可走过去。",
+      "region": "dublin-city",
+      "venue": "EPIC 爱尔兰移民博物馆",
+      "address": "CHQ Building, Custom House Quay, Dublin 1, D01 R9Y0",
+      "lat": 53.348779,
+      "lng": -6.247846,
+      "start": "2026-10-26T10:00:00+00:00",
+      "end": "2026-11-01T16:30:00+00:00",
+      "schedule_note_zh": "每天五场：10:00、11:30、13:30、15:00、16:30",
+      "price": {
+        "kind": "paid",
+        "note_zh": "成人 €24，12 岁及以下儿童 €16，含入馆。13 岁以上没有单列票价"
+      },
+      "tags": [
+        "博物馆",
+        "导览",
+        "万圣节"
+      ],
+      "source_url": "https://epicchq.com/event/dracula-halloween-family-tour/",
+      "source_name": "EPIC",
+      "age_hint": "6–12 岁",
+      "booking_zh": "建议提前买，去年很快满"
+    },
+    {
+      "id": "oconnell-trick-or-treat-2026-10-30",
+      "title_zh": "奥康奈尔街：不给糖就捣蛋市集",
+      "description_zh": "市议会在奥康奈尔街办的免费万圣节市集，10 月 30 日到 11 月 1 日每天 13:00–17:00。一直有脸部彩绘、市集、走动角色、南瓜地和黏液实验室，另有儿童故事、舞蹈工坊等。欢迎穿装扮。地图针标在尖塔，摊位沿这条街。",
+      "region": "dublin-city",
+      "venue": "奥康奈尔街（O'Connell Street）",
+      "address": "O'Connell Street, Dublin 1",
+      "lat": 53.349802,
+      "lng": -6.260254,
+      "start": "2026-10-30T13:00:00+00:00",
+      "end": "2026-11-01T17:00:00+00:00",
+      "schedule_note_zh": "10 月 30 日至 11 月 1 日，每天 13:00–17:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费入场，不用预约"
+      },
+      "tags": [
+        "万圣节",
+        "市集",
+        "户外"
+      ],
+      "source_url": "https://www.dublincity.ie/events/trick-or-treat-main-street-market-0",
+      "source_name": "都柏林市议会",
+      "age_hint": "全家",
+      "booking_zh": "不用预约"
+    },
+    {
+      "id": "maypark-monster-mash-2026-10-31",
+      "title_zh": "梅园：怪物狂欢",
+      "description_zh": "都柏林 5 区梅园的万圣节下午场，10 月 31 日 13:00–16:00，有说故事、脸部彩绘、DJ 和魔术表演。小孩必须有大人陪。市议会公园页写它在 Malahide Road，有时叫 Donnycarney Park，名录地址是 209 Killester Avenue。活动页没有写门票，也没有预约入口。地图针标在 Malahide Road 名叫 Maypark 的公交站一带。",
+      "region": "dublin-city",
+      "venue": "梅园（Maypark）",
+      "address": "Maypark, Malahide Road, Dublin 5",
+      "lat": 53.376792,
+      "lng": -6.21612,
+      "start": "2026-10-31T13:00:00+00:00",
+      "end": "2026-10-31T16:00:00+00:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "活动页没有写门票，也没有预约链接"
+      },
+      "tags": [
+        "万圣节",
+        "公园",
+        "户外"
+      ],
+      "source_url": "https://www.dublincity.ie/events/monster-mash-halloween-and-may-park",
+      "source_name": "都柏林市议会",
+      "age_hint": "须大人陪同",
+      "booking_zh": "不用预约"
+    },
+    {
+      "id": "ballymun-otherworld-2026-10-31",
+      "title_zh": "巴利蒙：异世界节",
+      "description_zh": "巴利蒙社区在 Trinity Comprehensive School 操场办的万圣夜，10 月 31 日 18:00–21:00。有游乐设施、手工、马戏、本地舞台、拍照点和走动角色，夜里放烟花。声音和烟花更适合能晚睡的孩子。活动页没有写门票；旋转设施会不会另收费，页面没说。",
+      "region": "dublin-city",
+      "venue": "三一综合学校（Trinity Comprehensive School）",
+      "address": "Ballymun Road, Dublin 9, D09 TN22",
+      "lat": 53.393028,
+      "lng": -6.262179,
+      "start": "2026-10-31T18:00:00+00:00",
+      "end": "2026-10-31T21:00:00+00:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "活动页没有写门票。游乐设施会不会另收费，页面没说"
+      },
+      "tags": [
+        "万圣节",
+        "社区",
+        "晚间"
+      ],
+      "source_url": "https://www.dublincity.ie/events/ballymunn-otherworld-festival",
+      "source_name": "都柏林市议会",
+      "age_hint": "更适合能晚睡的孩子",
+      "booking_zh": "社区开放活动"
+    },
+    {
+      "id": "newbridge-pumpkins-2026-10-26",
+      "title_zh": "纽布里奇庄园：天黑后的南瓜",
+      "description_zh": "多纳贝特庄园夜里的南瓜灯小径，没有突然跳出来吓人的环节，婴儿车可以走，轮椅可能要人帮一下，路面有草地和碎石。活动排到 10 月 31 日。购票页写最晚 22:00 入场、23:00 结束；庄园页说开始时间随日期变，但都在 17:00 之后，以购票日历上的时段为准。停车不含在门票里。DART 到 Donabate 再走大约 15 分钟（1.4 公里），33B 路公交在门口停。",
+      "region": "fingal",
+      "venue": "纽布里奇庄园农场（Newbridge House & Farm）",
+      "address": "Hearse Road, Donabate, Co. Dublin, K36 VR90",
+      "lat": 53.485972,
+      "lng": -6.168169,
+      "start": "2026-10-26T19:15:00+00:00",
+      "end": "2026-10-31T23:00:00+00:00",
+      "schedule_note_zh": "夜场；购票页最晚 22:00 入场，23:00 结束",
+      "price": {
+        "kind": "paid",
+        "note_zh": "成人、青少年和家庭套票按场次浮动，以 Showpass 当天价为准。停车另买"
+      },
+      "tags": [
+        "万圣节",
+        "农场",
+        "晚间"
+      ],
+      "source_url": "https://newbridgehouseandfarm.com/pumpkins-after-dark/",
+      "source_name": "Newbridge House & Farm",
+      "age_hint": "全家，没有惊吓跳脸",
+      "booking_zh": "建议按入场时段提前买票"
+    },
+    {
+      "id": "aras-tour-2026-10-31",
+      "title_zh": "总统府：周六免费导览",
+      "description_zh": "公共工程办公室的总统府导览，大约 1 小时 15 分，免费。10 月 31 日场次是 10:00、11:15、12:30、13:45、15:00。票在凤凰公园游客中心当天先到先得，不能提前订，也不能订团体票。要带带照片的证件。6 月到 10 月另有花园导览，这一天花园是否一起走，以游客中心为准。游客中心本身有儿童游乐场和咖啡馆。国事忙时会取消，出发前再看总统府网站。",
+      "region": "dublin-city",
+      "venue": "凤凰公园游客中心（领票）／总统府",
+      "address": "Phoenix Park Visitor Centre, Phoenix Park, Dublin 8",
+      "lat": 53.366048,
+      "lng": -6.330933,
+      "start": "2026-10-31T10:00:00+00:00",
+      "end": "2026-10-31T16:15:00+00:00",
+      "schedule_note_zh": "五场：10:00、11:15、12:30、13:45、15:00，每场约 75 分钟",
+      "price": {
+        "kind": "free",
+        "note_zh": "导览免费。票在游客中心当天领，不能网上订"
+      },
+      "tags": [
+        "导览",
+        "公园"
+      ],
+      "source_url": "https://www.president.ie/en/explore-visit/tours-visits",
+      "source_name": "爱尔兰总统府",
+      "age_hint": "更适合能安静走一小时的孩子",
+      "booking_zh": "当天先到先得，须带照片证件"
+    },
+    {
+      "id": "aras-tour-2026-11-07",
+      "title_zh": "总统府：周六免费导览（11 月）",
+      "description_zh": "同一套免费室内导览的 11 月 7 日场：10:00、11:15、12:30、13:45、15:00，大约 75 分钟。票仍在凤凰公园游客中心当天领，不能提前订。花园导览页面只写到 10 月，这场按室内导览准备。要带带照片的证件。游客中心有游乐场和咖啡馆，导览太长的小孩可以留在那里。11 月 21 日没有导览，与这场无关。国事忙时会取消。",
+      "region": "dublin-city",
+      "venue": "凤凰公园游客中心（领票）／总统府",
+      "address": "Phoenix Park Visitor Centre, Phoenix Park, Dublin 8",
+      "lat": 53.366048,
+      "lng": -6.330933,
+      "start": "2026-11-07T10:00:00+00:00",
+      "end": "2026-11-07T16:15:00+00:00",
+      "schedule_note_zh": "五场：10:00、11:15、12:30、13:45、15:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "导览免费。票在游客中心当天领"
+      },
+      "tags": [
+        "导览",
+        "公园"
+      ],
+      "source_url": "https://www.president.ie/en/explore-visit/tours-visits",
+      "source_name": "爱尔兰总统府",
+      "age_hint": "更适合能安静走一小时的孩子",
+      "booking_zh": "当天先到先得，须带照片证件"
+    },
+    {
+      "id": "farmleigh-grounds-2026-10-31",
+      "title_zh": "法姆利庄园：园地免费开放",
+      "description_zh": "凤凰公园西北角的法姆利，园地、花园和画廊免费，每天 10:00–18:00，最晚 17:00 入场。房子为欧盟轮值主席国闭到 2026 年底，不要按室内导览去。户外免费导览 11:30 和 14:30，看天气，票在 Motorhouse 接待处的导游台领。园里有牛羊，狗必须牵绳。船屋咖啡馆每天开。这条先记到 11 月 8 日，之后是否照常以遗产局页面为准。",
+      "region": "fingal",
+      "venue": "法姆利庄园（Farmleigh House and Estate）",
+      "address": "Phoenix Park, Dublin 15, D15 TD50",
+      "lat": 53.364002,
+      "lng": -6.358001,
+      "start": "2026-10-31T10:00:00+00:00",
+      "end": "2026-11-08T18:00:00+00:00",
+      "schedule_note_zh": "每天 10:00–18:00，最晚 17:00 入场；户外导览 11:30、14:30",
+      "price": {
+        "kind": "free",
+        "note_zh": "园地、花园和画廊免费。房子今年不开放，室内导览票价用不上"
+      },
+      "tags": [
+        "公园",
+        "户外"
+      ],
+      "source_url": "https://heritageireland.ie/places-to-visit/farmleigh-house-and-gardens/",
+      "source_name": "Heritage Ireland",
+      "age_hint": "全家，婴儿车可以",
+      "booking_zh": "进园不用预约；户外导览在导游台领票"
+    },
+    {
+      "id": "marshs-2026-10-31",
+      "title_zh": "马什图书馆：周六自助参观",
+      "description_zh": "1707 年开放的旧图书馆，周六 10:00–17:00，周日和银行假日不开。馆方说特别欢迎小孩，有小人仔寻宝；楼梯不方便轮椅，工作人员可以帮忙把婴儿车抬上去。成人 €8，学生和老人 €6，18 岁以下个人免费；18 岁以下团体每人 €3。可以当天在门口买，也可以在网上订。",
+      "region": "dublin-city",
+      "venue": "马什图书馆（Marsh's Library）",
+      "address": "St Patrick's Close, Dublin, D08 FK79",
+      "lat": 53.339203,
+      "lng": -6.270578,
+      "start": "2026-10-31T10:00:00+00:00",
+      "end": "2026-10-31T17:00:00+00:00",
+      "schedule_note_zh": "周六 10:00–17:00；周日关闭",
+      "price": {
+        "kind": "paid",
+        "note_zh": "成人 €8，学生或老人 €6，18 岁以下个人免费。18 岁以下团体每人 €3。领社会福利者免费"
+      },
+      "tags": [
+        "博物馆",
+        "室内"
+      ],
+      "source_url": "https://marshlibrary.ie/visit/",
+      "source_name": "Marsh's Library",
+      "age_hint": "学龄儿童更合适，请小声",
+      "booking_zh": "可当天买票，也可网上订"
+    },
+    {
+      "id": "marshs-2026-11-07",
+      "title_zh": "马什图书馆：周六自助参观（11 月）",
+      "description_zh": "同一座旧图书馆的 11 月 7 日周六场，10:00–17:00。小孩可以参加小人仔寻宝。展厅没有轮椅通道。票价和 10 月 31 日一样：成人 €8，学生和老人 €6，18 岁以下个人免费。",
+      "region": "dublin-city",
+      "venue": "马什图书馆（Marsh's Library）",
+      "address": "St Patrick's Close, Dublin, D08 FK79",
+      "lat": 53.339203,
+      "lng": -6.270578,
+      "start": "2026-11-07T10:00:00+00:00",
+      "end": "2026-11-07T17:00:00+00:00",
+      "schedule_note_zh": "周六 10:00–17:00",
+      "price": {
+        "kind": "paid",
+        "note_zh": "成人 €8，学生或老人 €6，18 岁以下个人免费。18 岁以下团体每人 €3"
+      },
+      "tags": [
+        "博物馆",
+        "室内"
+      ],
+      "source_url": "https://marshlibrary.ie/tickets/",
+      "source_name": "Marsh's Library",
+      "age_hint": "学龄儿童更合适，请小声",
+      "booking_zh": "可当天买票，也可网上订"
+    },
+    {
+      "id": "ngi-highlights-2026-11-01",
+      "title_zh": "国立美术馆：周日馆藏导览",
+      "description_zh": "11 月 1 日 11:30–12:30 的免费馆藏精华导览，在梅里恩广场入口附近的庭院集合，不用预约。常设展免费。周日开馆 11:00–17:30，展厅大约 16:50 开始从楼上往下关。开放时间页写过公共部门劳资行动可能临时闭馆，出发前看馆方社媒。",
+      "region": "dublin-city",
+      "venue": "爱尔兰国立美术馆（National Gallery of Ireland）",
+      "address": "Merrion Square West, Dublin 2",
+      "lat": 53.341121,
+      "lng": -6.252667,
+      "start": "2026-11-01T11:30:00+00:00",
+      "end": "2026-11-01T12:30:00+00:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "导览和常设展免费。部分临时展览另收费"
+      },
+      "tags": [
+        "博物馆",
+        "导览"
+      ],
+      "source_url": "https://www.nationalgallery.ie/whats-on/public-tour-highlights",
+      "source_name": "爱尔兰国立美术馆",
+      "age_hint": "学龄儿童更合适",
+      "booking_zh": "不用预约"
+    },
+    {
+      "id": "ngi-uilleann-2026-11-07",
+      "title_zh": "国立美术馆：风笛与画",
+      "description_zh": "11 月 7 日 11:30–12:30，都柏林风笛手 Mick O'Brien 先讲爱尔兰风笛，再和导览一起看馆里和音乐有关的画。国际风笛日活动，免费，不用预约。在梅里恩广场入口附近的庭院集合。常设展免费。",
+      "region": "dublin-city",
+      "venue": "爱尔兰国立美术馆（National Gallery of Ireland）",
+      "address": "Merrion Square West, Dublin 2",
+      "lat": 53.341121,
+      "lng": -6.252667,
+      "start": "2026-11-07T11:30:00+00:00",
+      "end": "2026-11-07T12:30:00+00:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "导览免费。常设展免费，部分临时展览另收费"
+      },
+      "tags": [
+        "博物馆",
+        "导览",
+        "演出"
+      ],
+      "source_url": "https://www.nationalgallery.ie/whats-on/public-tour-music-art-international-uilleann-pipe-day",
+      "source_name": "爱尔兰国立美术馆",
+      "age_hint": "全家，能站着听一会儿",
+      "booking_zh": "不用预约"
+    },
+    {
+      "id": "ngi-open-2026-11-07",
+      "title_zh": "国立美术馆：周末免费开放",
+      "description_zh": "常设展免费。11 月 7 日周六 9:15–17:30，11 月 8 日周日 11:00–17:30，展厅大约 16:50 开始往下关。11 月 5 日到 8 日是都柏林画廊周末，What's on 上另有免费导览，包括周六 11:30 的风笛场。开放时间页提醒劳资行动可能临时闭馆。",
+      "region": "dublin-city",
+      "venue": "爱尔兰国立美术馆（National Gallery of Ireland）",
+      "address": "Merrion Square West, Dublin 2",
+      "lat": 53.341121,
+      "lng": -6.252667,
+      "start": "2026-11-07T09:15:00+00:00",
+      "end": "2026-11-08T17:30:00+00:00",
+      "schedule_note_zh": "周六 9:15–17:30，周日 11:00–17:30",
+      "price": {
+        "kind": "free",
+        "note_zh": "常设展免费。部分临时展览另收费"
+      },
+      "tags": [
+        "博物馆"
+      ],
+      "source_url": "https://www.nationalgallery.ie/visit-us/opening-hours",
+      "source_name": "爱尔兰国立美术馆",
+      "age_hint": "全家",
+      "booking_zh": "入馆不用预约"
+    },
+    {
+      "id": "palmerstown-propeller-2026-11-07",
+      "title_zh": "帕默斯敦图书馆：螺旋桨小车",
+      "description_zh": "帕默斯敦图书馆数字馆的免费手工，11 月 7 日 11:00–12:00。Aidan Fitzmaurice 带 8–12 岁孩子做一辆能跑的螺旋桨小车，材料馆方提供。地点在购物中心 11 号单元，不是 Mill Lane 那座旧馆。",
+      "region": "south-dublin",
+      "venue": "帕默斯敦图书馆数字馆",
+      "address": "Unit 11, Palmerstown Shopping Centre, Dublin 20",
+      "lat": 53.350326,
+      "lng": -6.379233,
+      "start": "2026-11-07T11:00:00+00:00",
+      "end": "2026-11-07T12:00:00+00:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费。票在 Eventbrite 上领"
+      },
+      "tags": [
+        "图书馆",
+        "手工"
+      ],
+      "source_url": "https://www.eventbrite.ie/e/build-your-own-propeller-car-tickets-2003349235492",
+      "source_name": "Palmerstown Library · Eventbrite",
+      "age_hint": "8–12 岁",
+      "booking_zh": "需要在 Eventbrite 领票"
+    },
+    {
+      "id": "draiocht-colour-map-2026-11-07",
+      "title_zh": "德拉约赫特：巨幅彩色地图",
+      "description_zh": "布兰查德斯敦艺术中心的家庭日，11 月 7 日两场：12:30–13:30 和 14:00–15:00。孩子先画自己的地图，再拼成一幅大画。免费，但必须提前订，每场 30 人。面向 4–9 岁，弟弟妹妹可以跟着。每个小孩要有大人，每个大人也要有小孩，不接待团体。衣服会弄脏。2026 年门口在施工，商场停车免费，多留时间。",
+      "region": "fingal",
+      "venue": "德拉约赫特艺术中心（Draíocht）",
+      "address": "The Blanchardstown Centre, Blanchardstown, Dublin 15, D15 RYX6",
+      "lat": 53.391058,
+      "lng": -6.392102,
+      "start": "2026-11-07T12:30:00+00:00",
+      "end": "2026-11-07T15:00:00+00:00",
+      "schedule_note_zh": "12:30–13:30 与 14:00–15:00，每场 60 分钟",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，须提前订。售票处 01 885 2622，或在网上订"
+      },
+      "tags": [
+        "手工",
+        "室内"
+      ],
+      "source_url": "https://www.draiocht.ie/whats-on/family-day-a-giant-colour-map",
+      "source_name": "Draíocht",
+      "age_hint": "4–9 岁，弟弟妹妹可跟着",
+      "booking_zh": "必须提前订，每场 30 人"
+    },
+    {
+      "id": "rediscovery-science-2026-11-07",
+      "title_zh": "再发现中心：科学节",
+      "description_zh": "Visit Dublin 列出的科学节，11 月 7 日 11:00–16:00，在巴利蒙再发现中心，主题含水和科学。免费，小孩必须有大人陪，页面说建议预约，但没有给订票链接。中心自己的开放时间是周一到周六 9:00–17:00，周日关，和这场周六对得上。时间以 Visit Dublin 为准，出发前可打 01 893 3801 确认。馆方写有多路 TFI 公交，开车从 M50 4 号出口大约 5–10 分钟，馆内免费车位有限。",
+      "region": "dublin-city",
+      "venue": "再发现中心（The Rediscovery Centre）",
+      "address": "The Boiler House, Ballymun Road, Ballymun, Dublin 9, D09 HK58",
+      "lat": 53.39755,
+      "lng": -6.263277,
+      "start": "2026-11-07T11:00:00+00:00",
+      "end": "2026-11-07T16:00:00+00:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "Visit Dublin 标为免费。建议预约，页面没有订票链接"
+      },
+      "tags": [
+        "手工",
+        "科学",
+        "室内"
+      ],
+      "source_url": "https://www.visitdublin.com/let-s-talk-science-festival-2026",
+      "source_name": "Visit Dublin",
+      "age_hint": "全家，须大人陪同",
+      "booking_zh": "建议先打电话确认"
     }
   ]
 }
