@@ -13,7 +13,7 @@
 
   var state = {
     region: "all",
-    when: "this",
+    when: "months",
     price: "all",
     sort: "time",
     q: "",
@@ -77,7 +77,7 @@
     var price = params.get("price");
     var sort = params.get("sort");
     if (region && (region === "all" || REGION_LABELS[region])) state.region = region;
-    if (when === "all" || when === "this" || when === "next" || when === "custom") state.when = when;
+    if (when === "all" || when === "months" || when === "this" || when === "next" || when === "custom") state.when = when;
     if (price === "all" || price === "free" || price === "paid") state.price = price;
     if (sort === "free" || sort === "time") state.sort = sort;
     state.q = params.get("q") || "";
@@ -90,7 +90,7 @@
   function writeStateToUrl() {
     var params = new URLSearchParams();
     if (state.region !== "all") params.set("region", state.region);
-    if (state.when !== "this") params.set("when", state.when);
+    if (state.when !== "months") params.set("when", state.when);
     if (state.price !== "all") params.set("price", state.price);
     if (state.sort !== "time") params.set("sort", state.sort);
     if (state.q) params.set("q", state.q);
@@ -290,9 +290,14 @@
       else caption.textContent = "选择开始和结束日期，含这两天。";
       return;
     }
-    var weekend = state.when === "next" ? nextWeekend() : thisWeekend();
-    var prefix = state.when === "next" ? "下周末" : "本周末";
-    caption.textContent = prefix + "：" + ymdLabel(weekend.start) + " – " + ymdLabel(weekend.end) + "（周六至周日）";
+    if (state.when === "this" || state.when === "next") {
+      var weekend = state.when === "next" ? nextWeekend() : thisWeekend();
+      var prefix = state.when === "next" ? "下周末" : "本周末";
+      caption.textContent = prefix + "：" + ymdLabel(weekend.start) + " – " + ymdLabel(weekend.end) + "（周六至周日）";
+      return;
+    }
+    var span = thisAndNextMonth();
+    caption.textContent = "本月+下月：" + ymdMonthDayLabel(span.start) + " – " + ymdMonthDayLabel(span.end);
   }
 
   function renderNotice(range) {
@@ -829,10 +834,19 @@
       if (startKey > endKey) return { invalid: true, incomplete: false };
       return { startKey: startKey, endKey: endKey, invalid: false, incomplete: false };
     }
-    var weekend = state.when === "next" ? nextWeekend() : thisWeekend();
+    if (state.when === "this" || state.when === "next") {
+      var weekend = state.when === "next" ? nextWeekend() : thisWeekend();
+      return {
+        startKey: ymdKey(weekend.start),
+        endKey: ymdKey(weekend.end),
+        invalid: false,
+        incomplete: false,
+      };
+    }
+    var span = thisAndNextMonth();
     return {
-      startKey: ymdKey(weekend.start),
-      endKey: ymdKey(weekend.end),
+      startKey: ymdKey(span.start),
+      endKey: ymdKey(span.end),
       invalid: false,
       incomplete: false,
     };
@@ -865,6 +879,26 @@
     var current = thisWeekend();
     var start = addDays(current.start, 7);
     return { start: start, end: addDays(start, 1) };
+  }
+
+  /* Calendar month bounds in Europe/Dublin. dublinYmd supplies the civil date;
+     addDays does UTC calendar arithmetic so a UTC day edge cannot shift the month. */
+  function thisAndNextMonth(now) {
+    var today = dublinYmd(now || new Date());
+    var start = { y: today.y, m: today.m, d: 1 };
+    var nextY = today.y;
+    var nextM = today.m + 1;
+    if (nextM > 12) {
+      nextM = 1;
+      nextY += 1;
+    }
+    var afterY = nextY;
+    var afterM = nextM + 1;
+    if (afterM > 12) {
+      afterM = 1;
+      afterY += 1;
+    }
+    return { start: start, end: addDays({ y: afterY, m: afterM, d: 1 }, -1) };
   }
 
   function dublinYmd(date) {
@@ -913,6 +947,14 @@
 
   function ymdLabel(ymd) {
     return formatDate(pointDate(ymdToIso(ymd)));
+  }
+
+  function ymdMonthDayLabel(ymd) {
+    return new Intl.DateTimeFormat("zh-CN", {
+      timeZone: "Europe/Dublin",
+      month: "long",
+      day: "numeric",
+    }).format(pointDate(ymdToIso(ymd)));
   }
 
   function pointDate(value) {
