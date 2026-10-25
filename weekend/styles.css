@@ -742,6 +742,12 @@ h1 {
   font-size: 0.9rem;
 }
 
+.peek-source {
+  justify-self: start;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 .leaflet-container {
   font-family: var(--font-body);
   background: var(--bg-elevated);
@@ -758,15 +764,11 @@ html:not([data-theme="light"]) .leaflet-tile-pane {
 }
 
 .pin {
-  display: grid;
-  place-items: center;
+  display: block;
   width: 30px;
   height: 30px;
   border-radius: 999px;
   border: 2px solid #fff;
-  color: #041018;
-  font-size: 12px;
-  font-weight: 800;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
@@ -793,6 +795,12 @@ html:not([data-theme="light"]) .leaflet-tile-pane {
   margin: 10px 12px;
   font-size: 0.92rem;
   line-height: 1.45;
+}
+
+.leaflet-popup-content a.popup-source {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 700;
 }
 
 .leaflet-container a.leaflet-popup-close-button {
