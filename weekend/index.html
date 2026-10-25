@@ -6,7 +6,7 @@
     <title>都柏林周末亲子 | 爱尔兰周末</title>
     <meta
       name="description"
-      content="给爱尔兰华人爸妈的都柏林周末亲子清单：四区图书馆、博物馆和家庭景点，可按地区、本周末或下周末、免费或收费筛选。"
+      content="给爱尔兰华人爸妈的都柏林周末亲子清单：四区图书馆、博物馆和家庭景点，默认看本月和下月，也可按地区、本周末或下周末、免费或收费筛选。"
     />
     <link rel="canonical" href="https://xiangli.dev/weekend/" />
     <meta property="og:type" content="website" />
@@ -66,7 +66,7 @@
         <p class="eyebrow">都柏林都会区 · 给华人爸妈</p>
         <h1>这个周末，带孩子去哪儿？</h1>
         <p class="lede">
-          中文整理的家庭周末清单，只覆盖都柏林四区：市里、南都柏林、邓莱里-拉思当和芬戈尔。免费图书馆场次和要买票的博物馆、动物园放在一起，先筛再出门。
+          中文整理的家庭活动清单，默认显示本月和下月，只覆盖都柏林四区：市里、南都柏林、邓莱里-拉思当和芬戈尔。免费图书馆场次和要买票的博物馆、动物园放在一起，先筛再出门。
         </p>
       </section>
 
@@ -86,7 +86,8 @@
           <div class="filter-block">
             <div class="filter-label" id="when-label">日期</div>
             <div class="chip-row" id="when-filters" role="group" aria-labelledby="when-label">
-              <button class="chip" type="button" data-when="this" aria-pressed="true">本周末</button>
+              <button class="chip" type="button" data-when="months" aria-pressed="true">本月+下月</button>
+              <button class="chip" type="button" data-when="this" aria-pressed="false">本周末</button>
               <button class="chip" type="button" data-when="next" aria-pressed="false">下周末</button>
               <button class="chip" type="button" data-when="custom" aria-pressed="false">自定义</button>
               <button class="chip" type="button" data-when="all" aria-pressed="false">全部日期</button>
@@ -173,6 +174,6 @@
       <p class="noscript">筛选、列表和地图需要 JavaScript。活动数据来自本站；地图底图来自 OpenStreetMap。</p>
     </noscript>
     <script src="vendor/leaflet/leaflet.js"></script>
-    <script src="app.js?v=20261025c"></script>
+    <script src="app.js?v=20261025d"></script>
   </body>
 </html>
