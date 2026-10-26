@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "timezone": "Europe/Dublin",
   "regions": [
     {
@@ -192,31 +192,6 @@
       "source_name": "Malahide Castle",
       "age_hint": "日场更适合低龄",
       "booking_zh": "必须提前在 thehauntedtrail.ie 买票"
-    },
-    {
-      "id": "pearse-2026-10-24",
-      "title_zh": "皮尔斯博物馆与圣恩达公园",
-      "description_zh": "遗产局场馆，在拉思法纳姆的圣恩达公园，门票免费。对小孩来说，公园草地往往比展厅更好玩。3 月到 10 月博物馆 9:30–17:30；10 月公园 9:00–18:00。页面按这个季节时间列出，没有另写周末缩短。",
-      "region": "south-dublin",
-      "venue": "皮尔斯博物馆（Pearse Museum, St Enda's Park）",
-      "address": "Grange Road, Rathfarnham, Dublin 16, D16 Y7Y5",
-      "lat": 53.282938,
-      "lng": -6.281543,
-      "start": "2026-10-24T09:30:00+01:00",
-      "end": "2026-10-25T17:30:00+00:00",
-      "schedule_note_zh": "博物馆 9:30–17:30；10 月公园 9:00–18:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "博物馆与公园免费"
-      },
-      "tags": [
-        "博物馆",
-        "公园"
-      ],
-      "source_url": "https://heritageireland.ie/visit/places-to-visit/pearse-museum-st-endas-park/",
-      "source_name": "Heritage Ireland",
-      "age_hint": "全家",
-      "booking_zh": "不用预约"
     },
     {
       "id": "charleville-story-2026-10-31",
@@ -1000,55 +975,6 @@
       "source_name": "爱尔兰国立美术馆",
       "age_hint": "全家",
       "booking_zh": "入馆不用预约"
-    },
-    {
-      "id": "palmerstown-propeller-2026-11-07",
-      "title_zh": "帕默斯敦图书馆：螺旋桨小车",
-      "description_zh": "帕默斯敦图书馆数字馆的免费手工，11 月 7 日 11:00–12:00。Aidan Fitzmaurice 带 8–12 岁孩子做一辆能跑的螺旋桨小车，材料馆方提供。地点在购物中心 11 号单元，不是 Mill Lane 那座旧馆。",
-      "region": "south-dublin",
-      "venue": "帕默斯敦图书馆数字馆",
-      "address": "Unit 11, Palmerstown Shopping Centre, Dublin 20",
-      "lat": 53.350326,
-      "lng": -6.379233,
-      "start": "2026-11-07T11:00:00+00:00",
-      "end": "2026-11-07T12:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费。票在 Eventbrite 上领"
-      },
-      "tags": [
-        "图书馆",
-        "手工"
-      ],
-      "source_url": "https://www.eventbrite.ie/e/build-your-own-propeller-car-tickets-2003349235492",
-      "source_name": "Palmerstown Library · Eventbrite",
-      "age_hint": "8–12 岁",
-      "booking_zh": "需要在 Eventbrite 领票"
-    },
-    {
-      "id": "draiocht-colour-map-2026-11-07",
-      "title_zh": "德拉约赫特：巨幅彩色地图",
-      "description_zh": "布兰查德斯敦艺术中心的家庭日，11 月 7 日两场：12:30–13:30 和 14:00–15:00。孩子先画自己的地图，再拼成一幅大画。免费，但必须提前订，每场 30 人。面向 4–9 岁，弟弟妹妹可以跟着。每个小孩要有大人，每个大人也要有小孩，不接待团体。衣服会弄脏。2026 年门口在施工，商场停车免费，多留时间。",
-      "region": "fingal",
-      "venue": "德拉约赫特艺术中心（Draíocht）",
-      "address": "The Blanchardstown Centre, Blanchardstown, Dublin 15, D15 RYX6",
-      "lat": 53.391058,
-      "lng": -6.392102,
-      "start": "2026-11-07T12:30:00+00:00",
-      "end": "2026-11-07T15:00:00+00:00",
-      "schedule_note_zh": "12:30–13:30 与 14:00–15:00，每场 60 分钟",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须提前订。售票处 01 885 2622，或在网上订"
-      },
-      "tags": [
-        "手工",
-        "室内"
-      ],
-      "source_url": "https://www.draiocht.ie/whats-on/family-day-a-giant-colour-map",
-      "source_name": "Draíocht",
-      "age_hint": "4–9 岁，弟弟妹妹可跟着",
-      "booking_zh": "必须提前订，每场 30 人"
     },
     {
       "id": "rediscovery-science-2026-11-07",
@@ -2537,6 +2463,317 @@
     "source_name": "芬戈尔图书馆手册",
     "age_hint": "小朋友场，手册没有写具体年龄",
     "booking_zh": "手册没有写要不要预约"
+  },
+  {
+    "id": "palmerstown-musical-tots-2026-10-31",
+    "title_zh": "帕默斯敦图书馆：音乐小宝贝",
+    "description_zh": "帕默斯敦图书馆的免费亲子音乐课，10 月 31 日周六 10:30–11:30。唱歌、跳舞、玩各种声音，适合 6 个月到学龄前的小朋友，大人陪着一起。每个来的孩子领一张票。",
+    "region": "south-dublin",
+    "venue": "帕默斯敦图书馆数字馆",
+    "address": "Unit 11, Palmerstown Shopping Centre, Dublin 20",
+    "lat": 53.350326,
+    "lng": -6.379233,
+    "start": "2026-10-31T10:30:00+00:00",
+    "end": "2026-10-31T11:30:00+00:00",
+    "schedule_note_zh": "周六 10:30–11:30",
+    "price": {
+      "kind": "free",
+      "note_zh": "免费。票在 Eventbrite 上领，每个孩子一张"
+    },
+    "tags": ["图书馆", "低龄"],
+    "source_url": "https://www.eventbrite.ie/e/musical-tots-tickets-2001693587404",
+    "source_name": "Palmerstown Library · Eventbrite",
+    "age_hint": "6 个月到学龄前，须大人陪同",
+    "booking_zh": "需要在 Eventbrite 领票"
+  },
+  {
+    "id": "dublin-by-night-2026-11-07",
+    "title_zh": "卡佩尔街：都柏林之夜节",
+    "description_zh": "「都柏林冬季」的开幕夜，11 月 7 日周六 18:00–22:00，在卡佩尔街和市中心一带。官方写的是家庭友好、免费，有音乐和文化活动，去年有八万多人。详细节目还没全部公布，出发前看一眼来源页。人会很多，小朋友要看紧。",
+    "region": "dublin-city",
+    "venue": "卡佩尔街（Capel Street）",
+    "address": "Capel Street, Dublin 1",
+    "lat": 53.3475,
+    "lng": -6.2695,
+    "start": "2026-11-07T18:00:00+00:00",
+    "end": "2026-11-07T22:00:00+00:00",
+    "schedule_note_zh": "周六 18:00–22:00",
+    "price": {
+      "kind": "free",
+      "note_zh": "免费"
+    },
+    "tags": ["晚间", "户外", "社区"],
+    "source_url": "https://www.visitdublin.com/dublin-by-night-fest-2026",
+    "source_name": "Visit Dublin",
+    "age_hint": "全家",
+    "booking_zh": "不用预约"
+  },
+  {
+    "id": "deadzoo-lottery-2026-11-14",
+    "title_zh": "死动物园实验室：抽签导览（11 月后几个周末）",
+    "description_zh": "柯林斯军营死动物园实验室的家庭抽签导览，主题「暗中的生命」，约 30 分钟，抽到哪个动物就去看哪个。11 月 14/15、21/22、28/29 日每个周末都有。周六 11:00、12:00、12:45；周日 13:15、14:15、15:00。适合 7 岁以上，免费，先到先得。馆方说劳资行动可能临时取消，出发前看页面。",
+    "region": "dublin-city",
+    "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
+    "address": "Benburb Street, Dublin 7, D07 XKV4",
+    "lat": 53.348857,
+    "lng": -6.286682,
+    "start": "2026-11-14T11:00:00+00:00",
+    "end": "2026-11-29T15:30:00+00:00",
+    "schedule_note_zh": "11 月 14–29 日每个周末；周六 11:00/12:00/12:45，周日 13:15/14:15/15:00",
+    "price": {
+      "kind": "free",
+      "note_zh": "免费，不用预约，先到先得"
+    },
+    "tags": ["博物馆", "导览"],
+    "source_url": "https://source.museum.ie/en-IE/Museums/Decorative-Arts-History/Events/DZL-Drop-ins/Family-Tours-in-the-Dead-Zoo-Lab",
+    "source_name": "爱尔兰国立博物馆",
+    "age_hint": "7 岁以上，须大人陪同",
+    "booking_zh": "不用预约"
+  },
+  {
+    "id": "twinkletown-smithfield-2026-11-20",
+    "title_zh": "史密斯菲尔德广场：闪闪小镇圣诞节",
+    "description_zh": "市议会合办的圣诞小镇，11 月 20 日到 12 月 31 日，12 月 24–26 日关。免费进场逛，有带棚的溜冰场、33 米摩天轮、游乐设施和 20 分钟的「圣诞老人小剧」（Santo Panto，周五和周末演）。溜冰和小剧要买票，建议网上先订；3 岁以下不能上冰。",
+    "region": "dublin-city",
+    "venue": "史密斯菲尔德广场（Smithfield Square）",
+    "address": "Smithfield Square, Dublin 7",
+    "lat": 53.346325,
+    "lng": -6.278404,
+    "start": "2026-11-20T11:00:00+00:00",
+    "end": "2026-12-31T21:00:00+00:00",
+    "schedule_note_zh": "周一至五 11:00–21:00，周六日 10:00–21:00；12 月 24–26 日关闭",
+    "price": {
+      "kind": "free",
+      "note_zh": "免费进场。溜冰、圣诞小剧、摩天轮和游乐设施另收费"
+    },
+    "tags": ["圣诞", "户外", "市集"],
+    "source_url": "https://twinkletown.ie/faqs/",
+    "source_name": "TwinkleTown",
+    "age_hint": "全家；溜冰须 3 岁以上",
+    "booking_zh": "进场不用票；溜冰和圣诞小剧在 twinkletown.ie 订"
+  },
+  {
+    "id": "twinkletown-stpatricks-2026-11-27",
+    "title_zh": "圣帕特里克公园：闪闪小镇灯光园",
+    "description_zh": "闪闪小镇的第二个点，11 月 27 日到 12 月 23 日。公园里有灯光布置、合唱团表演、暮光花园和给小朋友的圣诞小游乐设施，还有手作市集和小吃。免费进场。从史密斯菲尔德走过来约 20 分钟。",
+    "region": "dublin-city",
+    "venue": "圣帕特里克公园（St Patrick’s Park）",
+    "address": "Bull Alley Street, Dublin 8",
+    "lat": 53.34018,
+    "lng": -6.271034,
+    "start": "2026-11-27T11:00:00+00:00",
+    "end": "2026-12-23T21:00:00+00:00",
+    "schedule_note_zh": "周一至五 11:00–21:00，周六日 10:00–21:00",
+    "price": {
+      "kind": "free",
+      "note_zh": "免费进场；游乐设施和吃喝另付"
+    },
+    "tags": ["圣诞", "户外", "公园", "晚间"],
+    "source_url": "https://twinkletown.ie/st-patricks-park/",
+    "source_name": "TwinkleTown",
+    "age_hint": "全家，含低龄",
+    "booking_zh": "不用预约"
+  },
+  {
+    "id": "helix-panto-2026-11-20",
+    "title_zh": "赫利克斯剧院：圣诞童话剧《梦幻岛》",
+    "description_zh": "都柏林城市大学 Helix 剧院的年度圣诞童话剧（panto），今年是海盗和仙子的《梦幻岛》（NEVERLAND）。11 月 20 日到 2027 年 1 月 10 日，周末一般 13:00/17:00 或 14:00/18:00，平日晚场为主。12 月 2 日周三是感官友好场。热门场次会先满。",
+    "region": "dublin-city",
+    "venue": "赫利克斯剧院（The Helix）",
+    "address": "DCU, Collins Avenue, Glasnevin, Dublin 9, D09 FW22",
+    "lat": 53.38649,
+    "lng": -6.259261,
+    "start": "2026-11-20",
+    "end": "2027-01-10",
+    "time_tbc": true,
+    "schedule_note_zh": "11 月 20 日至 2027 年 1 月 10 日，具体场次见购票页；12 月 2 日为感官友好场",
+    "price": {
+      "kind": "paid",
+      "note_zh": "€33–45，另加订票费"
+    },
+    "tags": ["演出", "圣诞", "室内"],
+    "source_url": "https://www.thehelix.ie/thehelixpanto2026",
+    "source_name": "The Helix",
+    "age_hint": "全家",
+    "booking_zh": "在 Helix 官网购票"
+  },
+  {
+    "id": "gaiety-panto-2026-11-22",
+    "title_zh": "盖蒂剧院：圣诞童话剧《罗宾汉》",
+    "description_zh": "盖蒂剧院演了 150 多年的圣诞童话剧，今年是《罗宾汉》，劫富济贫、斗坏郡长，笑闹加歌舞。11 月 22 日到 2027 年 1 月 3 日。剧里有闪光、巨响、烟雾和烟火效果，怕响的小朋友留意。儿童入场规定见剧院 FAQ。",
+    "region": "dublin-city",
+    "venue": "盖蒂剧院（Gaiety Theatre）",
+    "address": "South King Street, Dublin 2",
+    "lat": 53.340509,
+    "lng": -6.261551,
+    "start": "2026-11-22",
+    "end": "2027-01-03",
+    "time_tbc": true,
+    "schedule_note_zh": "11 月 22 日至 2027 年 1 月 3 日，具体场次见 Ticketmaster",
+    "price": {
+      "kind": "paid",
+      "note_zh": "€23 起；网上订有服务费，剧院售票处现场买免服务费"
+    },
+    "tags": ["演出", "圣诞", "室内"],
+    "source_url": "https://www.gaietytheatre.ie/events/robin-hood/",
+    "source_name": "Gaiety Theatre",
+    "age_hint": "全家",
+    "booking_zh": "Ticketmaster 或剧院售票处（周一至六 11:00–18:00）"
+  },
+  {
+    "id": "civic-panto-2026-12-02",
+    "title_zh": "塔拉市民剧院：圣诞童话剧《冰雪奇遇》",
+    "description_zh": "塔拉 Civic 剧院的圣诞童话剧 Tickles and Dottie are Freezin’，灵感来自《冰雪女王》/《冰雪奇缘》，讲姐妹情和做自己。公众场 12 月 2 日到 2027 年 1 月 3 日，周末 14:00 和 18:30，平日多为 18:30 晚场。12 月 15 日晚场是感官友好场。约 2 小时，有中场休息，适合各年龄。",
+    "region": "south-dublin",
+    "venue": "塔拉市民剧院（The Civic）",
+    "address": "Parthalán Place, Belgard Road, Tallaght, Dublin 24, D24 NWN7",
+    "lat": 53.288517,
+    "lng": -6.372122,
+    "start": "2026-12-02T18:30:00+00:00",
+    "end": "2027-01-03T16:00:00+00:00",
+    "schedule_note_zh": "周末 14:00、18:30；12 月 14、24、25 日和 1 月 1 日不演；12 月 31 日 13:30、17:00",
+    "price": {
+      "kind": "paid",
+      "note_zh": "€27，优惠 €25；四人家庭票 €96，均含订票费"
+    },
+    "tags": ["演出", "圣诞", "室内"],
+    "source_url": "https://www.civictheatre.ie/whats-on/tickles-and-dottie-are-freezin-the-civic-panto-2026/",
+    "source_name": "The Civic",
+    "age_hint": "各年龄",
+    "booking_zh": "官网或售票处 01 462 7477"
+  },
+  {
+    "id": "mill-pinocchio-2026-12-06",
+    "title_zh": "磨坊剧院：圣诞剧《木偶奇遇记》",
+    "description_zh": "邓德拉姆 dlr 磨坊剧院自制的圣诞剧《木偶奇遇记》，用木偶、音乐和舞蹈讲匹诺曹变成真孩子的故事，约 1 小时。公众场集中在周末和圣诞假期，常见 12:00、14:00、16:00。12 月 5 日周六已售罄。12 月 18 日 17:00 和 27 日 14:00 是轻松场。官方建议 6 岁以上，最适合 6–10 岁。",
+    "region": "dlr",
+    "venue": "dlr 磨坊剧院（dlr Mill Theatre）",
+    "address": "Dundrum Town Centre, Dundrum, Dublin 16",
+    "lat": 53.288422,
+    "lng": -6.243048,
+    "start": "2026-12-06T12:00:00+00:00",
+    "end": "2027-01-03T17:00:00+00:00",
+    "schedule_note_zh": "12 月 6、12、13、19–22、27–31 日及 1 月 2–3 日多为 12:00/14:00/16:00；12 月 17–18 日 17:00/19:00；12 月 5 日已售罄",
+    "price": {
+      "kind": "paid",
+      "note_zh": "€20 起"
+    },
+    "tags": ["演出", "圣诞", "室内"],
+    "source_url": "https://www.milltheatre.ie/events/pinocchio/",
+    "source_name": "dlr Mill Theatre",
+    "age_hint": "6 岁以上，最适合 6–10 岁",
+    "booking_zh": "官网或售票处 01 296 9340"
+  },
+  {
+    "id": "ardgillan-craft-fair-2026-12-05",
+    "title_zh": "阿德吉兰城堡：圣诞手作市集",
+    "description_zh": "巴尔布里根阿德吉兰城堡一年一度的圣诞手作市集，12 月 5–6 日周末。城堡房间里有 30 多个本地手作摊位，小朋友可以画精灵脸彩，周末有现场音乐和节日小吃。园里还有大型游乐场，可以连着玩。页面没写具体时段和门票，按城堡开放时间去。",
+    "region": "fingal",
+    "venue": "阿德吉兰城堡（Ardgillan Castle）",
+    "address": "Ardgillan Demesne, Balbriggan, Co. Dublin, K34 C984",
+    "lat": 53.586433,
+    "lng": -6.159828,
+    "start": "2026-12-05",
+    "end": "2026-12-06",
+    "time_tbc": true,
+    "schedule_note_zh": "12 月 5–6 日周六日；城堡一般 10:00–17:00",
+    "price": {
+      "kind": "free",
+      "note_zh": "页面没写门票，按逛市集理解；以现场为准"
+    },
+    "tags": ["圣诞", "市集", "城堡"],
+    "source_url": "https://ardgillancastle.ie/events/ardgillan-castle-craft-fair-2026/",
+    "source_name": "Ardgillan Castle",
+    "age_hint": "全家",
+    "booking_zh": "不用预约"
+  },
+  {
+    "id": "draiocht-mission-santa-2026-12-18",
+    "title_zh": "德拉约赫特：圣诞老人密码大冒险",
+    "description_zh": "德拉约赫特 25 周年的家庭音乐剧场：圣诞老人的密码丢了，要靠台下的小朋友一起唱歌、解谜找回来，最后给北极打电话问「我们在好孩子名单上吗」。现场大乐队，约 50 分钟无中场。12 月 18 日周五 16:00 和 17:30 两场。",
+    "region": "fingal",
+    "venue": "德拉约赫特艺术中心（Draíocht）",
+    "address": "The Blanchardstown Centre, Blanchardstown, Dublin 15, D15 RYX6",
+    "lat": 53.391058,
+    "lng": -6.392102,
+    "start": "2026-12-18T16:00:00+00:00",
+    "end": "2026-12-18T18:20:00+00:00",
+    "schedule_note_zh": "周五 16:00、17:30 两场，各约 50 分钟",
+    "price": {
+      "kind": "paid",
+      "note_zh": "成人 €8，儿童 €5"
+    },
+    "tags": ["演出", "圣诞", "室内"],
+    "source_url": "https://www.draiocht.ie/whats-on/mission-santa-crack-the-christmas-code-family",
+    "source_name": "Draíocht",
+    "age_hint": "5 岁以上",
+    "booking_zh": "官网或售票处 01 885 2622"
+  },
+  {
+    "id": "nch-snowman-2026-12-18",
+    "title_zh": "国家音乐厅：《雪人》圣诞音乐会",
+    "description_zh": "国家音乐厅的圣诞家庭音乐会 This Way to Christmas!，主持 Louis Lovett，有胡桃夹子游行、圣诞歌和舞蹈，下半场放经典动画《雪人》，由圣诞乐团现场配乐。12 月 18–20 日。周六 10:30 是轻松场，13:00 有爱尔兰手语。部分场次余票已少。",
+    "region": "dublin-city",
+    "venue": "国家音乐厅（National Concert Hall）",
+    "address": "Earlsfort Terrace, Dublin 2, D02 N527",
+    "lat": 53.334789,
+    "lng": -6.258369,
+    "start": "2026-12-18T15:30:00+00:00",
+    "end": "2026-12-20T19:30:00+00:00",
+    "schedule_note_zh": "周五 15:30、18:00；周六 10:30（轻松场）、13:00（手语）、15:30、18:00；周日 10:30、13:00、15:30、18:00",
+    "price": {
+      "kind": "paid",
+      "note_zh": "成人 €30，儿童 €23，家庭票 €95（四人，最多两位成人）"
+    },
+    "tags": ["演出", "圣诞", "室内"],
+    "source_url": "https://www.nch.ie/all-events-listing/this-way-to-christmas-dec26/",
+    "source_name": "National Concert Hall",
+    "age_hint": "全家",
+    "booking_zh": "国家音乐厅官网购票"
+  },
+  {
+    "id": "pavilion-caterpillar-2026-12-18",
+    "title_zh": "展馆剧院：好饿的毛毛虫圣诞秀",
+    "description_zh": "艾瑞·卡尔绘本改编的木偶剧，75 个以上大木偶演《好饿的毛毛虫》《棕色的熊》《10 只小橡皮鸭》和《梦之雪》，约 50 分钟。12 月 18 日到 2027 年 1 月 3 日，多为 10:30、13:00、15:30。6 个月以上都能看，很适合 2 岁。12 月 29 日 10:30 是轻松场。2 岁及以下坐大人腿上不用票。",
+    "region": "dlr",
+    "venue": "展馆剧院（Pavilion Theatre）",
+    "address": "Marine Road, Dún Laoghaire, Co. Dublin",
+    "lat": 53.29392,
+    "lng": -6.133892,
+    "start": "2026-12-18T15:30:00+00:00",
+    "end": "2027-01-03T16:20:00+00:00",
+    "schedule_note_zh": "12 月 18–20、22–23、27–31 日与 1 月 2–3 日；多为 10:30/13:00/15:30；12 月 18 日上午为学校场",
+    "price": {
+      "kind": "paid",
+      "note_zh": "每张 €21；四人家庭票 €72（至少一大一小），另加订票费"
+    },
+    "tags": ["演出", "圣诞", "低龄", "室内"],
+    "source_url": "https://www.paviliontheatre.ie/events/view/caterpillar",
+    "source_name": "Pavilion Theatre",
+    "age_hint": "6 个月以上，适合低龄",
+    "booking_zh": "官网或售票处 01 231 2929"
+  },
+  {
+    "id": "pavilion-elf-2026-12-19",
+    "title_zh": "展馆剧院：圣诞电影《精灵总动员》",
+    "description_zh": "邓莱里展馆剧院的圣诞电影场，12 月 19 日周六 17:30 放《精灵总动员》（Elf，PG，97 分钟），威尔·法瑞尔演在北极长大的人类精灵。票价便宜，适合 8 岁左右一起看。第二天 12 月 20 日同一时间还有《小鬼当家》。",
+    "region": "dlr",
+    "venue": "展馆剧院（Pavilion Theatre）",
+    "address": "Marine Road, Dún Laoghaire, Co. Dublin",
+    "lat": 53.29392,
+    "lng": -6.133892,
+    "start": "2026-12-19T17:30:00+00:00",
+    "end": "2026-12-19T19:10:00+00:00",
+    "schedule_note_zh": "周六 17:30，97 分钟",
+    "price": {
+      "kind": "paid",
+      "note_zh": "儿童 €7，成人 €9，四人家庭票 €28，另加订票费"
+    },
+    "tags": ["电影", "圣诞", "室内"],
+    "source_url": "https://www.paviliontheatre.ie/events/view/elf26",
+    "source_name": "Pavilion Theatre",
+    "age_hint": "PG，约 6 岁以上",
+    "booking_zh": "官网或售票处 01 231 2929"
   }
-  ]
+]
 }
