@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>都柏林周末亲子 | 爱尔兰周末</title>
+    <title>Dublin Weekend with Kids | Ireland Weekends</title>
     <meta
       name="description"
-      content="给爱尔兰华人爸妈的都柏林周末亲子清单：四区图书馆、博物馆和家庭景点，默认看本月和下月，也可按地区、本周末或下周末、免费或收费筛选。"
+      content="A family weekend list for Dublin: libraries, museums and days out across the four council areas. This month and next are shown first. Filter by area, this or next weekend, and free or paid."
     />
     <link rel="canonical" href="https://xiangli.dev/weekend/" />
+    <link rel="alternate" hreflang="en" href="https://xiangli.dev/weekend/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://xiangli.dev/weekend/?lang=zh" />
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content="zh_CN" />
-    <meta property="og:title" content="都柏林周末亲子" />
+    <meta property="og:locale" content="en_IE" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:title" content="Dublin Weekend with Kids" />
     <meta
       property="og:description"
-      content="中文整理的都柏林四区家庭周末活动。图书馆故事会、手工，以及博物馆和景点。"
+      content="Family weekends across Dublin’s four council areas. Library storytimes and crafts, plus museums and days out."
     />
     <meta property="og:url" content="https://xiangli.dev/weekend/" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="都柏林周末亲子" />
+    <meta name="twitter:title" content="Dublin Weekend with Kids" />
     <meta
       name="twitter:description"
-      content="中文整理的都柏林四区家庭周末活动。"
+      content="Family weekends across Dublin’s four council areas."
     />
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,24 +34,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
-    <link rel="stylesheet" href="styles.css?v=20261025c" />
-    <script src="theme-init.js"></script>
+    <link rel="stylesheet" href="styles.css?v=20261026a" />
+    <script src="theme-init.js?v=20261026a"></script>
   </head>
   <body>
     <div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
-    <a class="skip-link" href="#main">跳到活动列表</a>
+    <a class="skip-link" href="#main"><span class="t-en">Skip to events</span><span class="t-zh">跳到活动列表</span></a>
     <header class="site-header">
       <div class="container header-bar">
         <a class="brand" href="./">
-          <span class="brand-mark" aria-hidden="true">周</span>
+          <span class="brand-mark" aria-hidden="true"><span class="t-en">W</span><span class="t-zh">周</span></span>
           <span>
-            <span class="brand-kicker">爱尔兰周末</span>
-            <span class="brand-name">都柏林亲子</span>
+            <span class="brand-kicker"><span class="t-en">Ireland weekends</span><span class="t-zh">爱尔兰周末</span></span>
+            <span class="brand-name"><span class="t-en">Dublin with kids</span><span class="t-zh">都柏林亲子</span></span>
           </span>
         </a>
         <div class="header-actions">
+          <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch to Chinese">
+            <span class="t-en">中文</span>
+            <span class="t-zh">English</span>
+          </button>
           <a class="text-link" href="../">xiangli.dev</a>
-          <button id="theme-toggle" class="icon-button" type="button" aria-label="切换深色或浅色">
+          <button id="theme-toggle" class="icon-button" type="button" aria-label="Switch to dark">
             <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <circle cx="12" cy="12" r="5" />
               <path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
@@ -63,68 +70,69 @@
 
     <main id="main">
       <section class="container hero">
-        <p class="eyebrow">都柏林都会区 · 给华人爸妈</p>
-        <h1>这个周末，带孩子去哪儿？</h1>
+        <p class="eyebrow"><span class="t-en">Dublin · for families</span><span class="t-zh">都柏林都会区 · 给华人爸妈</span></p>
+        <h1><span class="t-en">Where do we take the kids this weekend?</span><span class="t-zh">这个周末，带孩子去哪儿？</span></h1>
         <p class="lede">
-          中文整理的家庭活动清单，默认显示本月和下月，只覆盖都柏林四区：市里、南都柏林、邓莱里-拉思当和芬戈尔。免费图书馆场次和要买票的博物馆、动物园放在一起，先筛再出门。
+          <span class="t-en">A family list for the four Dublin council areas: the city, South Dublin, Dún Laoghaire–Rathdown and Fingal. It opens on this month and next. Free library sessions sit beside museums and the zoo. Filter first, then head out.</span>
+          <span class="t-zh">中文整理的家庭活动清单，默认显示本月和下月，只覆盖都柏林四区：市里、南都柏林、邓莱里-拉思当和芬戈尔。免费图书馆场次和要买票的博物馆、动物园放在一起，先筛再出门。</span>
         </p>
       </section>
 
       <section class="container">
         <form id="filters" class="filters" action="#" autocomplete="off">
           <div class="filter-block">
-            <div class="filter-label" id="region-label">地区</div>
+            <div class="filter-label" id="region-label"><span class="t-en">Area</span><span class="t-zh">地区</span></div>
             <div class="chip-row" id="region-filters" role="group" aria-labelledby="region-label">
-              <button class="chip" type="button" data-region="all" aria-pressed="true">全部</button>
-              <button class="chip" type="button" data-region="dublin-city" aria-pressed="false">都柏林市</button>
-              <button class="chip" type="button" data-region="south-dublin" aria-pressed="false">南都柏林</button>
-              <button class="chip" type="button" data-region="dlr" aria-pressed="false">邓莱里-拉思当</button>
-              <button class="chip" type="button" data-region="fingal" aria-pressed="false">芬戈尔</button>
+              <button class="chip" type="button" data-region="all" aria-pressed="true"><span class="t-en">All</span><span class="t-zh">全部</span></button>
+              <button class="chip" type="button" data-region="dublin-city" aria-pressed="false"><span class="t-en">Dublin City</span><span class="t-zh">都柏林市</span></button>
+              <button class="chip" type="button" data-region="south-dublin" aria-pressed="false"><span class="t-en">South Dublin</span><span class="t-zh">南都柏林</span></button>
+              <button class="chip" type="button" data-region="dlr" aria-pressed="false"><span class="t-en">Dún Laoghaire–Rathdown</span><span class="t-zh">邓莱里-拉思当</span></button>
+              <button class="chip" type="button" data-region="fingal" aria-pressed="false"><span class="t-en">Fingal</span><span class="t-zh">芬戈尔</span></button>
             </div>
           </div>
 
           <div class="filter-block">
-            <div class="filter-label" id="when-label">日期</div>
+            <div class="filter-label" id="when-label"><span class="t-en">Dates</span><span class="t-zh">日期</span></div>
             <div class="chip-row" id="when-filters" role="group" aria-labelledby="when-label">
-              <button class="chip" type="button" data-when="months" aria-pressed="true">本月+下月</button>
-              <button class="chip" type="button" data-when="this" aria-pressed="false">本周末</button>
-              <button class="chip" type="button" data-when="next" aria-pressed="false">下周末</button>
-              <button class="chip" type="button" data-when="custom" aria-pressed="false">自定义</button>
-              <button class="chip" type="button" data-when="all" aria-pressed="false">全部日期</button>
+              <button class="chip" type="button" data-when="months" aria-pressed="true"><span class="t-en">This month + next</span><span class="t-zh">本月+下月</span></button>
+              <button class="chip" type="button" data-when="this" aria-pressed="false"><span class="t-en">This weekend</span><span class="t-zh">本周末</span></button>
+              <button class="chip" type="button" data-when="next" aria-pressed="false"><span class="t-en">Next weekend</span><span class="t-zh">下周末</span></button>
+              <button class="chip" type="button" data-when="custom" aria-pressed="false"><span class="t-en">Custom</span><span class="t-zh">自定义</span></button>
+              <button class="chip" type="button" data-when="all" aria-pressed="false"><span class="t-en">All dates</span><span class="t-zh">全部日期</span></button>
             </div>
             <p id="when-caption" class="caption"></p>
             <div id="custom-range" class="custom-range" hidden>
               <label class="date-field" for="date-from">
-                从
+                <span class="t-en">From</span><span class="t-zh">从</span>
                 <input id="date-from" type="date" name="from" />
               </label>
               <label class="date-field" for="date-to">
-                到
+                <span class="t-en">To</span><span class="t-zh">到</span>
                 <input id="date-to" type="date" name="to" />
               </label>
             </div>
-            <p id="range-error" class="range-error" hidden>开始日期晚于结束日期。</p>
+            <p id="range-error" class="range-error" hidden><span class="t-en">The start date is after the end date.</span><span class="t-zh">开始日期晚于结束日期。</span></p>
           </div>
 
           <div class="filter-split">
             <div class="filter-block">
-              <div class="filter-label" id="price-label">费用</div>
+              <div class="filter-label" id="price-label"><span class="t-en">Price</span><span class="t-zh">费用</span></div>
               <div class="chip-row" id="price-filters" role="group" aria-labelledby="price-label">
-                <button class="chip" type="button" data-price="all" aria-pressed="true">全部</button>
-                <button class="chip" type="button" data-price="free" aria-pressed="false">免费</button>
-                <button class="chip" type="button" data-price="paid" aria-pressed="false">收费</button>
+                <button class="chip" type="button" data-price="all" aria-pressed="true"><span class="t-en">All</span><span class="t-zh">全部</span></button>
+                <button class="chip" type="button" data-price="free" aria-pressed="false"><span class="t-en">Free</span><span class="t-zh">免费</span></button>
+                <button class="chip" type="button" data-price="paid" aria-pressed="false"><span class="t-en">Paid</span><span class="t-zh">收费</span></button>
               </div>
             </div>
             <div class="filter-tools">
               <label class="search-field" for="search">
-                <span>搜索</span>
-                <input id="search" type="search" name="q" placeholder="故事会、动物园、塔拉…" enterkeyhint="search" />
+                <span><span class="t-en">Search</span><span class="t-zh">搜索</span></span>
+                <input id="search" type="search" name="q" placeholder="Storytime, zoo, Tallaght…" enterkeyhint="search" />
               </label>
               <label class="sort-field" for="sort">
-                <span>排序</span>
+                <span><span class="t-en">Sort</span><span class="t-zh">排序</span></span>
                 <select id="sort" name="sort">
-                  <option value="time">按时间</option>
-                  <option value="free">免费优先</option>
+                  <option value="time">By time</option>
+                  <option value="free">Free first</option>
                 </select>
               </label>
             </div>
@@ -134,24 +142,24 @@
         <div id="notice" class="notice" hidden></div>
         <div class="explorer-toolbar">
           <div>
-            <p id="result-count" class="result-count" aria-live="polite">正在整理活动…</p>
-            <p class="map-hint">点卡片，地图会移到对应的针。点地图上的数字，会打开这条活动。</p>
+            <p id="result-count" class="result-count" aria-live="polite"><span class="t-en">Loading events…</span><span class="t-zh">正在整理活动…</span></p>
+            <p class="map-hint"><span class="t-en">Click a card and the map moves to its pin. Click a pin to open that event.</span><span class="t-zh">点卡片，地图会移到对应的针。点地图上的数字，会打开这条活动。</span></p>
           </div>
-          <div class="view-toggle" role="group" aria-label="查看方式">
-            <button class="chip" id="view-list" type="button" aria-pressed="false">列表</button>
-            <button class="chip" id="view-map" type="button" aria-pressed="true">地图</button>
+          <div class="view-toggle" role="group" aria-label="View">
+            <button class="chip" id="view-list" type="button" aria-pressed="false"><span class="t-en">List</span><span class="t-zh">列表</span></button>
+            <button class="chip" id="view-map" type="button" aria-pressed="true"><span class="t-en">Map</span><span class="t-zh">地图</span></button>
           </div>
         </div>
         <div id="explorer" class="explorer is-map">
           <div class="explorer-list">
             <div id="event-list" class="event-list"></div>
             <div id="empty-state" class="empty" hidden>
-              <p id="empty-text">这个条件下没有活动。</p>
-              <button id="reset-filters" class="chip chip-solid" type="button">查看全部活动</button>
+              <p id="empty-text"><span class="t-en">Nothing matches these filters.</span><span class="t-zh">这个条件下没有活动。</span></p>
+              <button id="reset-filters" class="chip chip-solid" type="button"><span class="t-en">Show all events</span><span class="t-zh">查看全部活动</span></button>
             </div>
           </div>
           <div class="explorer-map">
-            <div id="map" role="region" aria-label="活动地图"></div>
+            <div id="map" role="region" aria-label="Event map"></div>
             <div id="map-peek" class="map-peek" hidden></div>
           </div>
         </div>
@@ -161,19 +169,20 @@
     <footer class="site-footer">
       <div class="container">
         <p>
-          这些是核对过来源页的家庭清单，不是实时票务。活动可能改期、满员或临时取消。出发前请打开每条里的「查看来源」，核对时间、年龄、是否需要预约以及票价。地图针按场馆地址标在 OpenStreetMap 底图上。
+          <span class="t-en">This is a checked family list, not live ticketing. Events can move, sell out, or be cancelled. Before you go, open “View source” on each listing and check the time, the age, whether you need to book, and the price. Pins sit on the venue address over an OpenStreetMap base map.</span>
+          <span class="t-zh">这些是核对过来源页的家庭清单，不是实时票务。活动可能改期、满员或临时取消。出发前请打开每条里的「查看来源」，核对时间、年龄、是否需要预约以及票价。地图针按场馆地址标在 OpenStreetMap 底图上。</span>
         </p>
         <p class="footer-links">
-          <a href="../">返回 xiangli.dev</a>
+          <a href="../"><span class="t-en">Back to xiangli.dev</span><span class="t-zh">返回 xiangli.dev</span></a>
           <span aria-hidden="true">·</span>
-          <span>都柏林四区 · 静态清单</span>
+          <span><span class="t-en">Dublin’s four council areas · a static list</span><span class="t-zh">都柏林四区 · 静态清单</span></span>
         </p>
       </div>
     </footer>
     <noscript>
-      <p class="noscript">筛选、列表和地图需要 JavaScript。活动数据来自本站；地图底图来自 OpenStreetMap。</p>
+      <p class="noscript"><span class="t-en">Filters, the list and the map need JavaScript. Event data comes from this site. Map tiles come from OpenStreetMap.</span><span class="t-zh">筛选、列表和地图需要 JavaScript。活动数据来自本站；地图底图来自 OpenStreetMap。</span></p>
     </noscript>
     <script src="vendor/leaflet/leaflet.js"></script>
-    <script src="app.js?v=20261025d"></script>
+    <script src="app.js?v=20261026a"></script>
   </body>
 </html>

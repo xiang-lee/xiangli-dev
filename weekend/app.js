@@ -11,6 +11,98 @@
   var TILE_ATTR =
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
+  /* URL ?lang= wins, then weekend-lang, then English. theme-init.js sets data-lang before paint. */
+  var lang = document.documentElement.getAttribute("data-lang") === "zh" ? "zh" : "en";
+  var langPinned = false;
+  try {
+    var requestedLang = new URLSearchParams(window.location.search).get("lang");
+    if (requestedLang === "en" || requestedLang === "zh") {
+      lang = requestedLang;
+      langPinned = true;
+    }
+  } catch (error) {
+    lang = "en";
+  }
+
+  var STR = {
+    en: {
+      title: "Dublin Weekend with Kids | Ireland Weekends",
+      description:
+        "A family weekend list for Dublin: libraries, museums and days out across the four council areas. This month and next are shown first. Filter by area, this or next weekend, and free or paid.",
+      ogTitle: "Dublin Weekend with Kids",
+      ogDescription:
+        "Family weekends across Dublin’s four council areas. Library storytimes and crafts, plus museums and days out.",
+      twitterDescription: "Family weekends across Dublin’s four council areas.",
+      themeToDark: "Switch to dark",
+      themeToLight: "Switch to light",
+      langAria: "Switch to Chinese",
+      loadError: "The listings didn’t load. Open this page from the site, for example /weekend/.",
+      captionAll:
+        "The list runs from about 24 October to 8 November 2026. Exhibitions that cross a week stay visible until they end.",
+      captionCustomPrefix: "Custom: ",
+      captionCustomEmpty: "Pick a start and end date. Both days are included.",
+      captionThis: "This weekend",
+      captionNext: "Next weekend",
+      captionWeekendSuffix: " (Saturday–Sunday)",
+      captionMonths: "This month + next month: ",
+      rangeIncomplete: "Choose a start and end date to see events.",
+      empty: "Nothing matches these filters. Try another area, or show all dates.",
+      seeSourceTimes: "See the source for times",
+      startsSuffix: " start",
+      details: "Details",
+      hide: "Hide",
+      live: "Live",
+      ended: "Ended",
+      maps: "Maps",
+      openInList: "Open in the list",
+      free: "Free",
+      paid: "Paid",
+      viewSource: "View source",
+      searchPlaceholder: "Storytime, zoo, Tallaght…",
+      sortTime: "By time",
+      sortFree: "Free first",
+      mapLabel: "Event map",
+      viewLabel: "View",
+    },
+    zh: {
+      title: "都柏林周末亲子 | 爱尔兰周末",
+      description:
+        "给爱尔兰华人爸妈的都柏林周末亲子清单：四区图书馆、博物馆和家庭景点，默认看本月和下月，也可按地区、本周末或下周末、免费或收费筛选。",
+      ogTitle: "都柏林周末亲子",
+      ogDescription: "中文整理的都柏林四区家庭周末活动。图书馆故事会、手工，以及博物馆和景点。",
+      twitterDescription: "中文整理的都柏林四区家庭周末活动。",
+      themeToDark: "切换到深色",
+      themeToLight: "切换到浅色",
+      langAria: "切换到英文",
+      loadError: "活动清单没有加载成功。请用网站目录打开本页，例如 /weekend/ 。",
+      captionAll: "清单大约覆盖 2026 年 10 月 24 日到 11 月 8 日，跨周展览会一直显示到结束。",
+      captionCustomPrefix: "自定义：",
+      captionCustomEmpty: "选择开始和结束日期，含这两天。",
+      captionThis: "本周末",
+      captionNext: "下周末",
+      captionWeekendSuffix: "（周六至周日）",
+      captionMonths: "本月+下月：",
+      rangeIncomplete: "选好起止日期后显示活动。",
+      empty: "这个条件下没有活动。可以换一个地区，或查看全部日期。",
+      seeSourceTimes: "具体时段请看来源",
+      startsSuffix: " 开始",
+      details: "详情",
+      hide: "收起",
+      live: "进行中",
+      ended: "已结束",
+      maps: "外部地图",
+      openInList: "在列表中打开",
+      free: "免费",
+      paid: "收费",
+      viewSource: "查看来源",
+      searchPlaceholder: "故事会、动物园、塔拉…",
+      sortTime: "按时间",
+      sortFree: "免费优先",
+      mapLabel: "活动地图",
+      viewLabel: "查看方式",
+    },
+  };
+
   var state = {
     region: "all",
     when: "months",
@@ -43,6 +135,7 @@
 
     readStateFromUrl();
     bindFilters();
+    applyChrome();
     applyViewClass();
     reflectControls();
     loadEvents();
@@ -67,7 +160,131 @@
     var toggle = document.getElementById("theme-toggle");
     if (!toggle) return;
     var light = document.documentElement.getAttribute("data-theme") === "light";
-    toggle.setAttribute("aria-label", light ? "切换到深色" : "切换到浅色");
+    toggle.setAttribute("aria-label", light ? t("themeToDark") : t("themeToLight"));
+  }
+
+  function t(key) {
+    var pack = STR[lang] || STR.en;
+    return pack[key];
+  }
+
+  function countLabel(n) {
+    if (lang === "zh") return "共 " + n + " 场";
+    return n === 1 ? "1 event" : n + " events";
+  }
+
+  function dateLocale() {
+    return lang === "zh" ? "zh-CN" : "en-IE";
+  }
+
+  function onLangToggle() {
+    lang = lang === "zh" ? "en" : "zh";
+    langPinned = true;
+    document.documentElement.setAttribute("data-lang", lang);
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+    try {
+      localStorage.setItem("weekend-lang", lang);
+    } catch (error) {
+      /* storage may be blocked; the toggle still applies for this view */
+    }
+    applyChrome();
+    publish();
+  }
+
+  function applyChrome() {
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+    document.title = t("title");
+    setMeta("name", "description", t("description"));
+    setMeta("property", "og:title", t("ogTitle"));
+    setMeta("property", "og:description", t("ogDescription"));
+    setMeta("name", "twitter:title", t("ogTitle"));
+    setMeta("name", "twitter:description", t("twitterDescription"));
+    var search = document.getElementById("search");
+    if (search) search.placeholder = t("searchPlaceholder");
+    var sort = document.getElementById("sort");
+    if (sort) {
+      var byTime = sort.querySelector('option[value="time"]');
+      var byFree = sort.querySelector('option[value="free"]');
+      if (byTime) byTime.textContent = t("sortTime");
+      if (byFree) byFree.textContent = t("sortFree");
+    }
+    var mapEl = document.getElementById("map");
+    if (mapEl) mapEl.setAttribute("aria-label", t("mapLabel"));
+    var view = document.querySelector(".view-toggle");
+    if (view) view.setAttribute("aria-label", t("viewLabel"));
+    var langBtn = document.getElementById("lang-toggle");
+    if (langBtn) langBtn.setAttribute("aria-label", t("langAria"));
+    syncThemeLabel();
+  }
+
+  function setMeta(attr, name, value) {
+    var node = document.querySelector("meta[" + attr + '="' + name + '"]');
+    if (node) node.setAttribute("content", value);
+  }
+
+  function eventTitle(event) {
+    return lang === "zh" ? event.title_zh : event.title_en || event.title_zh;
+  }
+
+  function eventDescription(event) {
+    return lang === "zh" ? event.description_zh : event.description_en || event.description_zh;
+  }
+
+  function eventVenue(event) {
+    return lang === "zh" ? event.venue : event.venue_en || event.venue;
+  }
+
+  function scheduleNote(event) {
+    if (lang === "zh") return event.schedule_note_zh || "";
+    return event.schedule_note_en || "";
+  }
+
+  function priceNote(event) {
+    if (!event.price) return "";
+    if (lang === "zh") return event.price.note_zh || "";
+    return event.price.note_en || "";
+  }
+
+  function ageHint(event) {
+    if (lang === "zh") return event.age_hint || "";
+    return event.age_hint_en || "";
+  }
+
+  function bookingText(event) {
+    if (lang === "zh") return event.booking_zh || "";
+    return event.booking_en || "";
+  }
+
+  function eventTags(event) {
+    if (lang === "zh") return event.tags || [];
+    return event.tags_en || event.tags || [];
+  }
+
+  function noticeText(notice) {
+    if (lang === "zh") return notice.text_zh || "";
+    return notice.text_en || notice.text_zh || "";
+  }
+
+  function sourceName(event) {
+    if (lang === "zh") return event.source_name || "";
+    return event.source_name_en || event.source_name || "";
+  }
+
+  function regionLabel(id) {
+    var regions = (data && data.regions) || [];
+    var found = null;
+    regions.some(function (region) {
+      if (region.id === id) {
+        found = region;
+        return true;
+      }
+      return false;
+    });
+    if (found) {
+      if (lang === "zh") return found.label || id;
+      return found.label_en || found.label || id;
+    }
+    return REGION_LABELS[id] || id;
   }
 
   function readStateFromUrl() {
@@ -100,6 +317,8 @@
     }
     /* View is session-only. readStateFromUrl still honors a pasted ?view=list once;
        writing it back made list stick on the next reload of /weekend/. */
+    if (lang === "zh") params.set("lang", "zh");
+    else if (langPinned) params.set("lang", "en");
     if (selectedId) params.set("event", selectedId);
     var query = params.toString();
     var next = query ? "?" + query : window.location.pathname;
@@ -162,6 +381,9 @@
       setViewMode("map");
     });
 
+    var langBtn = document.getElementById("lang-toggle");
+    if (langBtn) langBtn.addEventListener("click", onLangToggle);
+
     var form = document.getElementById("filters");
     form.addEventListener("submit", function (event) {
       event.preventDefault();
@@ -217,7 +439,7 @@
   }
 
   function loadEvents() {
-    var url = new URL("events.json", document.baseURI);
+    var url = new URL("events.json?v=20261026a", document.baseURI);
     fetch(url.href)
       .then(function (response) {
         if (!response.ok) throw new Error("bad status");
@@ -225,16 +447,11 @@
       })
       .then(function (payload) {
         data = payload;
-        if (payload.regions) {
-          payload.regions.forEach(function (region) {
-            REGION_LABELS[region.id] = region.label;
-          });
-        }
         publish();
       })
       .catch(function () {
         var count = document.getElementById("result-count");
-        count.textContent = "活动清单没有加载成功。请用网站目录打开本页，例如 /weekend/ 。";
+        count.textContent = t("loadError");
       });
   }
 
@@ -282,22 +499,23 @@
   function renderWhenCaption() {
     var caption = document.getElementById("when-caption");
     if (state.when === "all") {
-      caption.textContent = "清单大约覆盖 2026 年 10 月 24 日到 11 月 8 日，跨周展览会一直显示到结束。";
+      caption.textContent = t("captionAll");
       return;
     }
     if (state.when === "custom") {
-      if (state.from && state.to) caption.textContent = "自定义：" + isoToLabel(state.from) + " – " + isoToLabel(state.to);
-      else caption.textContent = "选择开始和结束日期，含这两天。";
+      if (state.from && state.to) caption.textContent = t("captionCustomPrefix") + isoToLabel(state.from) + " – " + isoToLabel(state.to);
+      else caption.textContent = t("captionCustomEmpty");
       return;
     }
     if (state.when === "this" || state.when === "next") {
       var weekend = state.when === "next" ? nextWeekend() : thisWeekend();
-      var prefix = state.when === "next" ? "下周末" : "本周末";
-      caption.textContent = prefix + "：" + ymdLabel(weekend.start) + " – " + ymdLabel(weekend.end) + "（周六至周日）";
+      var prefix = state.when === "next" ? t("captionNext") : t("captionThis");
+      var colon = lang === "zh" ? "：" : ": ";
+      caption.textContent = prefix + colon + ymdLabel(weekend.start) + " – " + ymdLabel(weekend.end) + t("captionWeekendSuffix");
       return;
     }
     var span = thisAndNextMonth();
-    caption.textContent = "本月+下月：" + ymdMonthDayLabel(span.start) + " – " + ymdMonthDayLabel(span.end);
+    caption.textContent = t("captionMonths") + ymdMonthDayLabel(span.start) + " – " + ymdMonthDayLabel(span.end);
   }
 
   function renderNotice(range) {
@@ -317,7 +535,7 @@
     box.hidden = false;
     matches.forEach(function (notice) {
       var paragraph = document.createElement("p");
-      paragraph.textContent = notice.text_zh;
+      paragraph.textContent = noticeText(notice);
       box.appendChild(paragraph);
     });
   }
@@ -339,16 +557,25 @@
   }
 
   function searchBlob(event) {
-    var region = REGION_LABELS[event.region] || "";
-    var tags = (event.tags || []).join(" ");
+    var tags = (event.tags || []).concat(event.tags_en || []).join(" ");
     return [
       event.title_zh,
+      event.title_en,
       event.description_zh,
+      event.description_en,
       event.venue,
+      event.venue_en,
       event.address,
       event.age_hint,
+      event.age_hint_en,
       event.booking_zh,
-      region,
+      event.booking_en,
+      event.schedule_note_zh,
+      event.schedule_note_en,
+      event.price && event.price.note_zh,
+      event.price && event.price.note_en,
+      regionLabel(event.region),
+      REGION_LABELS[event.region],
       tags,
     ]
       .join(" ")
@@ -381,15 +608,15 @@
       return;
     }
     if (!range || range.incomplete) {
-      count.textContent = "选好起止日期后显示活动。";
+      count.textContent = t("rangeIncomplete");
       empty.hidden = true;
       return;
     }
 
-    count.textContent = events.length ? "共 " + events.length + " 场" : "共 0 场";
+    count.textContent = countLabel(events.length);
     empty.hidden = events.length !== 0;
     if (!events.length) {
-      document.getElementById("empty-text").textContent = "这个条件下没有活动。可以换一个地区，或查看全部日期。";
+      document.getElementById("empty-text").textContent = t("empty");
       return;
     }
 
@@ -414,7 +641,8 @@
     button.className = "card-open";
     button.setAttribute("aria-expanded", expanded ? "true" : "false");
     button.setAttribute("aria-controls", "details-" + event.id);
-    button.setAttribute("aria-label", number + " " + event.title_zh + "，" + formatWhen(event));
+    var titleText = eventTitle(event);
+    button.setAttribute("aria-label", number + ". " + titleText + (lang === "zh" ? "，" : ", ") + formatWhen(event));
 
     var top = document.createElement("div");
     top.className = "card-top";
@@ -428,18 +656,18 @@
     side.className = "tag-row";
     var region = document.createElement("span");
     region.className = "pill-region";
-    region.textContent = REGION_LABELS[event.region] || event.region;
+    region.textContent = regionLabel(event.region);
     side.appendChild(region);
-    if (status === "live") side.appendChild(statusPill("进行中"));
-    if (status === "ended") side.appendChild(statusPill("已结束"));
+    if (status === "live") side.appendChild(statusPill(t("live")));
+    if (status === "ended") side.appendChild(statusPill(t("ended")));
     var cue = document.createElement("span");
     cue.className = "expand-cue";
-    cue.textContent = expanded ? "收起" : "详情";
+    cue.textContent = expanded ? t("hide") : t("details");
     side.appendChild(cue);
     top.append(lead, side);
 
     var title = document.createElement("h2");
-    title.textContent = event.title_zh;
+    title.textContent = titleText;
 
     var when = document.createElement("p");
     when.className = "when";
@@ -447,7 +675,7 @@
 
     var venue = document.createElement("p");
     venue.className = "venue";
-    venue.textContent = event.venue;
+    venue.textContent = eventVenue(event);
 
     button.append(top, title, when, venue);
 
@@ -458,10 +686,11 @@
       button.appendChild(address);
     }
 
-    if (event.price && event.price.note_zh) {
+    var fareText = priceNote(event);
+    if (fareText) {
       var fare = document.createElement("p");
       fare.className = "fare";
-      fare.textContent = event.price.note_zh;
+      fare.textContent = fareText;
       button.appendChild(fare);
     }
 
@@ -472,14 +701,16 @@
 
     var blurb = document.createElement("p");
     blurb.className = "blurb";
-    blurb.textContent = event.description_zh;
+    blurb.textContent = eventDescription(event);
     details.appendChild(blurb);
 
     var tags = document.createElement("div");
     tags.className = "tag-row";
-    if (event.age_hint) tags.appendChild(makeTag(event.age_hint));
-    if (event.booking_zh) tags.appendChild(makeTag(event.booking_zh));
-    (event.tags || []).forEach(function (tag) {
+    var age = ageHint(event);
+    var booking = bookingText(event);
+    if (age) tags.appendChild(makeTag(age));
+    if (booking) tags.appendChild(makeTag(booking));
+    eventTags(event).forEach(function (tag) {
       tags.appendChild(makeTag(tag));
     });
     details.appendChild(tags);
@@ -493,7 +724,7 @@
       mapLink.href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(event.venue + " " + event.address);
       mapLink.target = "_blank";
       mapLink.rel = "noopener noreferrer";
-      mapLink.textContent = "外部地图";
+      mapLink.textContent = t("maps");
       actions.appendChild(mapLink);
     }
     details.appendChild(actions);
@@ -503,7 +734,7 @@
       if (open) {
         details.hidden = true;
         button.setAttribute("aria-expanded", "false");
-        cue.textContent = "详情";
+        cue.textContent = t("details");
         return;
       }
       selectEvent(event.id, { pan: true, scroll: false, expand: true });
@@ -527,7 +758,7 @@
       if (!on) details.hidden = true;
       else if (opts.expand) details.hidden = false;
       button.setAttribute("aria-expanded", details.hidden ? "false" : "true");
-      if (cue) cue.textContent = details.hidden ? "详情" : "收起";
+      if (cue) cue.textContent = details.hidden ? t("details") : t("hide");
     });
     styleMarkers();
     if (opts.pan) panToEvent(id);
@@ -555,14 +786,14 @@
     peek.hidden = false;
     var title = document.createElement("p");
     title.className = "peek-title";
-    title.textContent = event.title_zh;
+    title.textContent = eventTitle(event);
     var meta = document.createElement("p");
     meta.className = "peek-meta";
-    meta.textContent = (REGION_LABELS[event.region] || "") + " · " + formatWhen(event);
+    meta.textContent = (regionLabel(event.region) || "") + " · " + formatWhen(event);
     var open = document.createElement("button");
     open.type = "button";
     open.className = "chip";
-    open.textContent = "在列表中打开";
+    open.textContent = t("openInList");
     open.addEventListener("click", function () {
       setViewMode("list");
       window.requestAnimationFrame(function () {
@@ -628,7 +859,7 @@
       var free = event.price && event.price.kind === "free";
       var marker = L.marker(at, {
         icon: pinIcon(event.id === selectedId, free),
-        title: event.title_zh,
+        title: eventTitle(event),
         keyboard: true,
         zIndexOffset: event.id === selectedId ? 800 : index,
       });
@@ -673,7 +904,7 @@
   function markerPopup(event) {
     var wrap = document.createElement("div");
     var title = document.createElement("strong");
-    title.textContent = event.title_zh;
+    title.textContent = eventTitle(event);
     wrap.appendChild(title);
     wrap.appendChild(document.createElement("br"));
     wrap.appendChild(document.createTextNode(formatWhen(event)));
@@ -686,7 +917,8 @@
   }
 
   function sourceLinkText(event) {
-    return event.source_name ? "查看来源 · " + event.source_name : "查看来源";
+    var name = sourceName(event);
+    return name ? t("viewSource") + " · " + name : t("viewSource");
   }
 
   function makeSourceLink(event, className) {
@@ -758,14 +990,14 @@
     pill.className = "pill";
     if (price && price.kind === "free") {
       pill.classList.add("pill-free");
-      pill.textContent = "免费";
+      pill.textContent = t("free");
       return pill;
     }
     pill.classList.add("pill-paid");
     if (price && typeof price.amount_eur === "number") {
       pill.textContent = "€" + formatEuro(price.amount_eur);
     } else {
-      pill.textContent = "收费";
+      pill.textContent = t("paid");
     }
     return pill;
   }
@@ -792,19 +1024,21 @@
   function formatWhen(event) {
     if (event.time_tbc || isDateOnly(event.start)) {
       var day = formatDate(pointDate(event.start));
-      if (event.schedule_note_zh) return day + " · " + event.schedule_note_zh;
-      return day + " · 具体时段请看来源";
+      var note = scheduleNote(event);
+      if (note) return day + " · " + note;
+      return day + " · " + t("seeSourceTimes");
     }
     var start = new Date(event.start);
     var end = event.end ? new Date(event.end) : null;
-    if (!end) return formatDate(start) + " " + formatTime(start) + " 开始";
+    var note = scheduleNote(event);
+    if (!end) return formatDate(start) + " " + formatTime(start) + t("startsSuffix");
     if (sameDublinDay(start, end)) {
       var line = formatDate(start) + " " + formatTime(start) + "–" + formatTime(end);
-      if (event.schedule_note_zh) return line + "（" + event.schedule_note_zh + "）";
+      if (note) return line + (lang === "zh" ? "（" + note + "）" : " (" + note + ")");
       return line;
     }
     var span = formatDate(start) + " – " + formatDate(end);
-    if (event.schedule_note_zh) return span + " · " + event.schedule_note_zh;
+    if (note) return span + " · " + note;
     return span + " " + formatTime(start) + "–" + formatTime(end);
   }
 
@@ -950,7 +1184,7 @@
   }
 
   function ymdMonthDayLabel(ymd) {
-    return new Intl.DateTimeFormat("zh-CN", {
+    return new Intl.DateTimeFormat(dateLocale(), {
       timeZone: "Europe/Dublin",
       month: "long",
       day: "numeric",
@@ -975,7 +1209,7 @@
   }
 
   function formatDate(date) {
-    return new Intl.DateTimeFormat("zh-CN", {
+    return new Intl.DateTimeFormat(dateLocale(), {
       timeZone: "Europe/Dublin",
       month: "long",
       day: "numeric",
