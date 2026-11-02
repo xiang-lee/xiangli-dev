@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "timezone": "Europe/Dublin",
   "regions": [
     {
@@ -25,597 +25,14 @@
   ],
   "notices": [
     {
-      "id": "october-bank-holiday-2026",
-      "start": "2026-10-24",
-      "end": "2026-10-26",
-      "text_zh": "十月银行假日：都柏林市和邓莱里-拉思当已通知，公立图书馆 10 月 24 日至 26 日闭馆，27 日重开。南都柏林、芬戈尔的时间表也是银行假日周末周六和周一闭馆，周日不开放。已登记的 My Open Library 自助时段除外（市里 Drumcondra、Pembroke、Raheny、Walkinstown；邓莱里 Dalkey、Deansgrange），没有儿童活动。图书馆万圣节场次在 10 月 31 日。",
-      "text_en": "October bank holiday: Dublin City and Dún Laoghaire–Rathdown have said public libraries are closed from 24 to 26 October and reopen on the 27th. South Dublin and Fingal timetables also close on the Saturday and Monday of the bank-holiday weekend, and Sunday is not an open day. Registered My Open Library self-service hours are the exception (city: Drumcondra, Pembroke, Raheny, Walkinstown; Dún Laoghaire: Dalkey, Deansgrange) and have no children’s events. Library Halloween sessions are on 31 October."
-    },
-    {
-      "id": "dublin-marathon-phoenix-park-2026-10-25",
-      "start": "2026-10-25",
-      "end": "2026-10-25",
-      "text_zh": "10 月 25 日凤凰公园有马拉松，道路和大门大约到 13:45 前封闭。动物园照常开，但周日上午很难开车进去或停车，请多留时间。",
-      "text_en": "The marathon is in Phoenix Park on 25 October. Roads and gates are closed until about 13:45. The zoo stays open, but driving in and parking are difficult on Sunday morning. Leave extra time."
-    },
-    {
-      "id": "nmi-industrial-action-2026",
-      "start": "2026-10-24",
-      "end": "2026-11-01",
-      "text_zh": "国立博物馆因劳资行动取消了柯林斯军营 10 月 25 日的家庭面具工坊，以及死动物园实验室 10 月 31 日和 11 月 1 日的抽签导览。馆方还说展厅可能临时关闭，出发前再打开来源看一眼。",
-      "text_en": "Because of industrial action, the National Museum has cancelled the family mask workshop at Collins Barracks on 25 October, and the lottery tours at the Dead Zoo Lab on 31 October and 1 November. The museum also says galleries may close at short notice. Open the source page again before you go."
+      "id": "nmi-industrial-action-2026-11",
+      "start": "2026-11-02",
+      "end": "2026-11-29",
+      "text_zh": "公共部门劳资行动还在继续。国立博物馆 11 月 1 日关闭了基尔代尔街馆，死动物园实验室 11 月 7 日、8 日的抽签导览也已取消。馆方说之后还可能临时闭馆或取消活动，去博物馆前先打开来源页确认。",
+      "text_en": "Public-sector industrial action is still going on. The National Museum closed its Kildare Street site on 1 November, and the Dead Zoo Lab lottery tours on 7 and 8 November are cancelled. The museum says more closures or cancellations can happen at short notice. Check the source page before you go to any museum event."
     }
   ],
   "events": [
-    {
-      "id": "stokerland-2026-10-24",
-      "title_zh": "圣帕特里克公园：斯托克乐园",
-      "description_zh": "都柏林市议会布兰·斯托克艺术节的免费亲子乐园。教堂旁边有说故事、街头表演、游戏、脸部彩绘和维多利亚旋转木马。周六到周一都是 11:00–16:30，不用预约。周一 11:00–13:00 是声音更小的安静场。",
-      "region": "dublin-city",
-      "venue": "圣帕特里克公园（St Patrick’s Park）",
-      "address": "Bull Alley Street, Dublin 8",
-      "lat": 53.34018,
-      "lng": -6.271034,
-      "start": "2026-10-24T11:00:00+01:00",
-      "end": "2026-10-26T16:30:00+00:00",
-      "schedule_note_zh": "周六至周一 11:00–16:30；周一 11:00–13:00 为安静场",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费入场，无需预约",
-        "note_en": "Free entry, no booking"
-      },
-      "tags": [
-        "万圣节",
-        "户外",
-        "演出"
-      ],
-      "source_url": "https://www.dublincity.ie/news/dublin-city-council-bram-stoker-festival-returns-dark-delights-across-four-days-and-nights-deadly",
-      "source_name": "都柏林市议会",
-      "age_hint": "全家，含低龄",
-      "booking_zh": "不用预约",
-      "title_en": "St Patrick’s Park: Stokerland",
-      "description_en": "A free family fairground from Dublin City Council’s Bram Stoker Festival. Beside the cathedral there is storytelling, street performance, games, face painting and a Victorian carousel. Saturday to Monday, 11:00–16:30, no booking. Monday 11:00–13:00 is a quieter session.",
-      "venue_en": "St Patrick’s Park",
-      "schedule_note_en": "Saturday–Monday 11:00–16:30; Monday 11:00–13:00 is a quieter session",
-      "age_hint_en": "Whole family, including little ones",
-      "booking_en": "No booking",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Halloween",
-        "Outdoor",
-        "Show"
-      ]
-    },
-    {
-      "id": "zoo-trail-2026-10-24",
-      "title_zh": "都柏林动物园：超自然寻宝小径",
-      "description_zh": "10 月 24 日到 11 月 1 日，园内有一条寻宝小径，做完交给出口处的收集箱，可抽小熊猫少年饲养员体验。周六和周日主要就是这条小径；吸血鬼角色和游戏在 10 月 26 日至 30 日 11:00–15:00。10 月开放到 17:30，最晚 16:30 入园；11 月 1 日改按 11 月时间，17:00 前闭园、最晚 15:00 入园。10 月 25 日马拉松期间，凤凰公园大约到 13:45 前不好开车和停车。",
-      "region": "dublin-city",
-      "venue": "都柏林动物园（Dublin Zoo）",
-      "address": "Phoenix Park, Dublin 8, D08 AC98",
-      "lat": 53.352669,
-      "lng": -6.305163,
-      "start": "2026-10-24T09:30:00+01:00",
-      "end": "2026-11-01T16:00:00+00:00",
-      "schedule_note_zh": "小径随开放时间；10 月 9:30–17:30（最晚 16:30），11 月 1 日 9:30–16:00（最晚 15:00）",
-      "price": {
-        "kind": "paid",
-        "note_zh": "线上日票成人 €22.50、儿童（3–15 岁）€17，3 岁以下免费。门口成人 €26.50、儿童 €20。2 大 2 小线上日票 €62.50。10 月 31 日只在门口买普通日票时，一名着装儿童可免票，不能与家庭票或其他优惠同用。",
-        "note_en": "Online day tickets: adult €22.50, child (3–15) €17, under 3 free. At the gate: adult €26.50, child €20. Online family day ticket, 2 adults and 2 children, €62.50. On 31 October only, one child in costume goes free with a regular gate day ticket. Not combinable with a family ticket or other offers."
-      },
-      "tags": [
-        "动物园",
-        "万圣节",
-        "户外"
-      ],
-      "source_url": "https://www.dublinzoo.ie/events/boo-at-the-zoo/",
-      "source_name": "都柏林动物园",
-      "age_hint": "全家",
-      "booking_zh": "建议网上提前买票",
-      "title_en": "Dublin Zoo: supernatural treasure trail",
-      "description_en": "From 24 October to 1 November there is a treasure trail in the zoo. Hand it in at the collection box by the exit for a chance to win a red panda junior keeper experience. Saturday and Sunday are mainly the trail. Vampire characters and games run 26–30 October, 11:00–15:00. In October the zoo is open until 17:30, last entry 16:30. On 1 November it switches to November hours: closed by 17:00, last entry 15:00. During the marathon on 25 October, driving and parking in Phoenix Park are difficult until about 13:45.",
-      "venue_en": "Dublin Zoo",
-      "schedule_note_en": "Trail runs in opening hours; October 9:30–17:30 (last entry 16:30), 1 November 9:30–16:00 (last entry 15:00)",
-      "age_hint_en": "Whole family",
-      "booking_en": "Buy tickets online ahead if you can",
-      "source_name_en": "Dublin Zoo",
-      "tags_en": [
-        "Zoo",
-        "Halloween",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "airfield-2026-10-24",
-      "title_zh": "艾尔菲尔德庄园：农场半日",
-      "description_zh": "邓德拉姆市区里的农场庄园，有动物、花园和给孩子跑的草地。周二到周日以及银行假日 9:30–17:30，最后入场 16:30，所以 10 月 26 日周一也开。成人票最高约 €15，2 岁及以下免费，儿童票官网没有写成一个固定数字。",
-      "region": "dlr",
-      "venue": "艾尔菲尔德庄园（Airfield Estate）",
-      "address": "Overend Way, Dundrum, Dublin 14, D14 EE77",
-      "lat": 53.288194,
-      "lng": -6.237056,
-      "start": "2026-10-24T09:30:00+01:00",
-      "end": "2026-10-26T17:30:00+00:00",
-      "schedule_note_zh": "周六至周一 9:30–17:30，最后入场 16:30",
-      "price": {
-        "kind": "paid",
-        "note_zh": "成人最高约 €15；2 岁及以下免费；儿童票以官网为准",
-        "note_en": "Adults up to about €15; age 2 and under free; child prices are on the website"
-      },
-      "tags": [
-        "农场",
-        "户外"
-      ],
-      "source_url": "https://www.airfield.ie/where-to-find-us/",
-      "source_name": "Airfield Estate",
-      "age_hint": "全家，含低龄",
-      "booking_zh": "可现场购票，假日建议先看开放时间",
-      "title_en": "Airfield Estate: a farm half-day",
-      "description_en": "A working farm estate in Dundrum, with animals, gardens and grass for children to run on. Open Tuesday–Sunday and bank holidays, 9:30–17:30, last entry 16:30, so Monday 26 October is open too. Adult tickets are up to about €15. Age 2 and under is free. The site does not publish one fixed child price.",
-      "venue_en": "Airfield Estate",
-      "schedule_note_en": "Saturday–Monday 9:30–17:30, last entry 16:30",
-      "age_hint_en": "Whole family, including little ones",
-      "booking_en": "Tickets on the door; on a holiday, check opening hours first",
-      "source_name_en": "Airfield Estate",
-      "tags_en": [
-        "Farm",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "botanic-2026-10-24",
-      "title_zh": "国家植物园：免费秋游",
-      "description_zh": "格拉斯内文的国家植物园免费入园，周末和银行假日按夏季时间 10:00–18:00 开放，四个门提前 15 分钟关。10 月 26 日是银行假日，同一套时间。婴儿车可以进园区。",
-      "region": "dublin-city",
-      "venue": "国家植物园（National Botanic Gardens）",
-      "address": "Botanic Road, Glasnevin, Dublin 9",
-      "lat": 53.372236,
-      "lng": -6.272147,
-      "start": "2026-10-24T10:00:00+01:00",
-      "end": "2026-10-26T18:00:00+00:00",
-      "schedule_note_zh": "周六至周一 10:00–18:00，门口 17:45 关",
-      "price": {
-        "kind": "free",
-        "note_zh": "园区免费",
-        "note_en": "Gardens free"
-      },
-      "tags": [
-        "户外",
-        "公园"
-      ],
-      "source_url": "https://www.botanicgardens.ie/glasnevin/opening-hours/",
-      "source_name": "国家植物园",
-      "age_hint": "全家，婴儿车友好",
-      "booking_zh": "不用预约",
-      "title_en": "National Botanic Gardens: a free autumn visit",
-      "description_en": "Free entry to the National Botanic Gardens in Glasnevin. Weekends and bank holidays use summer hours, 10:00–18:00, and the four gates close 15 minutes earlier. Monday 26 October is a bank holiday and uses the same hours. Buggies are allowed in the gardens.",
-      "venue_en": "National Botanic Gardens",
-      "schedule_note_en": "Saturday–Monday 10:00–18:00, gates close at 17:45",
-      "age_hint_en": "Whole family, buggies welcome",
-      "booking_en": "No booking",
-      "source_name_en": "National Botanic Gardens",
-      "tags_en": [
-        "Outdoor",
-        "Park"
-      ]
-    },
-    {
-      "id": "barracks-trail-2026-10-24",
-      "title_zh": "柯林斯军营：博物馆惊魂自助小径",
-      "description_zh": "国立博物馆柯林斯军营的免费自助小径，10 月开放时间内可以解谜、找藏品。不用预约。周二至周六 10:00–17:00，周日和周一 13:00–17:00，建议 16:30 前入场。10 月 25 日的面具工坊已取消。馆方提醒劳资行动期间展厅可能临时关闭。",
-      "region": "dublin-city",
-      "venue": "国立博物馆柯林斯军营（Collins Barracks）",
-      "address": "Benburb Street, Dublin 7, D07 XKV4",
-      "lat": 53.348857,
-      "lng": -6.286682,
-      "start": "2026-10-24T10:00:00+01:00",
-      "end": "2026-10-31T17:00:00+00:00",
-      "schedule_note_zh": "周二至周六 10:00–17:00；周日、周一 13:00–17:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "博物馆和这条小径都免费",
-        "note_en": "The museum and this trail are both free"
-      },
-      "tags": [
-        "博物馆",
-        "万圣节"
-      ],
-      "source_url": "https://source.museum.ie/en-IE/News/Halloween-Events-at-the-National-Museum-of-Ireland",
-      "source_name": "爱尔兰国立博物馆",
-      "age_hint": "全家",
-      "booking_zh": "不用预约",
-      "title_en": "Collins Barracks: self-guided museum spook trail",
-      "description_en": "A free self-guided trail at the National Museum, Collins Barracks. During October opening hours you can solve clues and find objects. No booking. Tuesday–Saturday 10:00–17:00, Sunday and Monday 13:00–17:00. Aim to be in by 16:30. The mask workshop on 25 October is cancelled. The museum says galleries may close at short notice during industrial action.",
-      "venue_en": "National Museum of Ireland, Collins Barracks",
-      "schedule_note_en": "Tuesday–Saturday 10:00–17:00; Sunday and Monday 13:00–17:00",
-      "age_hint_en": "Whole family",
-      "booking_en": "No booking",
-      "source_name_en": "National Museum of Ireland",
-      "tags_en": [
-        "Museum",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "malahide-haunted-2026-10-24",
-      "title_zh": "马拉海德城堡：幽灵小径",
-      "description_zh": "城堡园方 10 月 17 日至 31 日办的家庭万圣节小径，大约 1 公里，可以推婴儿车。日场适合容易被吓到的小孩；夜场 16:45 以后，有说故事和音乐。官网通知写明，活动期间植物园、蝴蝶屋和精灵小径不对普通门票开放。不是每天都有场，必须提前买票。",
-      "region": "fingal",
-      "venue": "马拉海德城堡（Malahide Castle）",
-      "address": "Malahide Demesne, Malahide, Co. Dublin, K36 YP65",
-      "lat": 53.444937,
-      "lng": -6.164611,
-      "start": "2026-10-24T09:30:00+01:00",
-      "end": "2026-10-31T23:59:00+00:00",
-      "schedule_note_zh": "10 月 17–31 日的指定日期；日场最晚 16:30 入场，夜场 16:45 起",
-      "price": {
-        "kind": "paid",
-        "note_zh": "日场成人 €17 或 €20，儿童（2–16 岁）€14 或 €17；夜场成人 €21 或 €24，儿童 €18 或 €21。两组价是平峰和高峰。2 岁以下免费，但仍要写入订单。每张票另加 €1.95 订票费。哪一天有场，以购票日历为准。",
-        "note_en": "Day trail: adult €17 or €20, child (2–16) €14 or €17. Night trail: adult €21 or €24, child €18 or €21. The two prices are off-peak and peak. Under 2 is free but still has to be named on the order. Each ticket adds a €1.95 booking fee. Which days run is on the ticket calendar."
-      },
-      "tags": [
-        "城堡",
-        "万圣节",
-        "户外"
-      ],
-      "source_url": "https://malahidecastleandgardens.ie/the-haunted-trail-2026/",
-      "source_name": "Malahide Castle",
-      "age_hint": "日场更适合低龄",
-      "booking_zh": "必须提前在 thehauntedtrail.ie 买票",
-      "title_en": "Malahide Castle: the haunted trail",
-      "description_en": "A family Halloween trail in the castle grounds, 17–31 October, about 1 km and buggy-friendly. The day trail suits children who scare easily. The night trail, from 16:45, adds storytelling and music. The website says the botanic gardens, butterfly house and fairy trail are not open on a normal ticket while the event is on. It does not run every day. Buy tickets ahead.",
-      "venue_en": "Malahide Castle",
-      "schedule_note_en": "Selected dates 17–31 October; day trail last entry 16:30, night trail from 16:45",
-      "age_hint_en": "Daytime slots suit younger children better",
-      "booking_en": "Buy ahead at thehauntedtrail.ie",
-      "source_name_en": "Malahide Castle",
-      "tags_en": [
-        "Castle",
-        "Halloween",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "charleville-story-2026-10-31",
-      "title_zh": "北岸图书馆：万圣节故事会",
-      "description_zh": "Charleville Mall 图书馆的万圣节故事会，讲述人 Aisling Breen，10 月 31 日 10:30 开始。故事面向各年龄儿童，必须有大人陪同。一张票含一名儿童和一名大人。免费，名额有限。",
-      "region": "dublin-city",
-      "venue": "查尔维尔摩尔图书馆（Charleville Mall Library）",
-      "address": "North Strand, Dublin 1, D01 AX99",
-      "lat": 53.357158,
-      "lng": -6.246067,
-      "start": "2026-10-31T10:30:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费。一张票含一名儿童和一名大人",
-        "note_en": "Free. One ticket covers one child and one adult"
-      },
-      "tags": [
-        "图书馆",
-        "故事会",
-        "万圣节"
-      ],
-      "source_url": "https://www.dublincity.ie/events/halloween-storytime-aisling-breen",
-      "source_name": "都柏林市立图书馆",
-      "age_hint": "各年龄，须大人陪同",
-      "booking_zh": "建议预约。charlevillemalllibrary@dublincity.ie，01 222 8411",
-      "title_en": "North Strand library: Halloween storytime",
-      "description_en": "Halloween storytime at Charleville Mall Library with storyteller Aisling Breen, starting 10:30 on 31 October. Stories are for children of all ages and an adult must come. One ticket covers one child and one adult. Free, and places are limited.",
-      "venue_en": "Charleville Mall Library",
-      "age_hint_en": "All ages, with an adult",
-      "booking_en": "Booking advised. charlevillemalllibrary@dublincity.ie or 01 222 8411",
-      "source_name_en": "Dublin City Libraries",
-      "tags_en": [
-        "Library",
-        "Storytime",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "howth-magic-2026-10-31",
-      "title_zh": "豪斯图书馆：万圣节魔术",
-      "description_zh": "豪斯图书馆请 Reuben 做全家向的万圣节魔术，10 月 31 日 10:00 开始。免费。预约可邮件 howth.library@fingal.ie，或打电话 01 890 5026。看完若去码头，海风大，带外套。",
-      "region": "fingal",
-      "venue": "豪斯图书馆（Howth Library）",
-      "address": "61-65 Main Street, Howth, D13 VY50",
-      "lat": 53.385548,
-      "lng": -6.064722,
-      "start": "2026-10-31T10:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "演出",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/halloween-magic-show/",
-      "source_name": "Explore Fingal",
-      "age_hint": "全家",
-      "booking_zh": "邮件 howth.library@fingal.ie 或致电 01 890 5026",
-      "title_en": "Howth Library: Halloween magic",
-      "description_en": "Howth Library has booked Reuben for a family Halloween magic show, starting 10:00 on 31 October. Free. Book by emailing howth.library@fingal.ie or calling 01 890 5026. If you walk down to the harbour afterwards, the sea wind is strong, so bring a coat.",
-      "venue_en": "Howth Library",
-      "age_hint_en": "Whole family",
-      "booking_en": "Email howth.library@fingal.ie or call 01 890 5026",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Show",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "rush-masks-2026-10-31",
-      "title_zh": "拉什图书馆：面具手工",
-      "description_zh": "艺术家 Kim Jenkinson 带孩子做万圣节面具，可做搞怪的，也可做闪闪的。适合 6 岁以上，10 月 31 日 14:00 开始。芬戈尔图书馆总表在同一时间还列了另一场 4–7 岁的故事手工，预约时请跟馆员确认你要的是面具工坊。",
-      "region": "fingal",
-      "venue": "拉什图书馆（Rush Library）",
-      "address": "Chapel Green, Rush, K56 ED95",
-      "lat": 53.521862,
-      "lng": -6.10195,
-      "start": "2026-10-31T14:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/halloween-mask-making-workshop/",
-      "source_name": "Explore Fingal",
-      "age_hint": "6 岁以上",
-      "booking_zh": "邮件 rushlibrary@fingal.ie 或致电 01 870 8484",
-      "title_en": "Rush Library: mask making",
-      "description_en": "Artist Kim Jenkinson helps children make Halloween masks, spooky or sparkly. Age 6 and up, starting 14:00 on 31 October. The Fingal libraries list also has another story-and-craft session for ages 4–7 at the same time. When you book, check with the library that you want the mask workshop.",
-      "venue_en": "Rush Library",
-      "age_hint_en": "Age 6+",
-      "booking_en": "Email rushlibrary@fingal.ie or call 01 870 8484",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "lexicon-repair-2026-10-31",
-      "title_zh": "LexIcon：社区修理咖啡",
-      "description_zh": "邓莱里 LexIcon 与 Rediscovery Centre 合办。把开线的衣服或晃动的小木家具带去，和师傅一起修。上午场 11:00–13:30，下午场 13:30–16:00，每人限一件，每段大约 30–50 分钟。不是儿童专场，学龄孩子可以跟着学。",
-      "region": "dlr",
-      "venue": "dlr LexIcon 图书馆",
-      "address": "Haigh Terrace, Dún Laoghaire, A96 H283",
-      "lat": 53.292419,
-      "lng": -6.132268,
-      "start": "2026-10-31T11:00:00+00:00",
-      "end": "2026-10-31T16:00:00+00:00",
-      "schedule_note_zh": "上午 11:00–13:30，下午 13:30–16:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须预约上午场或下午场，每人一件",
-        "note_en": "Free. Book the morning or the afternoon. One item per person"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "社区"
-      ],
-      "source_url": "https://www.eventbrite.ie/e/free-repair-cafe-at-dlr-lexicon-library-tickets-1993689967361",
-      "source_name": "Eventbrite · Rediscovery Centre",
-      "age_hint": "更适合学龄儿童",
-      "booking_zh": "需要预约",
-      "title_en": "LexIcon: community repair café",
-      "description_en": "Run by dlr LexIcon with the Rediscovery Centre. Bring a split seam or a wobbly small wooden piece and mend it with a repairer. Morning session 11:00–13:30, afternoon 13:30–16:00, one item per person, about 30–50 minutes each. It is not a children’s-only session. School-age children can join in and learn.",
-      "venue_en": "dlr LexIcon",
-      "schedule_note_en": "Morning 11:00–13:30, afternoon 13:30–16:00",
-      "age_hint_en": "Better for school-age children",
-      "booking_en": "Booking required",
-      "source_name_en": "Eventbrite · Rediscovery Centre",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Community"
-      ]
-    },
-    {
-      "id": "tallaght-movie-2026-10-31",
-      "title_zh": "塔拉图书馆：儿童惊悚电影",
-      "description_zh": "南都柏林郡图书馆塔拉分馆的万圣节儿童电影，10 月 31 日 15:00 开场，适合 8 岁以上。小孩必须有大人陪同，一人一票。订票在 talib.eventbrite.ie，手册写 10 月 22 日 10:00 起放票。年纪更小就不必硬看。",
-      "region": "south-dublin",
-      "venue": "塔拉郡图书馆（County Library, Tallaght）",
-      "address": "Library Square, Tallaght, Dublin 24",
-      "lat": 53.288434,
-      "lng": -6.373511,
-      "start": "2026-10-31T15:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "图书馆场次。须在 talib.eventbrite.ie 订票，手册没有另写票价",
-        "note_en": "A library screening. Book at talib.eventbrite.ie. The brochure does not list a separate price"
-      },
-      "tags": [
-        "图书馆",
-        "电影",
-        "万圣节"
-      ],
-      "source_url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/library-services/newsletters/tallaght-october-brochure.pdf",
-      "source_name": "南都柏林郡图书馆",
-      "age_hint": "8 岁以上",
-      "booking_zh": "需要预约，一人一票",
-      "title_en": "Tallaght Library: children’s spooky film",
-      "description_en": "A Halloween children’s film at South Dublin’s Tallaght library, starting 15:00 on 31 October, for age 8 and up. Children must come with an adult, and everyone needs a ticket. Booking is at talib.eventbrite.ie. The brochure says tickets go on sale at 10:00 on 22 October. Skip it if the children are younger.",
-      "venue_en": "County Library, Tallaght",
-      "age_hint_en": "Age 8+",
-      "booking_en": "Booking required, one ticket per person",
-      "source_name_en": "South Dublin Libraries",
-      "tags_en": [
-        "Library",
-        "Film",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "liberties-haunt-2026-10-31",
-      "title_zh": "自由区万圣夜",
-      "description_zh": "都柏林 8 区的社区万圣夜，在 Digital Hub Depot。16:30–17:30 是专门的感官友好时段，17:30–20:30 是舞台和鬼屋，这段里仍有感官友好活动。鬼屋可能吓到幼儿，低龄可以只留在前一小时。免费。",
-      "region": "dublin-city",
-      "venue": "数字中心仓库（The Digital Hub Depot）",
-      "address": "Roe Lane, The Liberties, Dublin 8, D08 TCV4",
-      "lat": 53.344125,
-      "lng": -6.283322,
-      "start": "2026-10-31T16:30:00+00:00",
-      "end": "2026-10-31T20:30:00+00:00",
-      "schedule_note_zh": "感官友好 16:30–17:30，主场 17:30–20:30",
-      "price": {
-        "kind": "free",
-        "note_zh": "社区活动，免费",
-        "note_en": "Community event, free"
-      },
-      "tags": [
-        "万圣节",
-        "社区",
-        "晚间"
-      ],
-      "source_url": "https://www.dublincity.ie/events/liberties-haunt",
-      "source_name": "都柏林市议会",
-      "age_hint": "低龄优先走感官友好时段",
-      "booking_zh": "社区开放活动",
-      "title_en": "Liberties Halloween night",
-      "description_en": "A community Halloween night in Dublin 8, at the Digital Hub Depot. 16:30–17:30 is a sensory-friendly hour. 17:30–20:30 is the stage and the haunted house, and sensory-friendly activities continue in that slot too. The haunted house may scare toddlers, so little ones can stay for the first hour only. Free.",
-      "venue_en": "The Digital Hub Depot",
-      "schedule_note_en": "Sensory-friendly 16:30–17:30, main event 17:30–20:30",
-      "age_hint_en": "Younger children should use the sensory-friendly hour",
-      "booking_en": "Open community event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Halloween",
-        "Community",
-        "Evening"
-      ]
-    },
-    {
-      "id": "swords-dia-2026-11-01",
-      "title_zh": "斯沃兹城堡：亡灵节家庭日",
-      "description_zh": "斯沃兹城堡庭院里的亡灵节，11 月 1 日 12:00–18:00，免费。修复后的小教堂有追忆祭坛和讲解，室内有故事，室外有拉丁美洲食物、音乐，以及皮克斯电影《寻梦环游记》。有一段在户外，带外套。",
-      "region": "fingal",
-      "venue": "斯沃兹城堡（Swords Castle）",
-      "address": "Bridge Street, Swords, Co. Dublin",
-      "lat": 53.459398,
-      "lng": -6.220022,
-      "start": "2026-11-01T12:00:00+00:00",
-      "end": "2026-11-01T18:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "庭院活动免费",
-        "note_en": "Courtyard events are free"
-      },
-      "tags": [
-        "城堡",
-        "户外",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/swords-castle-dia-de-los-muertos/",
-      "source_name": "Explore Fingal",
-      "age_hint": "全家，含低龄",
-      "booking_zh": "不用预约",
-      "title_en": "Swords Castle: Day of the Dead family day",
-      "description_en": "Day of the Dead in the courtyard of Swords Castle, 1 November, 12:00–18:00, free. The restored chapel has a remembrance altar and talks. There are stories indoors, and Latin American food, music and Pixar’s Coco outdoors. Part of it is outside, so bring a coat.",
-      "venue_en": "Swords Castle",
-      "age_hint_en": "Whole family, including little ones",
-      "booking_en": "No booking",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Castle",
-        "Outdoor",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "swords-fire-2026-10-31",
-      "title_zh": "斯沃兹城镇公园：火焰节",
-      "description_zh": "芬戈尔火焰节的斯沃兹场在城堡后面的城镇公园，不是城堡室内。10 月 31 日 18:30 开始有现场万圣节音乐，19:30 放烟花。免费。声音大，结束时间页面没写，更适合能晚睡的大孩子。",
-      "region": "fingal",
-      "venue": "斯沃兹城镇公园（Swords Town Park）",
-      "address": "Swords Town Park, behind Swords Castle, Swords, Co. Dublin",
-      "lat": 53.46168,
-      "lng": -6.220173,
-      "start": "2026-10-31T18:30:00+00:00",
-      "end": null,
-      "schedule_note_zh": "18:30 音乐，19:30 烟花",
-      "price": {
-        "kind": "free",
-        "note_zh": "社区夜场，免费",
-        "note_en": "Community evening, free"
-      },
-      "tags": [
-        "户外",
-        "晚间",
-        "万圣节"
-      ],
-      "source_url": "https://www.fingal.ie/events/fingal-festival-fire",
-      "source_name": "芬戈尔郡议会",
-      "age_hint": "更适合能晚睡的孩子",
-      "booking_zh": "户外开放活动",
-      "title_en": "Swords Town Park: Fire Festival",
-      "description_en": "The Swords stop of the Fingal Fire Festival is in the town park behind the castle, not inside the castle. On 31 October live Halloween music starts at 18:30 and fireworks are at 19:30. Free. It is loud, the page does not say when it ends, and it suits older children who can stay up.",
-      "venue_en": "Swords Town Park",
-      "schedule_note_en": "Music at 18:30, fireworks at 19:30",
-      "age_hint_en": "Better for children who can stay up late",
-      "booking_en": "Open outdoor event",
-      "source_name_en": "Fingal County Council",
-      "tags_en": [
-        "Outdoor",
-        "Evening",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "blanchardstown-fire-2026-10-31",
-      "title_zh": "布兰查德斯敦：火焰节",
-      "description_zh": "同一火焰节在千禧公园的场次。10 月 31 日 18:30 是吓人迪斯科，19:30 放烟花。住在 Dublin 15 不用进市中心。免费。幼儿如果怕鼓声、迪斯科和火焰，改选白天的活动。",
-      "region": "fingal",
-      "venue": "千禧公园（Millennium Park, Blanchardstown）",
-      "address": "Millennium Park, Blanchardstown, Dublin 15, D15 NH94",
-      "lat": 53.389497,
-      "lng": -6.398603,
-      "start": "2026-10-31T18:30:00+00:00",
-      "end": null,
-      "schedule_note_zh": "18:30 吓人迪斯科，19:30 烟花",
-      "price": {
-        "kind": "free",
-        "note_zh": "社区夜场，免费",
-        "note_en": "Community evening, free"
-      },
-      "tags": [
-        "户外",
-        "晚间",
-        "万圣节"
-      ],
-      "source_url": "https://www.fingal.ie/events/fingal-festival-fire",
-      "source_name": "芬戈尔郡议会",
-      "age_hint": "更适合能晚睡的孩子",
-      "booking_zh": "户外开放活动",
-      "title_en": "Blanchardstown: Fire Festival",
-      "description_en": "The same Fire Festival, this time in Millennium Park. On 31 October the scary disco is at 18:30 and fireworks at 19:30. If you live in Dublin 15 you do not need to go into the city centre. Free. If drums, a disco and flames are too much for a toddler, pick a daytime event instead.",
-      "venue_en": "Millennium Park, Blanchardstown",
-      "schedule_note_en": "Scary disco at 18:30, fireworks at 19:30",
-      "age_hint_en": "Better for children who can stay up late",
-      "booking_en": "Open outdoor event",
-      "source_name_en": "Fingal County Council",
-      "tags_en": [
-        "Outdoor",
-        "Evening",
-        "Halloween"
-      ]
-    },
     {
       "id": "lexicon-hellenic-2026-10-31",
       "title_zh": "LexIcon：希腊航海传统展",
@@ -651,115 +68,6 @@
       "tags_en": [
         "Library",
         "Exhibition"
-      ]
-    },
-    {
-      "id": "archaeology-2026-11-01",
-      "title_zh": "考古馆：周日免费开放",
-      "description_zh": "基尔代尔街的国立考古馆，门票免费。周日和周一 13:00–17:00，周二到周六 10:00–17:00。11 月 1 日是周日。建议 16:30 前入场。金饰和沼泽古物适合跟小学孩子讲。展厅偶尔会临时关，要看某一件藏品可以先打电话 01 677 7444。",
-      "region": "dublin-city",
-      "venue": "国立考古馆（National Museum of Ireland – Archaeology）",
-      "address": "Kildare Street, Dublin 2, D02 FH48",
-      "lat": 53.340235,
-      "lng": -6.254964,
-      "start": "2026-11-01T13:00:00+00:00",
-      "end": "2026-11-01T17:00:00+00:00",
-      "schedule_note_zh": "周日 13:00–17:00，建议 16:30 前入场",
-      "price": {
-        "kind": "free",
-        "note_zh": "门票免费",
-        "note_en": "Free admission"
-      },
-      "tags": [
-        "博物馆"
-      ],
-      "source_url": "https://www.museum.ie/en-IE/Museums/Archaeology",
-      "source_name": "爱尔兰国立博物馆",
-      "age_hint": "学龄儿童更合适",
-      "booking_zh": "不用预约",
-      "title_en": "Archaeology museum: free Sunday opening",
-      "description_en": "The National Museum of Ireland – Archaeology on Kildare Street. Admission is free. Sunday and Monday 13:00–17:00, Tuesday–Saturday 10:00–17:00. 1 November is a Sunday. Aim to be in by 16:30. Gold and bog bodies are a good fit for primary-school children. Galleries sometimes close at short notice. If you want a particular object, call 01 677 7444 first.",
-      "venue_en": "National Museum of Ireland – Archaeology",
-      "schedule_note_en": "Sunday 13:00–17:00; aim to be in by 16:30",
-      "age_hint_en": "School-age children will get more from it",
-      "booking_en": "No booking",
-      "source_name_en": "National Museum of Ireland",
-      "tags_en": [
-        "Museum"
-      ]
-    },
-    {
-      "id": "deadzoo-lottery-2026-11-07",
-      "title_zh": "死动物园实验室：抽签导览（周六）",
-      "description_zh": "柯林斯军营死动物园实验室的家庭抽签导览，大约 30 分钟，观众抽动物名字决定路线。11 月 7 日三场：11:00、12:00、12:45，主题是「暗中的生命」。适合 7 岁以上，免费，不用预约，先到先得。10 月 31 日和 11 月 1 日的场已经取消，出发前再看馆方页面有没有新的取消。",
-      "region": "dublin-city",
-      "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
-      "address": "Benburb Street, Dublin 7, D07 XKV4",
-      "lat": 53.348857,
-      "lng": -6.286682,
-      "start": "2026-11-07T11:00:00+00:00",
-      "end": "2026-11-07T13:15:00+00:00",
-      "schedule_note_zh": "三场：11:00、12:00、12:45，每场约 30 分钟",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，不用预约，先到先得",
-        "note_en": "Free, no booking, first come"
-      },
-      "tags": [
-        "博物馆",
-        "导览"
-      ],
-      "source_url": "https://source.museum.ie/en-IE/Museums/Decorative-Arts-History/Events/DZL-Drop-ins/Family-Tours-in-the-Dead-Zoo-Lab",
-      "source_name": "爱尔兰国立博物馆",
-      "age_hint": "7 岁以上，须大人陪同",
-      "booking_zh": "不用预约",
-      "title_en": "Dead Zoo Lab: lottery tour (Saturday)",
-      "description_en": "A family lottery tour of the Dead Zoo Lab at Collins Barracks, about 30 minutes. The audience draws an animal name and that decides the route. Three tours on 7 November: 11:00, 12:00 and 12:45, on the theme “Life in the Dark”. Age 7 and up. Free, no booking, first come. The 31 October and 1 November tours are already cancelled. Check the museum page again before you go, in case more are called off.",
-      "venue_en": "Dead Zoo Lab, Collins Barracks",
-      "schedule_note_en": "Three tours: 11:00, 12:00 and 12:45, about 30 minutes each",
-      "age_hint_en": "Age 7+, with an adult",
-      "booking_en": "No booking",
-      "source_name_en": "National Museum of Ireland",
-      "tags_en": [
-        "Museum",
-        "Tour"
-      ]
-    },
-    {
-      "id": "deadzoo-lottery-2026-11-08",
-      "title_zh": "死动物园实验室：抽签导览（周日）",
-      "description_zh": "同一抽签导览的 11 月 8 日场：13:15、14:15、15:00，主题是「暗中的生命」。博物馆周日 13:00 开门，时间对得上。免费，不用预约。10 月 31 日和 11 月 1 日的场已经取消。",
-      "region": "dublin-city",
-      "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
-      "address": "Benburb Street, Dublin 7, D07 XKV4",
-      "lat": 53.348857,
-      "lng": -6.286682,
-      "start": "2026-11-08T13:15:00+00:00",
-      "end": "2026-11-08T15:30:00+00:00",
-      "schedule_note_zh": "三场：13:15、14:15、15:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，不用预约，先到先得",
-        "note_en": "Free, no booking, first come"
-      },
-      "tags": [
-        "博物馆",
-        "导览"
-      ],
-      "source_url": "https://source.museum.ie/en-IE/Museums/Decorative-Arts-History/Events/DZL-Drop-ins/Family-Tours-in-the-Dead-Zoo-Lab",
-      "source_name": "爱尔兰国立博物馆",
-      "age_hint": "7 岁以上，须大人陪同",
-      "booking_zh": "不用预约",
-      "title_en": "Dead Zoo Lab: lottery tour (Sunday)",
-      "description_en": "The same lottery tour on 8 November: 13:15, 14:15 and 15:00, theme “Life in the Dark”. The museum opens at 13:00 on Sunday, so the times line up. Free, no booking. The 31 October and 1 November tours are already cancelled.",
-      "venue_en": "Dead Zoo Lab, Collins Barracks",
-      "schedule_note_en": "Three tours: 13:15, 14:15 and 15:00",
-      "age_hint_en": "Age 7+, with an adult",
-      "booking_en": "No booking",
-      "source_name_en": "National Museum of Ireland",
-      "tags_en": [
-        "Museum",
-        "Tour"
       ]
     },
     {
@@ -876,312 +184,6 @@
       ]
     },
     {
-      "id": "draculas-disco-2026-10-26",
-      "title_zh": "府邸圆厅：德古拉迪斯科",
-      "description_zh": "布兰·斯托克艺术节和 The Ark 合办的免费迪斯科，10 月 26 日银行假日在市长官邸圆厅，12:00 和 14:00 各一场，大约 45 分钟。DJ Donal Dineen 放万圣节歌。适合 4 岁以上，小孩必须有大人陪，大人也要票。有闪光灯和烟雾。免费但要领票。",
-      "region": "dublin-city",
-      "venue": "市长官邸圆厅（The Round Room, Mansion House）",
-      "address": "Dawson Street, Dublin 2, D02 AF30",
-      "lat": 53.340279,
-      "lng": -6.258042,
-      "start": "2026-10-26T12:00:00+00:00",
-      "end": "2026-10-26T14:45:00+00:00",
-      "schedule_note_zh": "两场：12:00 与 14:00，各约 45 分钟",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，但必须领票。小孩和陪同的大人都要票",
-        "note_en": "Free, but you must collect tickets. Children and the adult with them each need one"
-      },
-      "tags": [
-        "万圣节",
-        "演出",
-        "室内"
-      ],
-      "source_url": "https://ark.ie/events/view/draculas-disco-2026",
-      "source_name": "The Ark",
-      "age_hint": "4 岁以上，须大人陪同",
-      "booking_zh": "免费但要领票",
-      "title_en": "The Round Room: Dracula’s Disco",
-      "description_en": "A free disco from the Bram Stoker Festival and The Ark, on the bank holiday Monday 26 October in the Round Room at the Mansion House. Shows at 12:00 and 14:00, about 45 minutes each. DJ Donal Dineen plays Halloween songs. Age 4 and up. Children must come with an adult, and the adult needs a ticket too. There are flashing lights and haze. Free, but you must collect tickets.",
-      "venue_en": "The Round Room, Mansion House",
-      "schedule_note_en": "Two shows, 12:00 and 14:00, about 45 minutes each",
-      "age_hint_en": "Age 4+, with an adult",
-      "booking_en": "Free, but you need a ticket",
-      "source_name_en": "The Ark",
-      "tags_en": [
-        "Halloween",
-        "Show",
-        "Indoor"
-      ]
-    },
-    {
-      "id": "dublinia-halloween-2026-10-27",
-      "title_zh": "都柏林尼亚：咒语瓶和魔杖工坊",
-      "description_zh": "中期假周二到周五的随到随做工坊，含在都柏林尼亚门票里。10 月 27 日和 28 日做咒语瓶，29 日和 30 日做魔杖，每天 11:00–15:00。适合 7 岁以上，必须有大人陪，材料馆方提供，名额有限。周六日没有这场手工。博物馆 10 月到 3 月每天 10:00–17:00，最晚 16:00 入场。",
-      "region": "dublin-city",
-      "venue": "都柏林尼亚（Dublinia）",
-      "address": "St Michael's Hill, Christchurch, Dublin 8",
-      "lat": 53.343238,
-      "lng": -6.272016,
-      "start": "2026-10-27T11:00:00+00:00",
-      "end": "2026-10-30T15:00:00+00:00",
-      "schedule_note_zh": "工坊 11:00–15:00；27–28 日咒语瓶，29–30 日魔杖",
-      "price": {
-        "kind": "paid",
-        "note_zh": "工坊含在门票里。网上成人 €16、儿童 €11.50、学生或老人 €14.50。门口成人 €18、儿童 €11.50；家庭票 2 大 2 小 €50.50，1 大 2 小 €34.85",
-        "note_en": "The workshop is included in admission. Online: adult €16, child €11.50, student or senior €14.50. At the door: adult €18, child €11.50. Family tickets: 2 adults and 2 children €50.50, 1 adult and 2 children €34.85"
-      },
-      "tags": [
-        "博物馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://www.dublinia.ie/events_news/magical-mystical-fun-this-halloween/",
-      "source_name": "Dublinia",
-      "age_hint": "7 岁以上，须大人陪同",
-      "booking_zh": "工坊不用另约，门票建议网上买",
-      "title_en": "Dublinia: spell-jar and wand workshop",
-      "description_en": "A drop-in workshop on the mid-term Tuesday to Friday, included in a Dublinia ticket. Spell jars on 27 and 28 October, wands on 29 and 30 October, 11:00–15:00 each day. Age 7 and up, an adult must come, materials are provided, and places are limited. There is no workshop at the weekend. From October to March the museum is open daily 10:00–17:00, last entry 16:00.",
-      "venue_en": "Dublinia",
-      "schedule_note_en": "Workshop 11:00–15:00; spell jars on the 27th–28th, wands on the 29th–30th",
-      "age_hint_en": "Age 7+, with an adult",
-      "booking_en": "The workshop needs no extra booking; buy the museum ticket online if you can",
-      "source_name_en": "Dublinia",
-      "tags_en": [
-        "Museum",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "epic-dracula-2026-10-26",
-      "title_zh": "EPIC：小心德古拉家庭导览",
-      "description_zh": "在 EPIC 移民博物馆里找「跑出书本的德古拉」，有线索、说故事和两个小活动。10 月 26 日到 11 月 1 日，每天 10:00、11:30、13:30、15:00、16:30。适合 6–12 岁。同一页后半还写了每天 13:00 的爱尔兰万圣节起源内容，买票时看清场次名字。红线 Luas 的 George's Dock 站可走过去。",
-      "region": "dublin-city",
-      "venue": "EPIC 爱尔兰移民博物馆",
-      "address": "CHQ Building, Custom House Quay, Dublin 1, D01 R9Y0",
-      "lat": 53.348779,
-      "lng": -6.247846,
-      "start": "2026-10-26T10:00:00+00:00",
-      "end": "2026-11-01T16:30:00+00:00",
-      "schedule_note_zh": "每天五场：10:00、11:30、13:30、15:00、16:30",
-      "price": {
-        "kind": "paid",
-        "note_zh": "成人 €24，12 岁及以下儿童 €16，含入馆。13 岁以上没有单列票价",
-        "note_en": "Adult €24, child 12 and under €16, including museum entry. There is no separate price listed for age 13 and up"
-      },
-      "tags": [
-        "博物馆",
-        "导览",
-        "万圣节"
-      ],
-      "source_url": "https://epicchq.com/event/dracula-halloween-family-tour/",
-      "source_name": "EPIC",
-      "age_hint": "6–12 岁",
-      "booking_zh": "建议提前买，去年很快满",
-      "title_en": "EPIC: Beware of Dracula family tour",
-      "description_en": "Hunt for “Dracula, escaped from the book” inside EPIC The Irish Emigration Museum, with clues, storytelling and two short activities. 26 October to 1 November, daily at 10:00, 11:30, 13:30, 15:00 and 16:30. Ages 6–12. The same page also describes a 13:00 session on the origins of Irish Halloween. Check the session name when you buy. You can walk from the George’s Dock stop on the red Luas line.",
-      "venue_en": "EPIC The Irish Emigration Museum",
-      "schedule_note_en": "Five tours a day: 10:00, 11:30, 13:30, 15:00 and 16:30",
-      "age_hint_en": "Ages 6–12",
-      "booking_en": "Buy ahead; it sold out quickly last year",
-      "source_name_en": "EPIC",
-      "tags_en": [
-        "Museum",
-        "Tour",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "oconnell-trick-or-treat-2026-10-30",
-      "title_zh": "奥康奈尔街：不给糖就捣蛋市集",
-      "description_zh": "市议会在奥康奈尔街办的免费万圣节市集，10 月 30 日到 11 月 1 日每天 13:00–17:00。一直有脸部彩绘、市集、走动角色、南瓜地和黏液实验室，另有儿童故事、舞蹈工坊等。欢迎穿装扮。地图针标在尖塔，摊位沿这条街。",
-      "region": "dublin-city",
-      "venue": "奥康奈尔街（O'Connell Street）",
-      "address": "O'Connell Street, Dublin 1",
-      "lat": 53.349802,
-      "lng": -6.260254,
-      "start": "2026-10-30T13:00:00+00:00",
-      "end": "2026-11-01T17:00:00+00:00",
-      "schedule_note_zh": "10 月 30 日至 11 月 1 日，每天 13:00–17:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费入场，不用预约",
-        "note_en": "Free entry, no booking"
-      },
-      "tags": [
-        "万圣节",
-        "市集",
-        "户外"
-      ],
-      "source_url": "https://www.dublincity.ie/events/trick-or-treat-main-street-market-0",
-      "source_name": "都柏林市议会",
-      "age_hint": "全家",
-      "booking_zh": "不用预约",
-      "title_en": "O’Connell Street: trick-or-treat market",
-      "description_en": "A free Halloween market from the city council on O’Connell Street, 30 October to 1 November, 13:00–17:00 each day. Face painting, stalls, roaming characters, a pumpkin patch and a slime lab run throughout, plus children’s stories, dance workshops and more. Costumes welcome. The pin is on the Spire. Stalls run along the street.",
-      "venue_en": "O'Connell Street",
-      "schedule_note_en": "30 October to 1 November, daily 13:00–17:00",
-      "age_hint_en": "Whole family",
-      "booking_en": "No booking",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Halloween",
-        "Market",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "maypark-monster-mash-2026-10-31",
-      "title_zh": "梅园：怪物狂欢",
-      "description_zh": "都柏林 5 区梅园的万圣节下午场，10 月 31 日 13:00–16:00，有说故事、脸部彩绘、DJ 和魔术表演。小孩必须有大人陪。市议会公园页写它在 Malahide Road，有时叫 Donnycarney Park，名录地址是 209 Killester Avenue。活动页没有写门票，也没有预约入口。地图针标在 Malahide Road 名叫 Maypark 的公交站一带。",
-      "region": "dublin-city",
-      "venue": "梅园（Maypark）",
-      "address": "Maypark, Malahide Road, Dublin 5",
-      "lat": 53.376792,
-      "lng": -6.21612,
-      "start": "2026-10-31T13:00:00+00:00",
-      "end": "2026-10-31T16:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票，也没有预约链接",
-        "note_en": "The event page lists neither a ticket price nor a booking link"
-      },
-      "tags": [
-        "万圣节",
-        "公园",
-        "户外"
-      ],
-      "source_url": "https://www.dublincity.ie/events/monster-mash-halloween-and-may-park",
-      "source_name": "都柏林市议会",
-      "age_hint": "须大人陪同",
-      "booking_zh": "不用预约",
-      "title_en": "Maypark: Monster Mash",
-      "description_en": "A Halloween afternoon in Maypark, Dublin 5, on 31 October, 13:00–16:00, with storytelling, face painting, a DJ and a magic show. Children must come with an adult. The council’s parks page puts it on Malahide Road. It is sometimes called Donnycarney Park. The directory address is 209 Killester Avenue. The event page lists neither a ticket price nor a way to book. The pin is near the Maypark bus stop on Malahide Road.",
-      "venue_en": "Maypark",
-      "age_hint_en": "An adult must come too",
-      "booking_en": "No booking",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Halloween",
-        "Park",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "ballymun-otherworld-2026-10-31",
-      "title_zh": "巴利蒙：异世界节",
-      "description_zh": "巴利蒙社区在 Trinity Comprehensive School 操场办的万圣夜，10 月 31 日 18:00–21:00。有游乐设施、手工、马戏、本地舞台、拍照点和走动角色，夜里放烟花。声音和烟花更适合能晚睡的孩子。活动页没有写门票；旋转设施会不会另收费，页面没说。",
-      "region": "dublin-city",
-      "venue": "三一综合学校（Trinity Comprehensive School）",
-      "address": "Ballymun Road, Dublin 9, D09 TN22",
-      "lat": 53.393028,
-      "lng": -6.262179,
-      "start": "2026-10-31T18:00:00+00:00",
-      "end": "2026-10-31T21:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票。游乐设施会不会另收费，页面没说",
-        "note_en": "The event page does not list a ticket price. It does not say whether the rides cost extra"
-      },
-      "tags": [
-        "万圣节",
-        "社区",
-        "晚间"
-      ],
-      "source_url": "https://www.dublincity.ie/events/ballymunn-otherworld-festival",
-      "source_name": "都柏林市议会",
-      "age_hint": "更适合能晚睡的孩子",
-      "booking_zh": "社区开放活动",
-      "title_en": "Ballymun: Otherworld festival",
-      "description_en": "A Halloween night on the grounds of Trinity Comprehensive School, run by the Ballymun community, 31 October, 18:00–21:00. Rides, crafts, circus, a local stage, photo spots and roaming characters, then fireworks. The noise and fireworks suit children who can stay up. The event page does not list a ticket price, and it does not say whether the spinning rides cost extra.",
-      "venue_en": "Trinity Comprehensive School",
-      "age_hint_en": "Better for children who can stay up late",
-      "booking_en": "Open community event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Halloween",
-        "Community",
-        "Evening"
-      ]
-    },
-    {
-      "id": "newbridge-pumpkins-2026-10-26",
-      "title_zh": "纽布里奇庄园：天黑后的南瓜",
-      "description_zh": "多纳贝特庄园夜里的南瓜灯小径，没有突然跳出来吓人的环节，婴儿车可以走，轮椅可能要人帮一下，路面有草地和碎石。活动排到 10 月 31 日。购票页写最晚 22:00 入场、23:00 结束；庄园页说开始时间随日期变，但都在 17:00 之后，以购票日历上的时段为准。停车不含在门票里。DART 到 Donabate 再走大约 15 分钟（1.4 公里），33B 路公交在门口停。",
-      "region": "fingal",
-      "venue": "纽布里奇庄园农场（Newbridge House & Farm）",
-      "address": "Hearse Road, Donabate, Co. Dublin, K36 VR90",
-      "lat": 53.485972,
-      "lng": -6.168169,
-      "start": "2026-10-26T19:15:00+00:00",
-      "end": "2026-10-31T23:00:00+00:00",
-      "schedule_note_zh": "夜场；购票页最晚 22:00 入场，23:00 结束",
-      "price": {
-        "kind": "paid",
-        "note_zh": "成人、青少年和家庭套票按场次浮动，以 Showpass 当天价为准。停车另买",
-        "note_en": "Adult, teen and family tickets move with the session. Use the Showpass price that day. Parking is extra"
-      },
-      "tags": [
-        "万圣节",
-        "农场",
-        "晚间"
-      ],
-      "source_url": "https://newbridgehouseandfarm.com/pumpkins-after-dark/",
-      "source_name": "Newbridge House & Farm",
-      "age_hint": "全家，没有惊吓跳脸",
-      "booking_zh": "建议按入场时段提前买票",
-      "title_en": "Newbridge House: pumpkins after dark",
-      "description_en": "A pumpkin-lantern trail after dark on the Donabate estate. No jump scares. Buggies can do it. A wheelchair may need a push. The path is grass and gravel. It runs through 31 October. The ticket page says last entry 22:00 and close at 23:00. The estate page says the start time changes by date but is always after 17:00, so use the slot on the ticket calendar. Parking is not in the ticket. DART to Donabate, then about a 15-minute walk (1.4 km). The 33B bus stops at the gate.",
-      "venue_en": "Newbridge House & Farm",
-      "schedule_note_en": "An evening event; the ticket page says last entry 22:00 and close at 23:00",
-      "age_hint_en": "Whole family, no jump scares",
-      "booking_en": "Buy a timed entry slot ahead if you can",
-      "source_name_en": "Newbridge House & Farm",
-      "tags_en": [
-        "Halloween",
-        "Farm",
-        "Evening"
-      ]
-    },
-    {
-      "id": "aras-tour-2026-10-31",
-      "title_zh": "总统府：周六免费导览",
-      "description_zh": "公共工程办公室的总统府导览，大约 1 小时 15 分，免费。10 月 31 日场次是 10:00、11:15、12:30、13:45、15:00。票在凤凰公园游客中心当天先到先得，不能提前订，也不能订团体票。要带带照片的证件。6 月到 10 月另有花园导览，这一天花园是否一起走，以游客中心为准。游客中心本身有儿童游乐场和咖啡馆。国事忙时会取消，出发前再看总统府网站。",
-      "region": "dublin-city",
-      "venue": "凤凰公园游客中心（领票）／总统府",
-      "address": "Phoenix Park Visitor Centre, Phoenix Park, Dublin 8",
-      "lat": 53.366048,
-      "lng": -6.330933,
-      "start": "2026-10-31T10:00:00+00:00",
-      "end": "2026-10-31T16:15:00+00:00",
-      "schedule_note_zh": "五场：10:00、11:15、12:30、13:45、15:00，每场约 75 分钟",
-      "price": {
-        "kind": "free",
-        "note_zh": "导览免费。票在游客中心当天领，不能网上订",
-        "note_en": "The tour is free. Collect tickets at the Visitor Centre on the day. You cannot book online"
-      },
-      "tags": [
-        "导览",
-        "公园"
-      ],
-      "source_url": "https://www.president.ie/en/explore-visit/tours-visits",
-      "source_name": "爱尔兰总统府",
-      "age_hint": "更适合能安静走一小时的孩子",
-      "booking_zh": "当天先到先得，须带照片证件",
-      "title_en": "Áras an Uachtaráin: free Saturday tour",
-      "description_en": "The Office of Public Works tour of the President’s house, about 1 hour 15 minutes, free. On 31 October the times are 10:00, 11:15, 12:30, 13:45 and 15:00. Tickets are same-day, first come, at the Phoenix Park Visitor Centre. You cannot book ahead, and you cannot book a group ticket. Bring photo ID. From June to October there is also a garden tour. Whether the garden is included that day is decided at the Visitor Centre. The centre itself has a playground and a café. Tours are cancelled when state business takes over. Check the Áras website before you go.",
-      "venue_en": "Phoenix Park Visitor Centre (tickets) / Áras an Uachtaráin",
-      "schedule_note_en": "Five tours: 10:00, 11:15, 12:30, 13:45 and 15:00, about 75 minutes each",
-      "age_hint_en": "Better for children who can walk quietly for an hour",
-      "booking_en": "Same-day, first come; bring photo ID",
-      "source_name_en": "Áras an Uachtaráin",
-      "tags_en": [
-        "Tour",
-        "Park"
-      ]
-    },
-    {
       "id": "aras-tour-2026-11-07",
       "title_zh": "总统府：周六免费导览（11 月）",
       "description_zh": "同一套免费室内导览的 11 月 7 日场：10:00、11:15、12:30、13:45、15:00，大约 75 分钟。票仍在凤凰公园游客中心当天领，不能提前订。花园导览页面只写到 10 月，这场按室内导览准备。要带带照片的证件。游客中心有游乐场和咖啡馆，导览太长的小孩可以留在那里。11 月 21 日没有导览，与这场无关。国事忙时会取消。",
@@ -1256,43 +258,6 @@
       ]
     },
     {
-      "id": "marshs-2026-10-31",
-      "title_zh": "马什图书馆：周六自助参观",
-      "description_zh": "1707 年开放的旧图书馆，周六 10:00–17:00，周日和银行假日不开。馆方说特别欢迎小孩，有小人仔寻宝；楼梯不方便轮椅，工作人员可以帮忙把婴儿车抬上去。成人 €8，学生和老人 €6，18 岁以下个人免费；18 岁以下团体每人 €3。可以当天在门口买，也可以在网上订。",
-      "region": "dublin-city",
-      "venue": "马什图书馆（Marsh's Library）",
-      "address": "St Patrick's Close, Dublin, D08 FK79",
-      "lat": 53.339203,
-      "lng": -6.270578,
-      "start": "2026-10-31T10:00:00+00:00",
-      "end": "2026-10-31T17:00:00+00:00",
-      "schedule_note_zh": "周六 10:00–17:00；周日关闭",
-      "price": {
-        "kind": "paid",
-        "note_zh": "成人 €8，学生或老人 €6，18 岁以下个人免费。18 岁以下团体每人 €3。领社会福利者免费",
-        "note_en": "Adult €8, student or senior €6, under 18 free as an individual. Under-18 groups are €3 each. People receiving social welfare go free"
-      },
-      "tags": [
-        "博物馆",
-        "室内"
-      ],
-      "source_url": "https://marshlibrary.ie/visit/",
-      "source_name": "Marsh's Library",
-      "age_hint": "学龄儿童更合适，请小声",
-      "booking_zh": "可当天买票，也可网上订",
-      "title_en": "Marsh’s Library: Saturday visit",
-      "description_en": "The old library, open since 1707. Saturday 10:00–17:00. Closed Sunday and bank holidays. The library says children are especially welcome, and there is a miniature treasure hunt. Stairs are not wheelchair friendly. Staff can help carry a buggy up. Adult €8, student and senior €6, under 18 free as an individual. Under-18 groups are €3 each. Buy at the door on the day, or book online.",
-      "venue_en": "Marsh's Library",
-      "schedule_note_en": "Saturday 10:00–17:00; closed Sunday",
-      "age_hint_en": "School-age children; please keep voices down",
-      "booking_en": "Buy on the day, or book online",
-      "source_name_en": "Marsh's Library",
-      "tags_en": [
-        "Museum",
-        "Indoor"
-      ]
-    },
-    {
       "id": "marshs-2026-11-07",
       "title_zh": "马什图书馆：周六自助参观（11 月）",
       "description_zh": "同一座旧图书馆的 11 月 7 日周六场，10:00–17:00。小孩可以参加小人仔寻宝。展厅没有轮椅通道。票价和 10 月 31 日一样：成人 €8，学生和老人 €6，18 岁以下个人免费。",
@@ -1327,41 +292,6 @@
       "tags_en": [
         "Museum",
         "Indoor"
-      ]
-    },
-    {
-      "id": "ngi-highlights-2026-11-01",
-      "title_zh": "国立美术馆：周日馆藏导览",
-      "description_zh": "11 月 1 日 11:30–12:30 的免费馆藏精华导览，在梅里恩广场入口附近的庭院集合，不用预约。常设展免费。周日开馆 11:00–17:30，展厅大约 16:50 开始从楼上往下关。开放时间页写过公共部门劳资行动可能临时闭馆，出发前看馆方社媒。",
-      "region": "dublin-city",
-      "venue": "爱尔兰国立美术馆（National Gallery of Ireland）",
-      "address": "Merrion Square West, Dublin 2",
-      "lat": 53.341121,
-      "lng": -6.252667,
-      "start": "2026-11-01T11:30:00+00:00",
-      "end": "2026-11-01T12:30:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "导览和常设展免费。部分临时展览另收费",
-        "note_en": "The tour and the permanent collection are free. Some temporary exhibitions charge"
-      },
-      "tags": [
-        "博物馆",
-        "导览"
-      ],
-      "source_url": "https://www.nationalgallery.ie/whats-on/public-tour-highlights",
-      "source_name": "爱尔兰国立美术馆",
-      "age_hint": "学龄儿童更合适",
-      "booking_zh": "不用预约",
-      "title_en": "National Gallery: Sunday highlights tour",
-      "description_en": "A free highlights tour of the collection, 1 November, 11:30–12:30. Meet in the courtyard near the Merrion Square entrance. No booking. The permanent collection is free. Sunday opening is 11:00–17:30, and galleries start closing from the top floor at about 16:50. The opening-hours page has said public-sector industrial action may close the building at short notice. Check the gallery’s social channels before you go.",
-      "venue_en": "National Gallery of Ireland",
-      "age_hint_en": "School-age children will get more from it",
-      "booking_en": "No booking",
-      "source_name_en": "National Gallery of Ireland",
-      "tags_en": [
-        "Museum",
-        "Tour"
       ]
     },
     {
@@ -1471,1049 +401,6 @@
         "Crafts",
         "Science",
         "Indoor"
-      ]
-    },
-    {
-      "id": "phibsboro-ellora-2026-10-27",
-      "title_zh": "菲布斯伯勒图书馆：画见习女妖",
-      "description_zh": "作者兼插画师 Úna Woods 按她的书《Ellora McGee: Trainee Banshee》带孩子画 Ellora 和朋友。中期假周二 10 月 27 日 10:30，适合 6–9 岁，材料馆方提供。儿童图书节场次。活动页写必须预约，没有另写票价。",
-      "region": "dublin-city",
-      "venue": "菲布斯伯勒图书馆（Phibsborough Library）",
-      "address": "Phibsborough Library, Royal Canal Bank, Dublin 7",
-      "lat": 53.361136,
-      "lng": -6.271038,
-      "start": "2026-10-27T10:30:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "图书馆工坊。活动页没有另写票价，必须预约",
-        "note_en": "A library workshop. The event page lists no separate price. Booking is required"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://www.dublincity.ie/events/character-drawing-workshop-una-woods",
-      "source_name": "都柏林市立图书馆",
-      "age_hint": "6–9 岁",
-      "booking_zh": "必须预约，点活动页里的链接",
-      "title_en": "Phibsborough Library: draw a trainee banshee",
-      "description_en": "Author and illustrator Úna Woods uses her book Ellora McGee: Trainee Banshee and draws Ellora and friends with the children. Mid-term Tuesday 27 October, 10:30, ages 6–9. Materials provided. A Children’s Books Ireland festival session. The event page says you must book, and it does not list a separate price.",
-      "venue_en": "Phibsborough Library",
-      "age_hint_en": "Ages 6–9",
-      "booking_en": "Booking required; use the link on the event page",
-      "source_name_en": "Dublin City Libraries",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "raheny-toddler-2026-10-27",
-      "title_zh": "拉赫尼图书馆：幼儿游戏",
-      "description_zh": "拉赫尼图书馆每周二上午的幼儿组，给小孩和家长或看护一起玩、聊天。10 月 27 日这场是中期假周二，10:30–11:30。不用预约。银行假日周末图书馆闭馆，周二重开后可以来。之后仍是每周二同一时间。",
-      "region": "dublin-city",
-      "venue": "拉赫尼图书馆（Raheny Library）",
-      "address": "Raheny Library, Howth Road, Dublin 5",
-      "lat": 53.380318,
-      "lng": -6.173112,
-      "start": "2026-10-27T10:30:00+00:00",
-      "end": "2026-10-27T11:30:00+00:00",
-      "schedule_note_zh": "每周二 10:30–11:30；本条是 10 月 27 日",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，不用预约",
-        "note_en": "Free, no booking"
-      },
-      "tags": [
-        "图书馆",
-        "低龄"
-      ],
-      "source_url": "https://www.dublincity.ie/events/raheny-library-toddler-group",
-      "source_name": "都柏林市立图书馆",
-      "age_hint": "幼儿和看护",
-      "booking_zh": "不用预约",
-      "title_en": "Raheny Library: toddler play",
-      "description_en": "Raheny Library’s Tuesday-morning toddler group, for children to play and chat with a parent or carer. The 27 October session is the mid-term Tuesday, 10:30–11:30. No booking. Libraries are closed over the bank-holiday weekend. Come once they reopen on Tuesday. After that it is still every Tuesday at the same time.",
-      "venue_en": "Raheny Library",
-      "schedule_note_en": "Every Tuesday 10:30–11:30; this listing is 27 October",
-      "age_hint_en": "Toddlers and their carers",
-      "booking_en": "No booking",
-      "source_name_en": "Dublin City Libraries",
-      "tags_en": [
-        "Library",
-        "Toddlers"
-      ]
-    },
-    {
-      "id": "tseac-puppet-2026-10-28",
-      "title_zh": "恩尼斯艺术中心：万圣节木偶剧",
-      "description_zh": "Moon & Sixpence 的提线木偶《灰姑娘去万圣节舞会》，南瓜车改成热气球。10 月 28 日 11:00 开场，大约到 12:00。在纳尔镇的谢默斯·恩尼斯艺术中心。售票处这场还剩少量票，60 个座位里当时可买的大约 10 张，出发前再看有没有满。",
-      "region": "fingal",
-      "venue": "谢默斯·恩尼斯艺术中心（Séamus Ennis Arts Centre）",
-      "address": "Main Street, Naul, Co. Dublin, K32 AY27",
-      "lat": 53.586139,
-      "lng": -6.289776,
-      "start": "2026-10-28T11:00:00+00:00",
-      "end": "2026-10-28T12:00:00+00:00",
-      "schedule_note_zh": "11:00 开场，大约 1 小时",
-      "price": {
-        "kind": "paid",
-        "note_zh": "普通票 €10。四人家庭票 €25。以 TSEAC 售票处当时余票为准",
-        "note_en": "Standard €10. Family ticket for four €25. What is left is whatever the TSEAC box office still has"
-      },
-      "tags": [
-        "演出",
-        "万圣节",
-        "室内"
-      ],
-      "source_url": "https://www.tseac.ie/event-details/cinderella-goes-to-the-halloween-ball",
-      "source_name": "Séamus Ennis Arts Centre",
-      "age_hint": "儿童木偶剧，低龄可以看",
-      "booking_zh": "在 TSEAC Ticketsolve 买，页面显示可售",
-      "title_en": "Séamus Ennis Arts Centre: Halloween puppet show",
-      "description_en": "Moon & Sixpence’s marionette show Cinderella Goes to the Halloween Ball, with the pumpkin coach turned into a hot-air balloon. Starts 11:00 on 28 October and runs to about 12:00, at the Séamus Ennis Arts Centre in Naul. The box office still had a few tickets for this one: about 10 of 60 seats were on sale at the time of checking. Look again before you go, in case it has filled.",
-      "venue_en": "Séamus Ennis Arts Centre",
-      "schedule_note_en": "Starts 11:00, about 1 hour",
-      "age_hint_en": "A children’s puppet show; little ones can watch",
-      "booking_en": "Buy on TSEAC Ticketsolve; the page shows tickets on sale",
-      "source_name_en": "Séamus Ennis Arts Centre",
-      "tags_en": [
-        "Show",
-        "Halloween",
-        "Indoor"
-      ]
-    },
-    {
-      "id": "donabate-draw-2026-10-28",
-      "title_zh": "多纳贝特图书馆：万圣节跟着画",
-      "description_zh": "Úna Woods 在多纳贝特图书馆讲 Ellora McGee 见习女妖，再带孩子画人物。10 月 28 日 15:30，适合 8–12 岁。芬戈尔万圣节系列。向图书馆预约。",
-      "region": "fingal",
-      "venue": "多纳贝特图书馆（Donabate Library）",
-      "address": "Ballisk House, Portrane Road, Donabate, Co. Dublin, K36 E009",
-      "lat": 53.489698,
-      "lng": -6.143155,
-      "start": "2026-10-28T15:30:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/halloween-draw-along/",
-      "source_name": "Explore Fingal",
-      "age_hint": "8–12 岁",
-      "booking_zh": "邮件 donabate.library@fingal.ie 或致电 01 890 5609",
-      "title_en": "Donabate Library: Halloween draw-along",
-      "description_en": "Úna Woods tells the story of Ellora McGee, trainee banshee, at Donabate Library, then draws the characters with the children. 28 October, 15:30, ages 8–12. Part of the Fingal Halloween series. Book with the library.",
-      "venue_en": "Donabate Library",
-      "age_hint_en": "Ages 8–12",
-      "booking_en": "Email donabate.library@fingal.ie or call 01 890 5609",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "garristown-writing-2026-10-28",
-      "title_zh": "加里斯敦图书馆：鬼故事写作",
-      "description_zh": "儿童作家 Megan Wynne 用她的小说带 8–12 岁孩子编鬼故事、造气氛。10 月 28 日 15:30。加里斯敦在芬戈尔北边，开车去比进城方便。向图书馆预约。",
-      "region": "fingal",
-      "venue": "加里斯敦图书馆（Garristown Library）",
-      "address": "Main Street, Garristown, Co. Dublin, A42 Y437",
-      "lat": 53.566502,
-      "lng": -6.383154,
-      "start": "2026-10-28T15:30:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/halloween-creative-writing-workshop/",
-      "source_name": "Explore Fingal",
-      "age_hint": "8–12 岁",
-      "booking_zh": "邮件 garristownlibrary@fingal.ie 或致电 01 835 5020",
-      "title_en": "Garristown Library: ghost-story writing",
-      "description_en": "Children’s writer Megan Wynne uses her novel to help ages 8–12 build a ghost story and set the mood. 28 October, 15:30. Garristown is in north Fingal, easier by car than by going into town. Book with the library.",
-      "venue_en": "Garristown Library",
-      "age_hint_en": "Ages 8–12",
-      "booking_en": "Email garristownlibrary@fingal.ie or call 01 835 5020",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "skerries-goddess-2026-10-26",
-      "title_zh": "斯凯瑞斯磨坊：萨温女神",
-      "description_zh": "斯凯瑞斯磨坊的凯尔特故事和小径，可以穿装扮。Explore Fingal 把银行假日 10 月 26 日这场写在 16:00。磨坊官网这场是表演加小径 €15；同一页写儿童票 €8，并说 25 日余票有限。另有 €49 的三道晚餐套餐，可以不买。傍晚海边冷，带外套。",
-      "region": "fingal",
-      "venue": "斯凯瑞斯磨坊（Skerries Mills）",
-      "address": "Millers Lane, Skerries, Co. Dublin, K34 K293",
-      "lat": 53.574337,
-      "lng": -6.110148,
-      "start": "2026-10-26T16:00:00+00:00",
-      "end": null,
-      "schedule_note_zh": "Fingal 活动页写 16:00；结束时间页面没写",
-      "price": {
-        "kind": "paid",
-        "note_zh": "表演和小径 €15。官网另写儿童 €8，并有 €49 晚餐套餐。另加订票费。余票以购票页为准",
-        "note_en": "Performance and trail €15. The website also lists children at €8, and a €49 dinner package. A booking fee is added. What is left is on the ticket page"
-      },
-      "tags": [
-        "万圣节",
-        "户外",
-        "故事会"
-      ],
-      "source_url": "https://www.skerriesmills.ie/the-goddess-of-samhain/",
-      "source_name": "Skerries Mills",
-      "age_hint": "全家，官网没有写最低年龄",
-      "booking_zh": "在 skerriesmills.ie 买票",
-      "title_en": "Skerries Mills: the Samhain goddess",
-      "description_en": "A Celtic story and trail at Skerries Mills. Costumes welcome. Explore Fingal lists the bank-holiday session on 26 October at 16:00. On the mill’s own site this one is performance plus trail at €15. The same page lists a child ticket at €8 and says tickets for the 25th are limited. There is also a three-course dinner package at €49, which you can skip. The coast is cold in the evening. Bring a coat.",
-      "venue_en": "Skerries Mills",
-      "schedule_note_en": "The Fingal event page says 16:00; it does not give an end time",
-      "age_hint_en": "Whole family; the site doesn’t set a minimum age",
-      "booking_en": "Buy tickets at skerriesmills.ie",
-      "source_name_en": "Skerries Mills",
-      "tags_en": [
-        "Halloween",
-        "Outdoor",
-        "Storytime"
-      ]
-    },
-    {
-      "id": "skerries-goddess-2026-10-30",
-      "title_zh": "斯凯瑞斯磨坊：萨温女神（周五）",
-      "description_zh": "同一套磨坊故事和小径的 10 月 30 日场。官网把这天写成表演加小径 €15，没有在这段里写钟点，入场时间以购票日历为准。可以穿装扮。晚餐套餐是另加的。",
-      "region": "fingal",
-      "venue": "斯凯瑞斯磨坊（Skerries Mills）",
-      "address": "Millers Lane, Skerries, Co. Dublin, K34 K293",
-      "lat": 53.574337,
-      "lng": -6.110148,
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "time_tbc": true,
-      "schedule_note_zh": "官网列出这一天，钟点以购票日历为准",
-      "price": {
-        "kind": "paid",
-        "note_zh": "表演和小径 €15。儿童价和订票费以购票页为准",
-        "note_en": "Performance and trail €15. Child price and booking fee are on the ticket page"
-      },
-      "tags": [
-        "万圣节",
-        "户外",
-        "故事会"
-      ],
-      "source_url": "https://www.skerriesmills.ie/the-goddess-of-samhain/",
-      "source_name": "Skerries Mills",
-      "age_hint": "全家，官网没有写最低年龄",
-      "booking_zh": "在 skerriesmills.ie 买票",
-      "title_en": "Skerries Mills: the Samhain goddess (Friday)",
-      "description_en": "The same mill story and trail, on 30 October. The website prices this day as performance plus trail at €15, and does not give a clock time in that section. Entry time is on the ticket calendar. Costumes welcome. The dinner package is extra.",
-      "venue_en": "Skerries Mills",
-      "schedule_note_en": "The website lists this day. The time is on the ticket calendar",
-      "age_hint_en": "Whole family; the site doesn’t set a minimum age",
-      "booking_en": "Buy tickets at skerriesmills.ie",
-      "source_name_en": "Skerries Mills",
-      "tags_en": [
-        "Halloween",
-        "Outdoor",
-        "Storytime"
-      ]
-    },
-    {
-      "id": "charleville-crafts-2026-10-29",
-      "title_zh": "北岸图书馆：万圣节手工",
-      "description_zh": "Charleville Mall 图书馆请 Aoife Munn 带 6–12 岁孩子做万圣节手工，作品可以带回家。10 月 29 日 14:00。东北内城 Big Scream 系列。活动页没有写票价，预约入口在页面链接里。",
-      "region": "dublin-city",
-      "venue": "查尔维尔摩尔图书馆（Charleville Mall Library）",
-      "address": "North Strand, Dublin 1, D01 AX99",
-      "lat": 53.357158,
-      "lng": -6.246067,
-      "start": "2026-10-29T14:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有另写票价。预约看页面里的链接",
-        "note_en": "The event page lists no separate price. Booking is via the link on the page"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://www.dublincity.ie/events/childrens-halloween-crafts-workshop",
-      "source_name": "都柏林市立图书馆",
-      "age_hint": "6–12 岁",
-      "booking_zh": "点活动页链接看预约",
-      "title_en": "North Strand library: Halloween crafts",
-      "description_en": "Charleville Mall Library has asked Aoife Munn to make Halloween crafts with ages 6–12. They can take the work home. 29 October, 14:00. Part of the north-east inner-city Big Scream series. The event page does not list a price. The booking link is on the page.",
-      "venue_en": "Charleville Mall Library",
-      "age_hint_en": "Ages 6–12",
-      "booking_en": "Use the link on the event page to book",
-      "source_name_en": "Dublin City Libraries",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "central-party-2026-10-29",
-      "title_zh": "中央图书馆：儿童万圣节派对",
-      "description_zh": "ILAC 中央图书馆 10 月 29 日 15:30 的儿童场，有吓人故事、万圣节短片、填色奖和小吃。建议预约，名额有限。活动页没有写票价。",
-      "region": "dublin-city",
-      "venue": "中央图书馆（Central Library, ILAC Centre）",
-      "address": "ILAC Centre, Henry Street, Dublin 1, D01 HW54",
-      "lat": 53.35033,
-      "lng": -6.264253,
-      "start": "2026-10-29T15:30:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有另写票价。建议预约",
-        "note_en": "The event page lists no separate price. Booking is advised"
-      },
-      "tags": [
-        "图书馆",
-        "万圣节"
-      ],
-      "source_url": "https://www.dublincity.ie/events/halloween-party-kids",
-      "source_name": "都柏林市立图书馆",
-      "age_hint": "儿童场，须大人陪同",
-      "booking_zh": "建议预约，点活动页链接",
-      "title_en": "Central Library: children’s Halloween party",
-      "description_en": "A children’s session at the ILAC Central Library on 29 October at 15:30, with scary stories, a short Halloween film, a colouring prize and snacks. Booking is advised. Places are limited. The event page does not list a price.",
-      "venue_en": "Central Library, ILAC Centre",
-      "age_hint_en": "A children’s session, with an adult",
-      "booking_en": "Booking advised; use the link on the event page",
-      "source_name_en": "Dublin City Libraries",
-      "tags_en": [
-        "Library",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "malahide-balor-2026-10-30",
-      "title_zh": "马拉海德图书馆：巴洛尔故事会",
-      "description_zh": "说书人 Balor Otherworld 讲都柏林和爱尔兰民间故事。10 月 30 日 11:30，6 岁以上，谁都可以来。向图书馆预约。",
-      "region": "fingal",
-      "venue": "马拉海德图书馆（Malahide Library）",
-      "address": "Main Street, Malahide, Co. Dublin, K36 EW63",
-      "lat": 53.45055,
-      "lng": -6.152383,
-      "start": "2026-10-30T11:30:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "故事会",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/spooky-storytelling-with-balor-otherworld/",
-      "source_name": "Explore Fingal",
-      "age_hint": "6 岁以上",
-      "booking_zh": "邮件 malahidelibrary@fingal.ie 或致电 01 870 4430",
-      "title_en": "Malahide Library: Balor storytime",
-      "description_en": "Storyteller Balor Otherworld tells Dublin and Irish folk tales. 30 October, 11:30, age 6 and up, and anyone can come. Book with the library.",
-      "venue_en": "Malahide Library",
-      "age_hint_en": "Age 6+",
-      "booking_en": "Email malahidelibrary@fingal.ie or call 01 870 4430",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Storytime",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "skerries-balor-2026-10-30",
-      "title_zh": "斯凯瑞斯图书馆：巴洛尔故事会",
-      "description_zh": "同一位说书人的斯凯瑞斯场，10 月 30 日 14:30，6 岁以上。地图针标在 Strand Street 上。向图书馆预约。",
-      "region": "fingal",
-      "venue": "斯凯瑞斯图书馆（Skerries Library）",
-      "address": "Strand Street, Skerries, Co. Dublin, K34 FT61",
-      "lat": 53.579993,
-      "lng": -6.106685,
-      "start": "2026-10-30T14:30:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "故事会",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/spooky-storytelling-with-balor-otherworld-2/",
-      "source_name": "Explore Fingal",
-      "age_hint": "6 岁以上",
-      "booking_zh": "邮件 skerrieslibrary.library@fingal.ie 或致电 01 890 5671",
-      "title_en": "Skerries Library: Balor storytime",
-      "description_en": "The same storyteller, in Skerries, 30 October at 14:30, age 6 and up. The pin is on Strand Street. Book with the library.",
-      "venue_en": "Skerries Library",
-      "age_hint_en": "Age 6+",
-      "booking_en": "Email skerrieslibrary.library@fingal.ie or call 01 890 5671",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Storytime",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "frcollins-preteens-2026-10-30",
-      "title_zh": "柯林斯神父公园：小学年龄万圣节",
-      "description_zh": "多纳梅德的柯林斯神父公园，10 月 30 日 14:00–16:00。活动页标题是 Pre Teens，比同园傍晚的青少年场年龄小，有小怪物故事、脸部彩绘和电影。页面没有写精确岁数。活动页没有写门票，也没有预约链接。公园在海边，风大就加外套。",
-      "region": "dublin-city",
-      "venue": "柯林斯神父公园（Father Collins Park）",
-      "address": "Hole in the Wall Road, Donaghmede, Dublin 13",
-      "lat": 53.405412,
-      "lng": -6.160651,
-      "start": "2026-10-30T14:00:00+00:00",
-      "end": "2026-10-30T16:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票，也没有预约链接",
-        "note_en": "The event page lists neither a ticket price nor a booking link"
-      },
-      "tags": [
-        "公园",
-        "万圣节",
-        "户外"
-      ],
-      "source_url": "https://www.dublincity.ie/events/fr-collins-park-pre-teens-halloween",
-      "source_name": "都柏林市议会",
-      "age_hint": "活动页写成 pre-teens",
-      "booking_zh": "不用预约",
-      "title_en": "Father Collins Park: primary-age Halloween",
-      "description_en": "Father Collins Park in Donaghmede, 30 October, 14:00–16:00. The event title says Pre Teens, younger than the park’s evening teen session, with little-monster stories, face painting and a film. The page does not give an exact age. It lists neither a ticket price nor a booking link. The park is by the sea. Add a coat if it is windy.",
-      "venue_en": "Father Collins Park",
-      "age_hint_en": "Listed as pre-teens",
-      "booking_en": "No booking",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Park",
-        "Halloween",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "dockers-demons-2026-10-30",
-      "title_zh": "林森德公园：码头与恶魔",
-      "description_zh": "林森德公园的万圣节，10 月 30 日和 31 日都是 15:00–19:00。15:00–16:00 是神经多样性安静时段。之后有游乐区、鬼路和被遗忘的墓地小径。游乐设施会不会另收费，页面没说。",
-      "region": "dublin-city",
-      "venue": "林森德公园（Ringsend Park）",
-      "address": "Ringsend Park, Ringsend, Dublin 4",
-      "lat": 53.341613,
-      "lng": -6.221503,
-      "start": "2026-10-30T15:00:00+00:00",
-      "end": "2026-10-31T19:00:00+00:00",
-      "schedule_note_zh": "两天都是 15:00–19:00；安静时段 15:00–16:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票。游乐设施会不会另收费，页面没说",
-        "note_en": "The event page does not list a ticket price. It does not say whether the rides cost extra"
-      },
-      "tags": [
-        "公园",
-        "万圣节",
-        "户外"
-      ],
-      "source_url": "https://www.dublincity.ie/events/dockers-and-demons",
-      "source_name": "都柏林市议会",
-      "age_hint": "低龄可先走安静时段",
-      "booking_zh": "户外开放活动",
-      "title_en": "Ringsend Park: Dockers and Demons",
-      "description_en": "Halloween at Ringsend Park, 30 and 31 October, both days 15:00–19:00. 15:00–16:00 is a neurodivergent quiet hour. After that there is a play zone, a ghost walk and a forgotten-graveyard trail. The page does not say whether the rides cost extra.",
-      "venue_en": "Ringsend Park",
-      "schedule_note_en": "Both days 15:00–19:00; quiet hour 15:00–16:00",
-      "age_hint_en": "Younger children can start in the quiet hour",
-      "booking_en": "Open outdoor event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Park",
-        "Halloween",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "d12-wayside-2026-10-31",
-      "title_zh": "蓝钟：社区足球上午",
-      "description_zh": "都柏林 12 区万圣节页上的上午场，10 月 31 日 10:00–14:00，在路边圣母学校的人造草场，Inchicore Athletic 主办。活动页没有写门票。同一页下午还有蓝钟社区中心的鬼屋派对，和德里姆纳的马戏。",
-      "region": "dublin-city",
-      "venue": "路边圣母学校（Our Lady of the Wayside NS）",
-      "address": "Bluebell Road, Bluebell, Dublin 12",
-      "lat": 53.331593,
-      "lng": -6.337882,
-      "start": "2026-10-31T10:00:00+00:00",
-      "end": "2026-10-31T14:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票",
-        "note_en": "The event page does not list a ticket price"
-      },
-      "tags": [
-        "社区",
-        "万圣节",
-        "户外"
-      ],
-      "source_url": "https://www.dublincity.ie/events/d12-halloween-events",
-      "source_name": "都柏林市议会",
-      "age_hint": "社区活动，小孩有大人陪",
-      "booking_zh": "社区开放活动",
-      "title_en": "Bluebell: community football morning",
-      "description_en": "A morning session on the Dublin 12 Halloween page, 31 October, 10:00–14:00, on the artificial pitch at Our Lady of the Wayside NS, hosted by Inchicore Athletic. The event page does not list a ticket price. The same page also has an afternoon haunted-house party at Bluebell Community Centre, and circus in Drimnagh.",
-      "venue_en": "Our Lady of the Wayside NS",
-      "age_hint_en": "A community event; children come with an adult",
-      "booking_en": "Open community event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Community",
-        "Halloween",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "ballyfermot-spanish-2026-10-31",
-      "title_zh": "巴利弗莫特图书馆：西班牙语故事",
-      "description_zh": "巴利弗莫特图书馆 10 月 31 日 11:00 的西班牙语万圣节故事，加上手工和感官活动，给孩子和家人。必须向图书馆预约。活动页没有写票价。",
-      "region": "dublin-city",
-      "venue": "巴利弗莫特图书馆（Ballyfermot Library）",
-      "address": "Ballyfermot Road, Dublin 10, D10 WV02",
-      "lat": 53.340202,
-      "lng": -6.351719,
-      "start": "2026-10-31T11:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有另写票价。必须向图书馆预约",
-        "note_en": "The event page lists no separate price. Book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "故事会",
-        "万圣节"
-      ],
-      "source_url": "https://www.dublincity.ie/events/childrens-storytime-spanish-ballyfermot-library",
-      "source_name": "都柏林市立图书馆",
-      "age_hint": "儿童和家人",
-      "booking_zh": "邮件 ballyfermotlibrary@dublincity.ie 或致电 01 222 8422",
-      "title_en": "Ballyfermot Library: stories in Spanish",
-      "description_en": "Spanish-language Halloween stories at Ballyfermot Library on 31 October at 11:00, plus crafts and sensory activities, for children and families. Book with the library. The event page does not list a price.",
-      "venue_en": "Ballyfermot Library",
-      "age_hint_en": "Children and families",
-      "booking_en": "Email ballyfermotlibrary@dublincity.ie or call 01 222 8422",
-      "source_name_en": "Dublin City Libraries",
-      "tags_en": [
-        "Library",
-        "Storytime",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "swords-writing-2026-10-31",
-      "title_zh": "斯沃兹图书馆：鬼故事写作",
-      "description_zh": "Megan Wynne 在斯沃兹图书馆带 8–12 岁孩子写鬼故事。10 月 31 日 11:00。向图书馆预约。",
-      "region": "fingal",
-      "venue": "斯沃兹图书馆（Swords Library）",
-      "address": "Rathbeale Road, Swords, Co. Dublin, K67 HH36",
-      "lat": 53.462348,
-      "lng": -6.229269,
-      "start": "2026-10-31T11:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/halloween-creative-writing-workshop-2/",
-      "source_name": "Explore Fingal",
-      "age_hint": "8–12 岁",
-      "booking_zh": "邮件 swordslibrary@fingal.ie 或致电 01 890 5582",
-      "title_en": "Swords Library: ghost-story writing",
-      "description_en": "Megan Wynne helps ages 8–12 write ghost stories at Swords Library. 31 October, 11:00. Book with the library.",
-      "venue_en": "Swords Library",
-      "age_hint_en": "Ages 8–12",
-      "booking_en": "Email swordslibrary@fingal.ie or call 01 890 5582",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "balbriggan-masks-2026-10-31",
-      "title_zh": "巴尔布里根图书馆：面具手工",
-      "description_zh": "艺术家 Kim Jenkinson 在巴尔布里根图书馆带 6 岁以上孩子做万圣节面具，可做吓人的，也可做闪的。10 月 31 日 11:00。向这家馆预约。",
-      "region": "fingal",
-      "venue": "巴尔布里根图书馆（Balbriggan Library）",
-      "address": "Saint George's Square, Balbriggan, Co. Dublin, K32 TW27",
-      "lat": 53.608475,
-      "lng": -6.182129,
-      "start": "2026-10-31T11:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/halloween-mask-making-workshop-2/",
-      "source_name": "Explore Fingal",
-      "age_hint": "6 岁以上",
-      "booking_zh": "邮件 balbrigganlibrary@fingal.ie 或致电 01 870 4401",
-      "title_en": "Balbriggan Library: mask making",
-      "description_en": "Artist Kim Jenkinson helps children aged 6 and up make Halloween masks at Balbriggan Library, scary or sparkly. 31 October, 11:00. Book with this library.",
-      "venue_en": "Balbriggan Library",
-      "age_hint_en": "Age 6+",
-      "booking_en": "Email balbrigganlibrary@fingal.ie or call 01 870 4401",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "baldoyle-magic-2026-10-31",
-      "title_zh": "巴尔多伊尔图书馆：万圣节魔术",
-      "description_zh": "Reuben 在巴尔多伊尔图书馆做全家向的万圣节魔术，10 月 31 日 12:00。豪斯图书馆同一天 10:00 还有他的一场。向巴尔多伊尔馆预约。",
-      "region": "fingal",
-      "venue": "巴尔多伊尔图书馆（Baldoyle Library）",
-      "address": "The Mall, Baldoyle, Dublin 13, D13 Y304",
-      "lat": 53.396819,
-      "lng": -6.12574,
-      "start": "2026-10-31T12:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "演出",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/halloween-magic-show-2/",
-      "source_name": "Explore Fingal",
-      "age_hint": "全家",
-      "booking_zh": "邮件 baldoylelibrary@fingal.ie 或致电 01 890 6793",
-      "title_en": "Baldoyle Library: Halloween magic",
-      "description_en": "Reuben does a family Halloween magic show at Baldoyle Library, 31 October at 12:00. He also has a show at Howth Library the same day at 10:00. Book with Baldoyle.",
-      "venue_en": "Baldoyle Library",
-      "age_hint_en": "Whole family",
-      "booking_en": "Email baldoylelibrary@fingal.ie or call 01 890 6793",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Show",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "brickfield-halloween-2026-10-31",
-      "title_zh": "布里克菲尔德公园：万圣节",
-      "description_zh": "布里克菲尔德公园 10 月 31 日 12:00–16:00，市议会写有魔术、现场音乐、幽灵列车和脸部彩绘。活动页没有写门票。幽灵列车会不会另收费，页面没说。地图针标在克鲁姆林这座公园。",
-      "region": "dublin-city",
-      "venue": "布里克菲尔德公园（Brickfield Park）",
-      "address": "Brickfield Park, Crumlin, Dublin 12",
-      "lat": 53.331747,
-      "lng": -6.308383,
-      "start": "2026-10-31T12:00:00+00:00",
-      "end": "2026-10-31T16:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票。幽灵列车会不会另收费，页面没说",
-        "note_en": "The event page does not list a ticket price. It does not say whether the ghost train costs extra"
-      },
-      "tags": [
-        "公园",
-        "万圣节",
-        "户外"
-      ],
-      "source_url": "https://www.dublincity.ie/events/brickfield-halloween-festival",
-      "source_name": "都柏林市议会",
-      "age_hint": "全家",
-      "booking_zh": "户外开放活动",
-      "title_en": "Brickfield Park: Halloween",
-      "description_en": "Brickfield Park on 31 October, 12:00–16:00. The city council lists magic, live music, a ghost train and face painting. The event page does not list a ticket price, and it does not say whether the ghost train costs extra. The pin is on this park in Crumlin.",
-      "venue_en": "Brickfield Park",
-      "age_hint_en": "Whole family",
-      "booking_en": "Open outdoor event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Park",
-        "Halloween",
-        "Outdoor"
-      ]
-    },
-    {
-      "id": "blanch-draw-2026-10-31",
-      "title_zh": "布兰查德斯敦图书馆：万圣节跟着画",
-      "description_zh": "Úna Woods 在布兰查德斯敦图书馆的 Ellora McGee 跟着画，10 月 31 日 14:00，适合 8–12 岁。菲布斯伯勒那场是 10 月 27 日、年龄更小。向这家馆预约。图书馆在市民中心一带。",
-      "region": "fingal",
-      "venue": "布兰查德斯敦图书馆（Blanchardstown Library）",
-      "address": "The Civic Centre, Blanchardstown Centre, Dublin 15",
-      "lat": 53.390758,
-      "lng": -6.391235,
-      "start": "2026-10-31T14:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，须向图书馆预约",
-        "note_en": "Free, book with the library"
-      },
-      "tags": [
-        "图书馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/halloween-draw-along-2/",
-      "source_name": "Explore Fingal",
-      "age_hint": "8–12 岁",
-      "booking_zh": "邮件 blanchlibrary@fingal.ie 或致电 01 890 5560",
-      "title_en": "Blanchardstown Library: Halloween draw-along",
-      "description_en": "Úna Woods’s Ellora McGee draw-along at Blanchardstown Library, 31 October at 14:00, ages 8–12. The Phibsborough session is 27 October and for younger children. Book with this library. The library is by the civic centre.",
-      "venue_en": "Blanchardstown Library",
-      "age_hint_en": "Ages 8–12",
-      "booking_en": "Email blanchlibrary@fingal.ie or call 01 890 5560",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Library",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "d12-bluebell-2026-10-31",
-      "title_zh": "蓝钟社区中心：万圣节派对",
-      "description_zh": "都柏林 12 区页上的蓝钟场，10 月 31 日 15:00–18:30，有鬼屋、派对和表演。活动页没有写门票。地图针标在 Bluebell Road 上 OSM 标成 Bluebell Recreation Centre 的那一带，活动页写的是 Community Centre。",
-      "region": "dublin-city",
-      "venue": "蓝钟社区中心（Bluebell Community Centre）",
-      "address": "Bluebell Road, Bluebell, Dublin 12",
-      "lat": 53.332984,
-      "lng": -6.335187,
-      "start": "2026-10-31T15:00:00+00:00",
-      "end": "2026-10-31T18:30:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票",
-        "note_en": "The event page does not list a ticket price"
-      },
-      "tags": [
-        "社区",
-        "万圣节"
-      ],
-      "source_url": "https://www.dublincity.ie/events/d12-halloween-events",
-      "source_name": "都柏林市议会",
-      "age_hint": "社区活动，鬼屋可能吓到幼儿",
-      "booking_zh": "社区开放活动",
-      "title_en": "Bluebell Community Centre: Halloween party",
-      "description_en": "The Bluebell stop on the Dublin 12 page, 31 October, 15:00–18:30, with a haunted house, a party and performances. The event page does not list a ticket price. The pin is on Bluebell Road, near the place OpenStreetMap labels Bluebell Recreation Centre. The event page says Community Centre.",
-      "venue_en": "Bluebell Community Centre",
-      "age_hint_en": "A community event; the haunted house may scare toddlers",
-      "booking_en": "Open community event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Community",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "d12-circus-2026-10-31",
-      "title_zh": "德里姆纳：马戏欢乐秀",
-      "description_zh": "都柏林马戏项目在德里姆纳 Our Lady's Hall 的万圣节马戏，10 月 31 日 16:30–18:00。和蓝钟的鬼屋派对不是同一个地方。活动页没有写门票。",
-      "region": "dublin-city",
-      "venue": "圣母堂社区厅（Our Lady's Hall, Drimnagh）",
-      "address": "Mourne Road, Drimnagh, Dublin 12, D12 DW68",
-      "lat": 53.331015,
-      "lng": -6.320504,
-      "start": "2026-10-31T16:30:00+00:00",
-      "end": "2026-10-31T18:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票",
-        "note_en": "The event page does not list a ticket price"
-      },
-      "tags": [
-        "演出",
-        "万圣节",
-        "社区"
-      ],
-      "source_url": "https://www.dublincity.ie/events/d12-halloween-events",
-      "source_name": "都柏林市议会",
-      "age_hint": "全家",
-      "booking_zh": "社区开放活动",
-      "title_en": "Drimnagh: circus fun show",
-      "description_en": "A Halloween circus from the Dublin Circus Project at Our Lady’s Hall in Drimnagh, 31 October, 16:30–18:00. It is not the same place as the Bluebell haunted-house party. The event page does not list a ticket price.",
-      "venue_en": "Our Lady's Hall, Drimnagh",
-      "age_hint_en": "Whole family",
-      "booking_en": "Open community event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Show",
-        "Halloween",
-        "Community"
-      ]
-    },
-    {
-      "id": "scare-square-2026-10-31",
-      "title_zh": "皮尔斯广场：广场惊魂",
-      "description_zh": "皮尔斯广场公园 10 月 31 日 16:00–20:00。16:00–16:30 是神经多样性安静时段。之后有嘉年华游戏、鬼迷宫、舞池、占卜、冒险区、DJ、火焰秀和卡拉 OK。声音和火焰更适合能接受刺激的孩子。活动页没有写门票。",
-      "region": "dublin-city",
-      "venue": "皮尔斯广场（Pearse Square）",
-      "address": "Pearse Square, Dublin 2",
-      "lat": 53.343476,
-      "lng": -6.242142,
-      "start": "2026-10-31T16:00:00+00:00",
-      "end": "2026-10-31T20:00:00+00:00",
-      "schedule_note_zh": "安静时段 16:00–16:30，主场到 20:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票",
-        "note_en": "The event page does not list a ticket price"
-      },
-      "tags": [
-        "公园",
-        "万圣节",
-        "晚间"
-      ],
-      "source_url": "https://www.dublincity.ie/events/scare-square",
-      "source_name": "都柏林市议会",
-      "age_hint": "低龄可先走安静时段",
-      "booking_zh": "户外开放活动",
-      "title_en": "Pearse Square: Scare Square",
-      "description_en": "Pearse Square park on 31 October, 16:00–20:00. 16:00–16:30 is a neurodivergent quiet hour. After that: carnival games, a ghost maze, a dance floor, fortune telling, an adventure zone, a DJ, a fire show and karaoke. The noise and fire suit children who can handle a lot of stimulation. The event page does not list a ticket price.",
-      "venue_en": "Pearse Square",
-      "schedule_note_en": "Quiet hour 16:00–16:30, main event until 20:00",
-      "age_hint_en": "Younger children can start in the quiet hour",
-      "booking_en": "Open outdoor event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Park",
-        "Halloween",
-        "Evening"
-      ]
-    },
-    {
-      "id": "bremore-fire-2026-10-31",
-      "title_zh": "布雷莫尔城堡：火焰节",
-      "description_zh": "芬戈尔火焰节的巴尔布里根场，在布雷莫尔城堡，和斯沃兹、布兰查德斯敦不是同一地点。10 月 31 日 18:30 有音乐和吓人迪斯科，19:30 放烟花。活动卡标为免费。声音大，更适合能晚睡的孩子。",
-      "region": "fingal",
-      "venue": "布雷莫尔城堡（Bremore Castle）",
-      "address": "Drogheda Street, Balbriggan, Co. Dublin, K32 P658",
-      "lat": 53.615434,
-      "lng": -6.196851,
-      "start": "2026-10-31T18:30:00+00:00",
-      "end": null,
-      "schedule_note_zh": "18:30 音乐和迪斯科，19:30 烟花",
-      "price": {
-        "kind": "free",
-        "note_zh": "Explore Fingal 标为免费",
-        "note_en": "Explore Fingal marks it free"
-      },
-      "tags": [
-        "户外",
-        "晚间",
-        "万圣节"
-      ],
-      "source_url": "https://explorefingal.ie/whats-on/festival-of-fire-bremore-castle/",
-      "source_name": "Explore Fingal",
-      "age_hint": "更适合能晚睡的孩子",
-      "booking_zh": "户外开放活动",
-      "title_en": "Bremore Castle: Fire Festival",
-      "description_en": "The Balbriggan stop of the Fingal Fire Festival, at Bremore Castle. It is not the same place as Swords or Blanchardstown. On 31 October there is music and a scary disco at 18:30, and fireworks at 19:30. The event card marks it free. It is loud, and it suits children who can stay up.",
-      "venue_en": "Bremore Castle",
-      "schedule_note_en": "Music and disco at 18:30, fireworks at 19:30",
-      "age_hint_en": "Better for children who can stay up late",
-      "booking_en": "Open outdoor event",
-      "source_name_en": "Explore Fingal",
-      "tags_en": [
-        "Outdoor",
-        "Evening",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "belcamp-fireworks-2026-10-31",
-      "title_zh": "贝尔坎普公园：万圣节烟花",
-      "description_zh": "普赖尔斯伍德、克朗肖一带的贝尔坎普公园，10 月 31 日 19:15 放烟花，可以穿装扮。小孩必须有大人陪。活动页没有写门票，也没有写结束时间。",
-      "region": "dublin-city",
-      "venue": "贝尔坎普公园（Belcamp Park）",
-      "address": "Belcamp Park, Priorswood, Clonshaugh, Dublin 17",
-      "lat": 53.407145,
-      "lng": -6.210536,
-      "start": "2026-10-31T19:15:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票。小孩必须有大人陪",
-        "note_en": "The event page does not list a ticket price. Children must come with an adult"
-      },
-      "tags": [
-        "公园",
-        "万圣节",
-        "晚间"
-      ],
-      "source_url": "https://www.dublincity.ie/events/belcamp-park-halloween-fireworks-display",
-      "source_name": "都柏林市议会",
-      "age_hint": "须大人陪同，更适合能晚睡的孩子",
-      "booking_zh": "户外开放活动",
-      "title_en": "Belcamp Park: Halloween fireworks",
-      "description_en": "Belcamp Park, between Priorswood and Clonshaugh, sets off fireworks at 19:15 on 31 October. Costumes welcome. Children must come with an adult. The event page lists neither a ticket price nor an end time.",
-      "venue_en": "Belcamp Park",
-      "age_hint_en": "With an adult; better for children who can stay up late",
-      "booking_en": "Open outdoor event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Park",
-        "Halloween",
-        "Evening"
-      ]
-    },
-    {
-      "id": "edenmore-fireworks-2026-10-31",
-      "title_zh": "伊登莫尔公园：万圣节烟花",
-      "description_zh": "多纳梅德伊登莫尔公园，10 月 31 日 20:00 放烟花。小孩必须有大人陪。活动页没有写门票，也没有写结束时间。地址写的是 Edenmore Crescent。",
-      "region": "dublin-city",
-      "venue": "伊登莫尔公园（Edenmore Park）",
-      "address": "Edenmore Crescent, Donaghmede, Dublin 5",
-      "lat": 53.386638,
-      "lng": -6.18576,
-      "start": "2026-10-31T20:00:00+00:00",
-      "end": null,
-      "price": {
-        "kind": "free",
-        "note_zh": "活动页没有写门票。小孩必须有大人陪",
-        "note_en": "The event page does not list a ticket price. Children must come with an adult"
-      },
-      "tags": [
-        "公园",
-        "万圣节",
-        "晚间"
-      ],
-      "source_url": "https://www.dublincity.ie/events/edenmore-fireworks-display",
-      "source_name": "都柏林市议会",
-      "age_hint": "须大人陪同，更适合能晚睡的孩子",
-      "booking_zh": "户外开放活动",
-      "title_en": "Edenmore Park: Halloween fireworks",
-      "description_en": "Fireworks at Edenmore Park in Donaghmede at 20:00 on 31 October. Children must come with an adult. The event page lists neither a ticket price nor an end time. The address given is Edenmore Crescent.",
-      "venue_en": "Edenmore Park",
-      "age_hint_en": "With an adult; better for children who can stay up late",
-      "booking_en": "Open outdoor event",
-      "source_name_en": "Dublin City Council",
-      "tags_en": [
-        "Park",
-        "Halloween",
-        "Evening"
-      ]
-    },
-    {
-      "id": "imma-explorer-halloween-2026-11-01",
-      "title_zh": "IMMA：万圣节家庭美术",
-      "description_zh": "爱尔兰现代艺术博物馆的万圣节 Explorer 工坊，11 月 1 日周日 14:00–16:00。帮馆里的幽灵找丢失的东西，或给他做一个新的，欢迎穿装扮。免费随到随做，名额有限。在 Matheson Creativity Hub，到主楼问讯处问路。材料馆方提供。",
-      "region": "dublin-city",
-      "venue": "爱尔兰现代艺术博物馆（IMMA）",
-      "address": "Royal Hospital Kilmainham, Military Road, Dublin 8, D08 FW31",
-      "lat": 53.342917,
-      "lng": -6.299465,
-      "start": "2026-11-01T14:00:00+00:00",
-      "end": "2026-11-01T16:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费随到随做，名额有限",
-        "note_en": "Free drop-in, places limited"
-      },
-      "tags": [
-        "博物馆",
-        "手工",
-        "万圣节"
-      ],
-      "source_url": "https://imma.ie/whats-on/explorer-art-workshops/",
-      "source_name": "IMMA",
-      "age_hint": "全家",
-      "booking_zh": "不用预约，先到先得",
-      "title_en": "IMMA: Halloween family art",
-      "description_en": "IMMA’s Halloween Explorer workshop, Sunday 1 November, 14:00–16:00. Help the gallery ghost find something it lost, or make it something new. Costumes welcome. Free drop-in, places limited. It is in the Matheson Creativity Hub. Ask at the main-building desk for directions. Materials are provided.",
-      "venue_en": "Irish Museum of Modern Art (IMMA)",
-      "age_hint_en": "Whole family",
-      "booking_en": "No booking, first come",
-      "source_name_en": "IMMA",
-      "tags_en": [
-        "Museum",
-        "Crafts",
-        "Halloween"
-      ]
-    },
-    {
-      "id": "ngi-family-2026-11-01",
-      "title_zh": "国立美术馆：周日家庭导览",
-      "description_zh": "专门给孩子和家长、看护的免费导览，13:00–14:00，在梅里恩广场入口附近的庭院集合，不用预约。馆方页写这是每周日的家庭导览；10 月 25 日的 What's on 仍列了同一钟点。常设展免费。开放时间页写过劳资行动可能临时闭馆。",
-      "region": "dublin-city",
-      "venue": "爱尔兰国立美术馆（National Gallery of Ireland）",
-      "address": "Merrion Square West, Dublin 2",
-      "lat": 53.341121,
-      "lng": -6.252667,
-      "start": "2026-11-01T13:00:00+00:00",
-      "end": "2026-11-01T14:00:00+00:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "导览和常设展免费。部分临时展览另收费",
-        "note_en": "The tour and the permanent collection are free. Some temporary exhibitions charge"
-      },
-      "tags": [
-        "博物馆",
-        "导览"
-      ],
-      "source_url": "https://www.nationalgallery.ie/whats-on/public-tour-family-tour-2",
-      "source_name": "爱尔兰国立美术馆",
-      "age_hint": "孩子和陪同的大人",
-      "booking_zh": "不用预约",
-      "title_en": "National Gallery: Sunday family tour",
-      "description_en": "A free tour just for children and parents or carers, 13:00–14:00. Meet in the courtyard near the Merrion Square entrance. No booking. The gallery page says this is the Sunday family tour each week. The 25 October What’s On still listed the same time. The permanent collection is free. The opening-hours page has said industrial action may close the building at short notice.",
-      "venue_en": "National Gallery of Ireland",
-      "age_hint_en": "Children and the adult with them",
-      "booking_en": "No booking",
-      "source_name_en": "National Gallery of Ireland",
-      "tags_en": [
-        "Museum",
-        "Tour"
       ]
     },
     {
@@ -3696,41 +1583,6 @@
       ]
     },
     {
-      "id": "tseac-uilleann-2026-11-07",
-      "title_zh": "恩尼斯艺术中心：认识爱尔兰风笛",
-      "description_zh": "11 月 7 日周六 14:00–16:00，国际风笛日的动手体验，可以试吹、看演示、提问。页面写各年龄欢迎，没有乐器基础也可以。活动页有购票按钮，没有写出欧元票价。国立美术馆同一天上午另有一场风笛导览。",
-      "region": "fingal",
-      "venue": "谢默斯·恩尼斯艺术中心（Séamus Ennis Arts Centre）",
-      "address": "Main Street, Naul, Co. Dublin, K32 AY27",
-      "lat": 53.586139,
-      "lng": -6.289776,
-      "start": "2026-11-07T14:00:00+00:00",
-      "end": "2026-11-07T16:00:00+00:00",
-      "price": {
-        "kind": "paid",
-        "note_zh": "活动页没有写出票价，请到 TSEAC 购票处看",
-        "note_en": "The event page does not print a price. Check the TSEAC box office"
-      },
-      "tags": [
-        "演出",
-        "室内"
-      ],
-      "source_url": "https://www.tseac.ie/event-details/discover-the-uilleann-pipes-at-tseac",
-      "source_name": "Séamus Ennis Arts Centre",
-      "age_hint": "各年龄欢迎",
-      "booking_zh": "活动页有购票按钮，票价页面没写",
-      "title_en": "Séamus Ennis Arts Centre: meet the uilleann pipes",
-      "description_en": "Saturday 7 November, 14:00–16:00, a hands-on International Uilleann Piping Day. Try a note, watch a demonstration, ask questions. The page says all ages are welcome, including people with no instrument behind them. The event page has a buy button and does not print a euro price. The National Gallery has a separate pipes tour the same morning.",
-      "venue_en": "Séamus Ennis Arts Centre",
-      "age_hint_en": "All ages welcome",
-      "booking_en": "The event page has a buy button; it doesn’t show a price",
-      "source_name_en": "Séamus Ennis Arts Centre",
-      "tags_en": [
-        "Show",
-        "Indoor"
-      ]
-    },
-    {
       "id": "donabate-paisti-2026-11-28",
       "title_zh": "多纳贝特图书馆：孩子们的故事歌舞",
       "description_zh": "芬戈尔图书馆 2026 秋冬手册，11 月 28 日周六 11:30–12:15 的「Páistí! Scéalta! Amhráin! Spraoi!」，Ciarán Ó Fainín 带孩子一起讲故事。手册写欢迎大家。11 月 21 日的大家的故事会是另一场。",
@@ -3983,43 +1835,6 @@
         "Library",
         "Toddlers",
         "Christmas"
-      ]
-    },
-    {
-      "id": "palmerstown-musical-tots-2026-10-31",
-      "title_zh": "帕默斯敦图书馆：音乐小宝贝",
-      "description_zh": "帕默斯敦图书馆的免费亲子音乐课，10 月 31 日周六 10:30–11:30。唱歌、跳舞、玩各种声音，适合 6 个月到学龄前的小朋友，大人陪着一起。每个来的孩子领一张票。",
-      "region": "south-dublin",
-      "venue": "帕默斯敦图书馆数字馆",
-      "address": "Unit 11, Palmerstown Shopping Centre, Dublin 20",
-      "lat": 53.350326,
-      "lng": -6.379233,
-      "start": "2026-10-31T10:30:00+00:00",
-      "end": "2026-10-31T11:30:00+00:00",
-      "schedule_note_zh": "周六 10:30–11:30",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费。票在 Eventbrite 上领，每个孩子一张",
-        "note_en": "Free. Collect a ticket on Eventbrite, one per child"
-      },
-      "tags": [
-        "图书馆",
-        "低龄"
-      ],
-      "source_url": "https://www.eventbrite.ie/e/musical-tots-tickets-2001693587404",
-      "source_name": "Palmerstown Library · Eventbrite",
-      "age_hint": "6 个月到学龄前，须大人陪同",
-      "booking_zh": "需要在 Eventbrite 领票",
-      "title_en": "Palmerstown Library: musical tots",
-      "description_en": "A free parent-and-child music class at Palmerstown Library, Saturday 31 October, 10:30–11:30. Singing, dancing and all sorts of sounds, for 6 months to preschool, with an adult joining in. Each child who comes needs a ticket.",
-      "venue_en": "Palmerstown Library Digital Hub",
-      "schedule_note_en": "Saturday 10:30–11:30",
-      "age_hint_en": "6 months to preschool, with an adult",
-      "booking_en": "Get a ticket on Eventbrite",
-      "source_name_en": "Palmerstown Library · Eventbrite",
-      "tags_en": [
-        "Library",
-        "Toddlers"
       ]
     },
     {
@@ -4530,6 +2345,831 @@
       "source_name_en": "Pavilion Theatre",
       "tags_en": [
         "Film",
+        "Christmas",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "dundrum-onice-2026-10-23",
+      "title_zh": "邓德拉姆：ONICE 户外溜冰场",
+      "description_zh": "邓德拉姆主街的季节溜冰场，第 14 年，开到 2027 年 1 月 24 日。每场 45 分钟，整点开始，建议提前 20 分钟到。小朋友可以租辅助企鹅。停车在 Dundrum Town Centre，坐 Luas 绿线到 Dundrum 站最方便。",
+      "region": "dlr",
+      "venue": "ONICE 邓德拉姆溜冰场",
+      "address": "Main Street, Dundrum, Dublin 14, D14 A250",
+      "lat": 53.287009,
+      "lng": -6.242267,
+      "start": "2026-10-23",
+      "end": "2027-01-24",
+      "time_tbc": true,
+      "schedule_note_zh": "10 月 23 日至 2027 年 1 月 24 日，每场 45 分钟，整点开始",
+      "price": {
+        "kind": "paid",
+        "note_zh": "成人 €20，12 岁及以下 €18，三人家庭票 €48，四人家庭票 €64",
+        "note_en": "Adult €20, child (12 and under) €18, family of three €48, family of four €64"
+      },
+      "tags": [
+        "溜冰",
+        "圣诞",
+        "户外"
+      ],
+      "source_url": "https://www.onice.ie/locations/dundrum",
+      "source_name": "ONICE",
+      "age_hint": "全家，小朋友可用辅助器",
+      "booking_zh": "官网按场次订票",
+      "title_en": "Dundrum: ONICE ice rink",
+      "description_en": "The seasonal ice rink on Dundrum Main Street, in its 14th year, open until 24 January 2027. Sessions are 45 minutes and start on the hour. Arrive 20 minutes early. Skate aids are available for small children. Park at Dundrum Town Centre, or take the Luas Green Line to Dundrum.",
+      "venue_en": "ONICE Dundrum ice rink",
+      "schedule_note_en": "23 October to 24 January 2027. 45-minute sessions on the hour",
+      "age_hint_en": "Family; skate aids for children",
+      "booking_en": "Book a session on the website",
+      "source_name_en": "ONICE",
+      "tags_en": [
+        "Ice skating",
+        "Christmas",
+        "Outdoor"
+      ]
+    },
+    {
+      "id": "swords-onice-2026-10-23",
+      "title_zh": "斯沃兹：Pavilions 购物中心溜冰场",
+      "description_zh": "斯沃兹 Pavilions 购物中心旁的圣诞溜冰场，开到 2027 年 1 月 10 日。每场 45 分钟，整点开始。购物中心停车两小时免费，溜完可以顺便逛商场吃饭。",
+      "region": "fingal",
+      "venue": "ONICE 斯沃兹溜冰场（Pavilions）",
+      "address": "Pavilions Shopping Centre, Malahide Road, Swords, Co. Dublin",
+      "lat": 53.454387,
+      "lng": -6.219264,
+      "start": "2026-10-23",
+      "end": "2027-01-10",
+      "time_tbc": true,
+      "schedule_note_zh": "10 月 23 日至 2027 年 1 月 10 日，每场 45 分钟，整点开始",
+      "price": {
+        "kind": "paid",
+        "note_zh": "成人 €20，12 岁及以下 €18，三人家庭票 €48，四人家庭票 €64",
+        "note_en": "Adult €20, child (12 and under) €18, family of three €48, family of four €64"
+      },
+      "tags": [
+        "溜冰",
+        "圣诞",
+        "户外"
+      ],
+      "source_url": "https://www.onice.ie/locations/swords",
+      "source_name": "ONICE",
+      "age_hint": "全家",
+      "booking_zh": "官网按场次订票",
+      "title_en": "Swords: ice rink at the Pavilions",
+      "description_en": "The Christmas ice rink beside the Pavilions Shopping Centre in Swords, open until 10 January 2027. Sessions are 45 minutes and start on the hour. Parking at the Pavilions is free for two hours, so you can combine it with shopping or food.",
+      "venue_en": "ONICE Swords ice rink (Pavilions)",
+      "schedule_note_en": "23 October to 10 January 2027. 45-minute sessions on the hour",
+      "age_hint_en": "Family",
+      "booking_en": "Book a session on the website",
+      "source_name_en": "ONICE",
+      "tags_en": [
+        "Ice skating",
+        "Christmas",
+        "Outdoor"
+      ]
+    },
+    {
+      "id": "terenure-toy-swap-2026-11-07",
+      "title_zh": "特雷纽尔：玩具交换和游戏下午",
+      "description_zh": "The Toy Library 办的免费玩具交换会，11 月 7 日周六 14:00–16:00。最多带 5 件干净完整的旧玩具来换，不带也可以拿。现场有游戏区和环保手工角。建议 8 岁及以下。场地小，每个家庭成员都要在 Eventbrite 领一张免费票。",
+      "region": "dublin-city",
+      "venue": "特雷纽尔 Evergreen Club",
+      "address": "Evergreen Club, Terenure, Dublin 6W",
+      "lat": 53.312346,
+      "lng": -6.283524,
+      "start": "2026-11-07T14:00:00+00:00",
+      "end": "2026-11-07T16:00:00+00:00",
+      "schedule_note_zh": "周六 14:00–16:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需在 Eventbrite 领票（每人一张）",
+        "note_en": "Free. Get a ticket on Eventbrite, one per person"
+      },
+      "tags": [
+        "社区",
+        "手工",
+        "低龄"
+      ],
+      "source_url": "https://www.dublincity.ie/events/toy-library-swap-play-terenure",
+      "source_name": "Dublin City Council",
+      "age_hint": "8 岁及以下",
+      "booking_zh": "需要在 Eventbrite 领票",
+      "title_en": "Terenure: toy swap and play afternoon",
+      "description_en": "A free toy swap run by The Toy Library. Saturday 7 November, 14:00–16:00. Bring up to five clean, complete toys to swap, or come without any and still take some. There is a play area and an eco craft corner. Recommended for age 8 and under. The venue is small, so get a free Eventbrite ticket for each family member.",
+      "venue_en": "Evergreen Club, Terenure",
+      "schedule_note_en": "Saturday 14:00–16:00",
+      "age_hint_en": "Age 8 and under",
+      "booking_en": "Get a ticket on Eventbrite",
+      "source_name_en": "Dublin City Council",
+      "tags_en": [
+        "Community",
+        "Crafts",
+        "Little ones"
+      ]
+    },
+    {
+      "id": "tallaght-sensory-2026-11-07",
+      "title_zh": "塔拉特图书馆：感官游戏上午",
+      "description_zh": "塔拉特图书馆的感官游戏上午，11 月 7 日周六 10:00–12:00。有感官墙、小屋、魔法投影桌、乐高和涂色，可以借降噪耳罩和感官盒。随来随走，不用预约。",
+      "region": "south-dublin",
+      "venue": "塔拉特县图书馆",
+      "address": "Library Square, Tallaght, Dublin 24",
+      "lat": 53.288434,
+      "lng": -6.373511,
+      "start": "2026-11-07T10:00:00+00:00",
+      "end": "2026-11-07T12:00:00+00:00",
+      "schedule_note_zh": "周六 10:00–12:00，随来随走",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费",
+        "note_en": "Free"
+      },
+      "tags": [
+        "图书馆",
+        "感官友好",
+        "低龄"
+      ],
+      "source_url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/library-services/newsletters/tallaght-november-26-brochure.pdf",
+      "source_name": "塔拉特图书馆 11 月活动单",
+      "age_hint": "全年龄",
+      "booking_zh": "不用预约",
+      "title_en": "Tallaght Library: sensory play morning",
+      "description_en": "A sensory play morning at Tallaght Library. Saturday 7 November, 10:00–12:00. There is a sensory wall, a cubby, a magic projection table, LEGO and colouring. Ear defenders and sensory boxes are available on request. Drop in, no booking.",
+      "venue_en": "County Library, Tallaght",
+      "schedule_note_en": "Saturday 10:00–12:00, drop in",
+      "age_hint_en": "All ages",
+      "booking_en": "No booking",
+      "source_name_en": "Tallaght Library November guide",
+      "tags_en": [
+        "Library",
+        "Sensory-friendly",
+        "Little ones"
+      ]
+    },
+    {
+      "id": "tallaght-yoga-2026-11-07",
+      "title_zh": "塔拉特图书馆：儿童瑜伽和正念",
+      "description_zh": "塔拉特图书馆的免费儿童瑜伽，11 月 7 日周六 10:30–11:30，安静地练正念和冥想，适合 6–10 岁。每人一张票，在 Eventbrite 领。",
+      "region": "south-dublin",
+      "venue": "塔拉特县图书馆",
+      "address": "Library Square, Tallaght, Dublin 24",
+      "lat": 53.288434,
+      "lng": -6.373511,
+      "start": "2026-11-07T10:30:00+00:00",
+      "end": "2026-11-07T11:30:00+00:00",
+      "schedule_note_zh": "周六 10:30–11:30",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需在 Eventbrite 领票",
+        "note_en": "Free. Get a ticket on Eventbrite"
+      },
+      "tags": [
+        "图书馆",
+        "运动"
+      ],
+      "source_url": "https://www.eventbrite.ie/e/childrens-yoga-mindfulness-workshop-tickets-2004117439210",
+      "source_name": "Tallaght Library · Eventbrite",
+      "age_hint": "6–10 岁",
+      "booking_zh": "需要在 Eventbrite 领票",
+      "title_en": "Tallaght Library: kids’ yoga and mindfulness",
+      "description_en": "Free kids’ yoga at Tallaght Library. Saturday 7 November, 10:30–11:30, a calm session of mindfulness and meditation for ages 6–10. One ticket per person on Eventbrite.",
+      "venue_en": "County Library, Tallaght",
+      "schedule_note_en": "Saturday 10:30–11:30",
+      "age_hint_en": "Ages 6–10",
+      "booking_en": "Get a ticket on Eventbrite",
+      "source_name_en": "Tallaght Library · Eventbrite",
+      "tags_en": [
+        "Library",
+        "Movement"
+      ]
+    },
+    {
+      "id": "ice-blanchardstown-2026-11-13",
+      "title_zh": "布兰查兹敦：千禧公园大型溜冰场",
+      "description_zh": "今年邓莱里的溜冰场不办了，搬到布兰查兹敦千禧公园，号称全爱尔兰最大的真冰场，有顶棚不怕下雨。11 月 13 日到 2027 年 2 月 1 日。每场 50 分钟，含租鞋，有给小朋友的双刃冰鞋和企鹅辅助。预订的客人可以在 White Car Park 免费停车。",
+      "region": "fingal",
+      "venue": "布兰查兹敦千禧公园",
+      "address": "Millennium Park, Blanchardstown, Dublin 15",
+      "lat": 53.391869,
+      "lng": -6.391012,
+      "start": "2026-11-13",
+      "end": "2027-02-01",
+      "time_tbc": true,
+      "schedule_note_zh": "11 月 13 日至 2027 年 2 月 1 日，每场 50 分钟",
+      "price": {
+        "kind": "paid",
+        "note_zh": "€18 起（含租鞋）",
+        "note_en": "From €18, skate hire included"
+      },
+      "tags": [
+        "溜冰",
+        "圣诞",
+        "户外"
+      ],
+      "source_url": "https://iceskating.ie/dublin/",
+      "source_name": "Ice Skating Blanchardstown",
+      "age_hint": "全家，小朋友可用辅助器",
+      "booking_zh": "官网按场次订票",
+      "title_en": "Blanchardstown: big ice rink in Millennium Park",
+      "description_en": "The Dún Laoghaire rink is not coming back this year and has moved to Millennium Park in Blanchardstown. It says it is Ireland’s biggest real-ice rink, and it is covered, so rain is not a problem. 13 November to 1 February 2027. Sessions are 50 minutes with skate hire included. There are double-blade skates and penguin aids for small children. Pre-booked customers park free in the White Car Park.",
+      "venue_en": "Millennium Park, Blanchardstown",
+      "schedule_note_en": "13 November to 1 February 2027. 50-minute sessions",
+      "age_hint_en": "Family; skate aids for children",
+      "booking_en": "Book a session on the website",
+      "source_name_en": "Ice Skating Blanchardstown",
+      "tags_en": [
+        "Ice skating",
+        "Christmas",
+        "Outdoor"
+      ]
+    },
+    {
+      "id": "elftown-rds-2026-11-14",
+      "title_zh": "RDS：精灵小镇（见圣诞老人）",
+      "description_zh": "RDS 的大型室内圣诞体验。完整版约 75–90 分钟：孩子变成荣誉小精灵，给圣诞老人写信、和圣诞夫人装饰饼干、看真驯鹿、逛冰洞和玩具工厂，最后私下见圣诞老人并选一个玩具。另有约 30 分钟的简短版。11 月 14 日到 12 月 24 日，分时段入场，周末和临近圣诞最紧张。",
+      "region": "dublin-city",
+      "venue": "RDS 皇家都柏林协会",
+      "address": "RDS, Merrion Road, Ballsbridge, Dublin 4",
+      "lat": 53.325719,
+      "lng": -6.22969,
+      "start": "2026-11-14",
+      "end": "2026-12-24",
+      "time_tbc": true,
+      "schedule_note_zh": "11 月 14 日至 12 月 24 日，分时段入场",
+      "price": {
+        "kind": "paid",
+        "note_zh": "儿童 €29 起、成人 €19 起，高峰日更贵，另加订票费",
+        "note_en": "Child from €29, adult from €19, more on peak days, plus a booking fee"
+      },
+      "tags": [
+        "圣诞",
+        "圣诞老人",
+        "室内"
+      ],
+      "source_url": "https://elftowndublin.clr.events/events/139627/elf-town-dublin-2026",
+      "source_name": "Elf Town Dublin",
+      "age_hint": "适合小学低年级以下",
+      "booking_zh": "必须提前在官网订时段",
+      "title_en": "RDS: Elf Town (meet Santa)",
+      "description_en": "A big indoor Christmas experience at the RDS. The full version takes about 75–90 minutes. Children become honorary elves, write to Santa, decorate cookies with Mrs Claus, meet real reindeer, walk through an ice cave and toy factory, then have a private visit with Santa and pick a toy. There is also a shorter visit of about 30 minutes. 14 November to 24 December, timed entry. Weekends and the days close to Christmas go first.",
+      "venue_en": "RDS, Ballsbridge",
+      "schedule_note_en": "14 November to 24 December, timed entry",
+      "age_hint_en": "Best for younger children",
+      "booking_en": "Book a time slot online in advance",
+      "source_name_en": "Elf Town Dublin",
+      "tags_en": [
+        "Christmas",
+        "Santa",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "malahide-grand-lights-2026-11-15",
+      "title_zh": "马拉海德 Grand Hotel：圣诞亮灯夜",
+      "description_zh": "马拉海德 Grand Hotel 的圣诞亮灯晚会，11 月 15 日周日。有节日小吃和饮品，嘉宾 James Patrice，圣诞老人也会出场。免费，不用预约，对社区开放。官方没写具体钟点，出发前看一眼来源页。",
+      "region": "fingal",
+      "venue": "马拉海德 Grand Hotel",
+      "address": "Grove Road, Malahide, Co. Dublin, K36 XT65",
+      "lat": 53.450759,
+      "lng": -6.147259,
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "time_tbc": true,
+      "schedule_note_zh": "周日晚上，具体时间未公布",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费",
+        "note_en": "Free"
+      },
+      "tags": [
+        "圣诞",
+        "晚间",
+        "社区"
+      ],
+      "source_url": "https://explorefingal.ie/whats-on/christmas-lights-at-the-grand-hotel/",
+      "source_name": "Explore Fingal",
+      "age_hint": "全家",
+      "booking_zh": "不用预约",
+      "title_en": "The Grand Hotel, Malahide: Christmas lights switch-on",
+      "description_en": "The Christmas lights switch-on at The Grand Hotel in Malahide. Sunday 15 November. Festive treats and drinks, special guest James Patrice, and an appearance from Santa. Free, no booking, open to the community. The page does not give a time, so check the source before you go.",
+      "venue_en": "The Grand Hotel, Malahide",
+      "schedule_note_en": "Sunday evening, time not announced",
+      "age_hint_en": "Whole family",
+      "booking_en": "No booking",
+      "source_name_en": "Explore Fingal",
+      "tags_en": [
+        "Christmas",
+        "Evening",
+        "Community"
+      ]
+    },
+    {
+      "id": "explorium-santaville-2026-11-19",
+      "title_zh": "Explorium：圣诞老人村 Santaville",
+      "description_zh": "桑迪福德 Explorium 科学中心的圣诞体验：坐「魔法电梯」去北极，和小精灵做一只自己的泰迪熊，再见圣诞老人拍照。11 月 19 日到 12 月 20 日每周四到周日，另加 12 月 21–23 日，10:00–17:00。可以只订 Santaville，也可以和 Junior Explorium 或科学馆联票。",
+      "region": "dlr",
+      "venue": "Explorium 国家体育科学中心",
+      "address": "Blackglen Road, Sandyford, Dublin 18",
+      "lat": 53.266804,
+      "lng": -6.237014,
+      "start": "2026-11-19",
+      "end": "2026-12-23",
+      "time_tbc": true,
+      "schedule_note_zh": "11 月 19 日至 12 月 20 日周四到周日，另加 12 月 21–23 日，10:00–17:00",
+      "price": {
+        "kind": "paid",
+        "note_zh": "按套餐不同，价格见官网订票页",
+        "note_en": "Depends on the package. Prices are on the booking page"
+      },
+      "tags": [
+        "圣诞",
+        "圣诞老人",
+        "室内"
+      ],
+      "source_url": "https://explorium.ie/",
+      "source_name": "Explorium",
+      "age_hint": "低龄到小学",
+      "booking_zh": "官网订时段",
+      "title_en": "Explorium: Santaville",
+      "description_en": "The Christmas experience at Explorium science centre in Sandyford. Ride the magical elevator to the North Pole, make your own teddy with the elves, then meet Santa for a photo. 19 November to 20 December, Thursday to Sunday, plus 21–23 December, 10:00–17:00. Book Santaville on its own or combined with Junior Explorium or the science centre.",
+      "venue_en": "Explorium",
+      "schedule_note_en": "19 November to 20 December, Thursday to Sunday, plus 21–23 December, 10:00–17:00",
+      "age_hint_en": "Little ones to primary age",
+      "booking_en": "Book a slot on the website",
+      "source_name_en": "Explorium",
+      "tags_en": [
+        "Christmas",
+        "Santa",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "tallaght-sceal-2026-11-21",
+      "title_zh": "塔拉特图书馆：Scéal 木偶和讲故事节",
+      "description_zh": "Irish Unima 和爱尔兰童年博物馆合办的木偶和讲故事节，11 月 21 日周六。10:30–13:30 是随来随走的互动讲故事，不用预约。14:30 另有 Storybox 家庭工作坊，要在 Eventbrite 订。",
+      "region": "south-dublin",
+      "venue": "塔拉特县图书馆",
+      "address": "Library Square, Tallaght, Dublin 24",
+      "lat": 53.288434,
+      "lng": -6.373511,
+      "start": "2026-11-21T10:30:00+00:00",
+      "end": "2026-11-21T13:30:00+00:00",
+      "schedule_note_zh": "周六 10:30–13:30 随来随走，14:30 工作坊",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费；14:30 工作坊需预约",
+        "note_en": "Free. The 14:30 workshop needs booking"
+      },
+      "tags": [
+        "图书馆",
+        "木偶",
+        "故事"
+      ],
+      "source_url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/library-services/newsletters/tallaght-november-26-brochure.pdf",
+      "source_name": "塔拉特图书馆 11 月活动单",
+      "age_hint": "全家",
+      "booking_zh": "上午随来随走；下午工作坊在 talib.eventbrite.ie 订",
+      "title_en": "Tallaght Library: Scéal puppetry and storytelling festival",
+      "description_en": "A puppetry and storytelling festival from Irish Unima with the Museum of Childhood Ireland. Saturday 21 November. Drop-in interactive storytelling runs 10:30–13:30, no booking. A Storybox family workshop at 14:30 needs booking on Eventbrite.",
+      "venue_en": "County Library, Tallaght",
+      "schedule_note_en": "Saturday 10:30–13:30 drop-in, workshop at 14:30",
+      "age_hint_en": "Whole family",
+      "booking_en": "Morning drop-in; book the afternoon workshop at talib.eventbrite.ie",
+      "source_name_en": "Tallaght Library November guide",
+      "tags_en": [
+        "Library",
+        "Puppets",
+        "Stories"
+      ]
+    },
+    {
+      "id": "clondalkin-crafty-christmas-2026-11-21",
+      "title_zh": "克朗达尔金图书馆：孩子圣诞手工上午",
+      "description_zh": "克朗达尔金图书馆「环保圣诞」系列的亲子活动，11 月 21 日周六 10:30 开始。孩子们用环保材料做圣诞装饰，挂起来布置图书馆。随来随走，不用预约。",
+      "region": "south-dublin",
+      "venue": "克朗达尔金图书馆",
+      "address": "Monastery Road, Clondalkin, Dublin 22",
+      "lat": 53.320722,
+      "lng": -6.388509,
+      "start": "2026-11-21T10:30:00+00:00",
+      "schedule_note_zh": "周六 10:30 开始，随来随走",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费",
+        "note_en": "Free"
+      },
+      "tags": [
+        "图书馆",
+        "手工",
+        "圣诞"
+      ],
+      "source_url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/library-services/newsletters/clondalkin-event-guide-november-2026.pdf",
+      "source_name": "克朗达尔金图书馆 11 月活动单",
+      "age_hint": "儿童和家庭",
+      "booking_zh": "不用预约",
+      "title_en": "Clondalkin Library: kids’ crafty Christmas morning",
+      "description_en": "Part of Clondalkin Library’s sustainable Christmas series. Saturday 21 November from 10:30. Children make eco-friendly Christmas decorations to hang up around the library. Drop in, no booking.",
+      "venue_en": "Clondalkin Library",
+      "schedule_note_en": "Saturday from 10:30, drop in",
+      "age_hint_en": "Children and families",
+      "booking_en": "No booking",
+      "source_name_en": "Clondalkin Library November guide",
+      "tags_en": [
+        "Library",
+        "Crafts",
+        "Christmas"
+      ]
+    },
+    {
+      "id": "palmerstown-crafting-2026-11-21",
+      "title_zh": "帕默斯敦图书馆：手工角做徽章",
+      "description_zh": "帕默斯敦图书馆的免费手工活动，11 月 21 日周六 12:00–13:00，一起做徽章，适合 6 岁以上。在 Eventbrite 领票。",
+      "region": "south-dublin",
+      "venue": "帕默斯敦图书馆",
+      "address": "Palmerstown Shopping Centre, Kennelsfort Road, Dublin 20",
+      "lat": 53.350326,
+      "lng": -6.379233,
+      "start": "2026-11-21T12:00:00+00:00",
+      "end": "2026-11-21T13:00:00+00:00",
+      "schedule_note_zh": "周六 12:00–13:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需在 Eventbrite 领票",
+        "note_en": "Free. Get a ticket on Eventbrite"
+      },
+      "tags": [
+        "图书馆",
+        "手工"
+      ],
+      "source_url": "https://www.eventbrite.ie/e/crafting-corner-tickets-2004066839866",
+      "source_name": "Palmerstown Library · Eventbrite",
+      "age_hint": "6 岁以上",
+      "booking_zh": "需要在 Eventbrite 领票",
+      "title_en": "Palmerstown Library: crafting corner badges",
+      "description_en": "A free craft session at Palmerstown Library. Saturday 21 November, 12:00–13:00, making badges, for age 6 and up. Get a ticket on Eventbrite.",
+      "venue_en": "Palmerstown Library",
+      "schedule_note_en": "Saturday 12:00–13:00",
+      "age_hint_en": "Age 6+",
+      "booking_en": "Get a ticket on Eventbrite",
+      "source_name_en": "Palmerstown Library · Eventbrite",
+      "tags_en": [
+        "Library",
+        "Crafts"
+      ]
+    },
+    {
+      "id": "axis-wonder-2026-11-21",
+      "title_zh": "Axis 巴利蒙：Wonder 感官工作坊",
+      "description_zh": "Axis 艺术中心给 4–8 岁自闭症和神经多样性孩子办的感官游戏工作坊，11 月 21 日周六 10:00–12:00，可以待满全程，也可以中途来。每个家庭订一张票，家长和兄弟姐妹不用另订。",
+      "region": "dublin-city",
+      "venue": "巴利蒙 Axis 艺术中心",
+      "address": "Main Street, Ballymun, Dublin 9, D09 Y9W0",
+      "lat": 53.395821,
+      "lng": -6.262914,
+      "start": "2026-11-21T10:00:00+00:00",
+      "end": "2026-11-21T12:00:00+00:00",
+      "schedule_note_zh": "周六 10:00–12:00",
+      "price": {
+        "kind": "paid",
+        "note_zh": "每个家庭一张票，价格见 Ticketsolve",
+        "note_en": "One ticket per family. Price on Ticketsolve"
+      },
+      "tags": [
+        "感官友好",
+        "工作坊"
+      ],
+      "source_url": "https://www.axisballymun.ie/wonder",
+      "source_name": "Axis Ballymun",
+      "age_hint": "4–8 岁神经多样性儿童",
+      "booking_zh": "在 Axis 官网订票",
+      "title_en": "Axis Ballymun: Wonder sensory session",
+      "description_en": "A sensory play workshop at Axis for autistic and neurodivergent children aged 4–8. Saturday 21 November, 10:00–12:00. Stay the whole time or drop in during it. Book one ticket per family. Parents and extra siblings do not need a ticket.",
+      "venue_en": "Axis Ballymun",
+      "schedule_note_en": "Saturday 10:00–12:00",
+      "age_hint_en": "Neurodivergent children aged 4–8",
+      "booking_en": "Book on the Axis website",
+      "source_name_en": "Axis Ballymun",
+      "tags_en": [
+        "Sensory-friendly",
+        "Workshop"
+      ]
+    },
+    {
+      "id": "everwinter-rds-2026-11-25",
+      "title_zh": "RDS：Everwinter 冬季乐园（溜冰、马戏、市集）",
+      "description_zh": "RDS 今年新办的冬季乐园：有顶棚的溜冰场、Fossett 马戏团 40 分钟圣诞专场（无动物）、圣诞市集、复古游乐设施和摩天轮。11 月 25 日到 12 月 23 日全场开放，周二到周五 14:00–21:00，周末 12:00–21:00，周一关。12 月 26 日到 2027 年 1 月 3 日只开溜冰场。没有活动停车，坐 DART 到 Lansdowne Road 或 Sandymount 走五分钟。",
+      "region": "dublin-city",
+      "venue": "RDS 皇家都柏林协会",
+      "address": "RDS, Merrion Road, Ballsbridge, Dublin 4, D04 AK83",
+      "lat": 53.325719,
+      "lng": -6.22969,
+      "start": "2026-11-25",
+      "end": "2027-01-03",
+      "time_tbc": true,
+      "schedule_note_zh": "11 月 25 日至 12 月 23 日周二到周日；12 月 26 日至 1 月 3 日只开溜冰场",
+      "price": {
+        "kind": "paid",
+        "note_zh": "入场成人 €2.50，12 岁及以下免费但要领票；溜冰、马戏早鸟各 €10 起，两项联票 €23 起；游乐设施现场买币",
+        "note_en": "Entry €2.50 per adult, free for 12 and under with a ticket. Skating and circus from €10 each early bird, both together from €23. Rides use tokens bought on site"
+      },
+      "tags": [
+        "圣诞",
+        "溜冰",
+        "马戏"
+      ],
+      "source_url": "https://www.everwinter.ie/",
+      "source_name": "Everwinter at the RDS",
+      "age_hint": "全家；溜冰 3 岁起",
+      "booking_zh": "官网订时段，周末建议提前",
+      "title_en": "RDS: Everwinter (ice rink, circus, market)",
+      "description_en": "A new winter site at the RDS this year: a covered ice rink, a 40-minute Fossett’s Christmas circus (no animals), a Christmas market, vintage rides and a big wheel. The full site is open 25 November to 23 December, Tuesday to Friday 14:00–21:00, weekends 12:00–21:00, closed Mondays. From 26 December to 3 January 2027 only the ice rink is open. There is no event parking. Take the DART to Lansdowne Road or Sandymount and walk five minutes.",
+      "venue_en": "RDS, Ballsbridge",
+      "schedule_note_en": "25 November to 23 December, Tuesday to Sunday; 26 December to 3 January ice rink only",
+      "age_hint_en": "Whole family; skating from age 3",
+      "booking_en": "Book timed tickets online, early for weekends",
+      "source_name_en": "Everwinter at the RDS",
+      "tags_en": [
+        "Christmas",
+        "Ice skating",
+        "Circus"
+      ]
+    },
+    {
+      "id": "dl-santa-parade-2026-11-27",
+      "title_zh": "邓莱里：圣诞老人游行",
+      "description_zh": "邓莱里的圣诞开幕游行，11 月 27 日周五。圣诞老人和朋友们在港口上岸，沿 Marine Road 走到 Bloomfields 外的 Myrtle Square，那里有家庭活动。免费，不用票，直接去就行。具体时间还没公布，出发前看一眼来源页。",
+      "region": "dlr",
+      "venue": "邓莱里港到 Myrtle Square",
+      "address": "Marine Road to Myrtle Square, Dún Laoghaire, Co. Dublin",
+      "lat": 53.293275,
+      "lng": -6.139115,
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "time_tbc": true,
+      "schedule_note_zh": "周五，时间待定",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费",
+        "note_en": "Free"
+      },
+      "tags": [
+        "圣诞",
+        "户外",
+        "社区"
+      ],
+      "source_url": "https://dlrtourism.ie/events-and-news",
+      "source_name": "dlr Tourism",
+      "age_hint": "全家",
+      "booking_zh": "不用票",
+      "title_en": "Dún Laoghaire: Santa parade",
+      "description_en": "The Christmas opening parade in Dún Laoghaire. Friday 27 November. Santa and friends arrive at the harbour and walk up Marine Road to Myrtle Square outside Bloomfields, where there is family fun. Free, no tickets, just turn up. The time is not announced yet, so check the source before you go.",
+      "venue_en": "Dún Laoghaire harbour to Myrtle Square",
+      "schedule_note_en": "Friday, time to be confirmed",
+      "age_hint_en": "Whole family",
+      "booking_en": "No tickets",
+      "source_name_en": "dlr Tourism",
+      "tags_en": [
+        "Christmas",
+        "Outdoor",
+        "Community"
+      ]
+    },
+    {
+      "id": "crokepark-santa-2026-11-28",
+      "title_zh": "克罗克公园：GAA 博物馆圣诞老人体验",
+      "description_zh": "克罗克公园的圣诞老人体验，约 50 分钟：参观「北极 GAA」精灵更衣室，玩节日技能小游戏，进小木屋见圣诞老人和圣诞夫人，每个孩子领小礼物。票里含 GAA 博物馆参观，博物馆里还有寻找小精灵的路线和互动游戏区。11 月 28 日到 12 月 23 日部分日期开放，GAA 博物馆外免费停车。必须提前网上订，现场不卖票。",
+      "region": "dublin-city",
+      "venue": "克罗克公园 GAA 博物馆",
+      "address": "GAA Museum, Croke Park (Cusack Stand side), Jones's Road, Dublin 3",
+      "lat": 53.3606,
+      "lng": -6.2516,
+      "start": "2026-11-28",
+      "end": "2026-12-23",
+      "time_tbc": true,
+      "schedule_note_zh": "11 月 28 日至 12 月 23 日部分日期，约 50 分钟",
+      "price": {
+        "kind": "paid",
+        "note_zh": "成人 €17，2 岁以上儿童 €25（含礼物），13–23 个月 €19，1 岁以下免费但要订票，另加订票费",
+        "note_en": "Adult €17, child 2+ €25 (gift included), 13–23 months €19, under 1 free but needs a ticket, plus a booking fee"
+      },
+      "tags": [
+        "圣诞",
+        "圣诞老人",
+        "博物馆"
+      ],
+      "source_url": "https://crokepark.ie/santa",
+      "source_name": "Croke Park",
+      "age_hint": "全家",
+      "booking_zh": "必须提前网上订，现场不卖票",
+      "title_en": "Croke Park: Santa at the GAA Museum",
+      "description_en": "The Santa experience at Croke Park, about 50 minutes. Peek into the North Pole GAA elf dressing rooms, play festive skills games, then meet Santa and Mrs Claus in the cabin. Each child gets a small gift. The ticket includes the GAA Museum, which has an elf-hunt trail and an interactive games area. Selected dates from 28 November to 23 December. Free parking outside the GAA Museum. Book online in advance; no tickets on the day.",
+      "venue_en": "GAA Museum, Croke Park",
+      "schedule_note_en": "Selected dates 28 November to 23 December, about 50 minutes",
+      "age_hint_en": "Whole family",
+      "booking_en": "Book online in advance, no tickets on the day",
+      "source_name_en": "Croke Park",
+      "tags_en": [
+        "Christmas",
+        "Santa",
+        "Museum"
+      ]
+    },
+    {
+      "id": "palmerstown-musical-tots-2026-11-28",
+      "title_zh": "帕默斯敦图书馆：音乐小宝贝（11 月）",
+      "description_zh": "帕默斯敦图书馆的免费亲子音乐课，11 月 28 日周六 10:30–11:30。适合 6 个月到学龄前的小朋友，大人陪着一起唱歌玩声音。每个孩子领一张票。",
+      "region": "south-dublin",
+      "venue": "帕默斯敦图书馆",
+      "address": "Palmerstown Shopping Centre, Kennelsfort Road, Dublin 20",
+      "lat": 53.350326,
+      "lng": -6.379233,
+      "start": "2026-11-28T10:30:00+00:00",
+      "end": "2026-11-28T11:30:00+00:00",
+      "schedule_note_zh": "周六 10:30–11:30",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，每个孩子在 Eventbrite 领一张票",
+        "note_en": "Free. One Eventbrite ticket per child"
+      },
+      "tags": [
+        "图书馆",
+        "低龄",
+        "音乐"
+      ],
+      "source_url": "https://www.eventbrite.ie/e/musical-tots-tickets-2004066818803",
+      "source_name": "Palmerstown Library · Eventbrite",
+      "age_hint": "6 个月到学龄前，须大人陪同",
+      "booking_zh": "需要在 Eventbrite 领票",
+      "title_en": "Palmerstown Library: musical tots (November)",
+      "description_en": "A free parent-and-child music session at Palmerstown Library. Saturday 28 November, 10:30–11:30. For 6 months to preschool, singing and playing with sounds together with an adult. One ticket per child.",
+      "venue_en": "Palmerstown Library",
+      "schedule_note_en": "Saturday 10:30–11:30",
+      "age_hint_en": "6 months to preschool, with an adult",
+      "booking_en": "Get a ticket on Eventbrite",
+      "source_name_en": "Palmerstown Library · Eventbrite",
+      "tags_en": [
+        "Library",
+        "Little ones",
+        "Music"
+      ]
+    },
+    {
+      "id": "bge-doubtfire-2026-12-02",
+      "title_zh": "Bord Gáis 剧院：音乐剧《窈窕奶爸》",
+      "description_zh": "伦敦西区喜剧音乐剧《窈窕奶爸》（Mrs. Doubtfire）的都柏林圣诞档，改编自同名电影。12 月 2 日到 2027 年 1 月 3 日，下午场 14:30、晚场 19:30，12 月 27 日 16:00。全长约 2 小时 30 分钟（含中场）。3 岁以下不能进场，16 岁以下要有成人陪同。12 月 9 日晚场有手语。适合大一点的孩子。",
+      "region": "dublin-city",
+      "venue": "Bord Gáis Energy 剧院",
+      "address": "Grand Canal Square, Docklands, Dublin 2",
+      "lat": 53.344135,
+      "lng": -6.240041,
+      "start": "2026-12-02",
+      "end": "2027-01-03",
+      "time_tbc": true,
+      "schedule_note_zh": "12 月 2 日至 2027 年 1 月 3 日，14:30 / 19:30，场次见官网",
+      "price": {
+        "kind": "paid",
+        "note_zh": "€29.80 起",
+        "note_en": "From €29.80"
+      },
+      "tags": [
+        "演出",
+        "圣诞",
+        "室内"
+      ],
+      "source_url": "https://www.bordgaisenergytheatre.ie/show/mrs-doubtfire/",
+      "source_name": "Bord Gáis Energy Theatre",
+      "age_hint": "3 岁以下不能进场，适合约 8 岁以上",
+      "booking_zh": "官网购票",
+      "title_en": "Bord Gáis Energy Theatre: Mrs. Doubtfire the musical",
+      "description_en": "The West End comedy musical Mrs. Doubtfire, based on the film, for Christmas in Dublin. 2 December to 3 January 2027. Matinees at 14:30, evenings at 19:30, and 16:00 on 27 December. About 2 hours 30 minutes with an interval. No under-3s, and under-16s need an adult. The 9 December evening show is signed. Best for older children.",
+      "venue_en": "Bord Gáis Energy Theatre",
+      "schedule_note_en": "2 December to 3 January 2027, 14:30 / 19:30; see the website for dates",
+      "age_hint_en": "No under-3s; best from about age 8",
+      "booking_en": "Buy on the theatre website",
+      "source_name_en": "Bord Gáis Energy Theatre",
+      "tags_en": [
+        "Show",
+        "Christmas",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "axis-beauty-beast-2026-12-17",
+      "title_zh": "Axis 巴利蒙：圣诞童话剧《美女与野兽》",
+      "description_zh": "Holding Court Theatre 在 Axis 的第 25 部圣诞童话剧（panto），今年演《美女与野兽》，有魔法、唱歌跳舞，观众可以跟着喊。12 月 17 日到 2027 年 1 月 24 日，按日期 13:30、17:30 或 19:30。票价比市中心的大剧场便宜。",
+      "region": "dublin-city",
+      "venue": "巴利蒙 Axis 艺术中心",
+      "address": "Main Street, Ballymun, Dublin 9, D09 Y9W0",
+      "lat": 53.395821,
+      "lng": -6.262914,
+      "start": "2026-12-17",
+      "end": "2027-01-24",
+      "time_tbc": true,
+      "schedule_note_zh": "12 月 17 日至 2027 年 1 月 24 日，13:30 / 17:30 / 19:30",
+      "price": {
+        "kind": "paid",
+        "note_zh": "成人 €22，儿童/65 岁以上/陪护 €18，家庭票（1 大 3 小或 2 大 2 小）€75",
+        "note_en": "Adult €22, child / over-65 / carer €18, family ticket (one adult and three children, or two and two) €75"
+      },
+      "tags": [
+        "演出",
+        "圣诞",
+        "室内"
+      ],
+      "source_url": "https://www.axisballymun.ie/whats-on/shows",
+      "source_name": "Axis Ballymun",
+      "age_hint": "全家",
+      "booking_zh": "Axis 官网或售票处 01 883 2100",
+      "title_en": "Axis Ballymun: panto Beauty & The Beast",
+      "description_en": "Holding Court Theatre’s 25th panto at Axis, this year Beauty & The Beast, with magic, songs, dancing and plenty of shouting along. 17 December to 24 January 2027, at 13:30, 17:30 or 19:30 depending on the date. Cheaper than the big city-centre theatres.",
+      "venue_en": "Axis Ballymun",
+      "schedule_note_en": "17 December to 24 January 2027, 13:30 / 17:30 / 19:30",
+      "age_hint_en": "Whole family",
+      "booking_en": "Axis website or box office 01 883 2100",
+      "source_name_en": "Axis Ballymun",
+      "tags_en": [
+        "Show",
+        "Christmas",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "olympia-cinderella-2026-12-19",
+      "title_zh": "3Olympia：圣诞童话剧《灰姑娘》",
+      "description_zh": "3Olympia 剧院第 22 年的圣诞童话剧，Olly、Polly 和 Dolly 回来演《灰姑娘：Olly 和水晶鞋》，以搞笑和观众互动出名。12 月 19 日到 2027 年 1 月 3 日，12 月 24、25 日不演。",
+      "region": "dublin-city",
+      "venue": "3Olympia 剧院",
+      "address": "72 Dame Street, Temple Bar, Dublin 2",
+      "lat": 53.34431,
+      "lng": -6.266065,
+      "start": "2026-12-19",
+      "end": "2027-01-03",
+      "time_tbc": true,
+      "schedule_note_zh": "12 月 19 日至 2027 年 1 月 3 日（24、25 日停演），场次见官网",
+      "price": {
+        "kind": "paid",
+        "note_zh": "€23.50 起（含订票费和 €2 修缮费）",
+        "note_en": "From €23.50, including booking fee and €2 restoration levy"
+      },
+      "tags": [
+        "演出",
+        "圣诞",
+        "室内"
+      ],
+      "source_url": "https://www.3olympia.ie/whats-on/cinderella",
+      "source_name": "3Olympia Theatre",
+      "age_hint": "全家",
+      "booking_zh": "Ticketmaster 购票",
+      "title_en": "3Olympia: panto Cinderella",
+      "description_en": "The 22nd panto at 3Olympia. Olly, Polly and Dolly return in Cinderella: Olly and the Glass Slipper, known for comedy and lots of audience participation. 19 December to 3 January 2027, no shows on 24 and 25 December.",
+      "venue_en": "3Olympia Theatre",
+      "schedule_note_en": "19 December to 3 January 2027 (no shows 24–25 December); times on the website",
+      "age_hint_en": "Whole family",
+      "booking_en": "Buy on Ticketmaster",
+      "source_name_en": "3Olympia Theatre",
+      "tags_en": [
+        "Show",
+        "Christmas",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "ambassador-rapunzel-2026-12-22",
+      "title_zh": "大使剧院：圣诞童话剧《长发公主》",
+      "description_zh": "奥康奈尔街北头大使剧院的圣诞童话剧《长发公主》（Rapunzel），Showbiz Productions 制作，Nicole Filan 主演，面向全家。12 月 22 日到 2027 年 1 月 10 日。",
+      "region": "dublin-city",
+      "venue": "大使剧院",
+      "address": "Upper O’Connell Street, Dublin 1",
+      "lat": 53.352914,
+      "lng": -6.262148,
+      "start": "2026-12-22",
+      "end": "2027-01-10",
+      "time_tbc": true,
+      "schedule_note_zh": "12 月 22 日至 2027 年 1 月 10 日，场次见官网",
+      "price": {
+        "kind": "paid",
+        "note_zh": "€24.20 起",
+        "note_en": "From €24.20"
+      },
+      "tags": [
+        "演出",
+        "圣诞",
+        "室内"
+      ],
+      "source_url": "https://www.theambassadortheatre.com/upcoming-gigs",
+      "source_name": "The Ambassador Theatre",
+      "age_hint": "全家",
+      "booking_zh": "Ticketmaster 购票",
+      "title_en": "The Ambassador: panto Rapunzel",
+      "description_en": "The Christmas panto Rapunzel at The Ambassador at the top of O’Connell Street, produced by Showbiz Productions and starring Nicole Filan, aimed at the whole family. 22 December to 10 January 2027.",
+      "venue_en": "The Ambassador Theatre",
+      "schedule_note_en": "22 December to 10 January 2027; times on the website",
+      "age_hint_en": "Whole family",
+      "booking_en": "Buy on Ticketmaster",
+      "source_name_en": "The Ambassador Theatre",
+      "tags_en": [
+        "Show",
         "Christmas",
         "Indoor"
       ]
