@@ -38,7 +38,7 @@
       langAria: "Switch to Chinese",
       loadError: "The listings didn’t load. Open this page from the site, for example /weekend/.",
       captionAll:
-        "The list runs from about 24 October to 8 November 2026. Exhibitions that cross a week stay visible until they end.",
+        "The list runs from mid-November 2026 into early 2027. Exhibitions that cross a week stay visible until they end.",
       captionCustomPrefix: "Custom: ",
       captionCustomEmpty: "Pick a start and end date. Both days are included.",
       captionThis: "This weekend",
@@ -75,7 +75,7 @@
       themeToLight: "切换到浅色",
       langAria: "切换到英文",
       loadError: "活动清单没有加载成功。请用网站目录打开本页，例如 /weekend/ 。",
-      captionAll: "清单大约覆盖 2026 年 10 月 24 日到 11 月 8 日，跨周展览会一直显示到结束。",
+      captionAll: "清单大约覆盖 2026 年 11 月中旬到 2027 年初，跨周展览会一直显示到结束。",
       captionCustomPrefix: "自定义：",
       captionCustomEmpty: "选择开始和结束日期，含这两天。",
       captionThis: "本周末",
