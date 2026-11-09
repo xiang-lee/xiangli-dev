@@ -26,10 +26,10 @@
   "notices": [
     {
       "id": "nmi-industrial-action-2026-11",
-      "start": "2026-11-02",
+      "start": "2026-11-09",
       "end": "2026-11-29",
-      "text_zh": "公共部门劳资行动还在继续。国立博物馆 11 月 1 日关闭了基尔代尔街馆，死动物园实验室 11 月 7 日、8 日的抽签导览也已取消。馆方说之后还可能临时闭馆或取消活动，去博物馆前先打开来源页确认。",
-      "text_en": "Public-sector industrial action is still going on. The National Museum closed its Kildare Street site on 1 November, and the Dead Zoo Lab lottery tours on 7 and 8 November are cancelled. The museum says more closures or cancellations can happen at short notice. Check the source page before you go to any museum event."
+      "text_zh": "受公共部门劳资行动影响，爱尔兰国立博物馆（NMI）截至 11 月 15 日（含）的所有周末公众导览与教育活动（包括 11 月 14/15 日死动物园实验室抽签导览）均已取消；各分馆常设展览展厅（基尔代尔街考古馆、柯林斯军营等）照常开放。馆方提醒后续仍可能临时调整，出发前请查阅官网最新通知。",
+      "text_en": "Due to public-sector industrial action, all weekend guided public tours and facilitated events across the National Museum of Ireland up to Sunday 15 November (inclusive) have been cancelled, including the Dead Zoo Lab lottery tours on 14/15 November. Permanent exhibition galleries remain open across Dublin sites. Check the museum website before visiting."
     }
   ],
   "events": [
@@ -1217,43 +1217,6 @@
       ]
     },
     {
-      "id": "deadzoo-lottery-2026-11-14",
-      "title_zh": "死动物园实验室：抽签导览（11 月后几个周末）",
-      "description_zh": "柯林斯军营死动物园实验室的家庭抽签导览，主题「暗中的生命」，约 30 分钟，抽到哪个动物就去看哪个。11 月 14/15、21/22、28/29 日每个周末都有。周六 11:00、12:00、12:45；周日 13:15、14:15、15:00。适合 7 岁以上，免费，先到先得。馆方说劳资行动可能临时取消，出发前看页面。",
-      "region": "dublin-city",
-      "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
-      "address": "Benburb Street, Dublin 7, D07 XKV4",
-      "lat": 53.348857,
-      "lng": -6.286682,
-      "start": "2026-11-14T11:00:00+00:00",
-      "end": "2026-11-29T15:30:00+00:00",
-      "schedule_note_zh": "11 月 14–29 日每个周末；周六 11:00/12:00/12:45，周日 13:15/14:15/15:00",
-      "price": {
-        "kind": "free",
-        "note_zh": "免费，不用预约，先到先得",
-        "note_en": "Free, no booking, first come"
-      },
-      "tags": [
-        "博物馆",
-        "导览"
-      ],
-      "source_url": "https://source.museum.ie/en-IE/Museums/Decorative-Arts-History/Events/DZL-Drop-ins/Family-Tours-in-the-Dead-Zoo-Lab",
-      "source_name": "爱尔兰国立博物馆",
-      "age_hint": "7 岁以上，须大人陪同",
-      "booking_zh": "不用预约",
-      "title_en": "Dead Zoo Lab: lottery tours (later November weekends)",
-      "description_en": "A family lottery tour of the Dead Zoo Lab at Collins Barracks, theme “Life in the Dark”, about 30 minutes. Whichever animal is drawn is the one you go and see. Every weekend of 14/15, 21/22 and 28/29 November. Saturday 11:00, 12:00 and 12:45. Sunday 13:15, 14:15 and 15:00. Age 7 and up. Free, first come. The museum says industrial action may cancel a tour at short notice. Check the page before you go.",
-      "venue_en": "Dead Zoo Lab, Collins Barracks",
-      "schedule_note_en": "Every weekend 14–29 November; Saturday 11:00/12:00/12:45, Sunday 13:15/14:15/15:00",
-      "age_hint_en": "Age 7+, with an adult",
-      "booking_en": "No booking",
-      "source_name_en": "National Museum of Ireland",
-      "tags_en": [
-        "Museum",
-        "Tour"
-      ]
-    },
-    {
       "id": "twinkletown-smithfield-2026-11-20",
       "title_zh": "史密斯菲尔德广场：闪闪小镇圣诞节",
       "description_zh": "市议会合办的圣诞小镇，11 月 20 日到 12 月 31 日，12 月 24–26 日关。免费进场逛，有带棚的溜冰场、33 米摩天轮、游乐设施和 20 分钟的「圣诞老人小剧」（Santo Panto，周五和周末演）。溜冰和小剧要买票，建议网上先订；3 岁以下不能上冰。",
@@ -2395,6 +2358,640 @@
       "source_name_en": "The Ambassador Theatre",
       "tags_en": [
         "Show",
+        "Christmas",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "clondalkin-puzzle-swap-2026-11-14",
+      "title_zh": "克朗多金图书馆：拼图交换日",
+      "description_zh": "克朗多金图书馆“可持续圣诞”系列活动之一的拼图交换日。带上家里拼过、完整的拼图，换取一副全新的拼图带回家度过冬日温馨周末，结识拼图同好。完全免费，无需预约。",
+      "region": "south-dublin",
+      "venue": "克朗多金图书馆",
+      "address": "Monastery Road, Clondalkin, Dublin 22",
+      "lat": 53.320722,
+      "lng": -6.388509,
+      "start": "2026-11-14T11:30:00+00:00",
+      "end": "2026-11-14T13:30:00+00:00",
+      "schedule_note_zh": "周六 11:30 开始",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，无需预约",
+        "note_en": "Free, no booking required"
+      },
+      "tags": [
+        "社区",
+        "低龄",
+        "室内"
+      ],
+      "source_url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+      "source_name": "South Dublin Libraries",
+      "age_hint": "全家，老少咸宜",
+      "booking_zh": "无需预约",
+      "title_en": "Clondalkin Library: Jigsaw Puzzle Swap",
+      "description_en": "Part of Clondalkin Library’s Sustainable Christmas series. Pop into the library to swap jigsaws and meet fellow puzzle enthusiasts. Drop off your used complete jigsaws and take home a new-to-you puzzle for cosy winter evenings. Free, no booking needed.",
+      "venue_en": "Clondalkin Library",
+      "schedule_note_en": "Saturday from 11:30",
+      "age_hint_en": "Whole family",
+      "booking_en": "No booking required",
+      "source_name_en": "South Dublin Libraries",
+      "tags_en": [
+        "Community",
+        "Little ones",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "central-lib-scrap-needle-2026-11-14",
+      "title_zh": "中央图书馆：旧料再造针线包与蜡笔套手工",
+      "description_zh": "都柏林市立中央图书馆举办的“废料图书馆”（Scrap Libraries）环保手工坊。指导如何利用旧面料和边角料，手工缝制自己的针线包或蜡笔套。材料全包，不分年龄，适合亲子共同动手。",
+      "region": "dublin-city",
+      "venue": "中央图书馆（ILAC 购物中心）",
+      "address": "ILAC Shopping Centre, Henry Street, Dublin 1, D01 DY80",
+      "lat": 53.349968,
+      "lng": -6.264651,
+      "start": "2026-11-14T11:00:00+00:00",
+      "end": "2026-11-14T13:00:00+00:00",
+      "schedule_note_zh": "周六 11:00–13:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需在图书馆或 Spydus 预订",
+        "note_en": "Free, booking required via library / Spydus"
+      },
+      "tags": [
+        "手工",
+        "社区",
+        "室内"
+      ],
+      "source_url": "https://www.dublincity.ie/events/scrap-libraries-make-your-own-diy-needle-case-crayon-holder-1",
+      "source_name": "Dublin City Council",
+      "age_hint": "全年龄，适合亲子",
+      "booking_zh": "需在图书馆预订",
+      "title_en": "Central Library: DIY needle case or crayon holder",
+      "description_en": "A Scrap Libraries sustainable craft workshop at the Central Library in the ILAC Shopping Centre. Learn how to transform scrap textiles and materials into your own DIY needle case or crayon holder. All materials provided, suitable for all ages.",
+      "venue_en": "Central Library (ILAC Centre)",
+      "schedule_note_en": "Saturday 11:00–13:00",
+      "age_hint_en": "All ages, great for parents and children",
+      "booking_en": "Booking required",
+      "source_name_en": "Dublin City Council",
+      "tags_en": [
+        "Crafts",
+        "Community",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "deadzoo-lottery-2026-11-21",
+      "title_zh": "死动物园实验室：抽签导览（11 月下旬周末）",
+      "description_zh": "柯林斯军营死动物园实验室的家庭抽签导览，主题「暗中的生命」，约 30 分钟，从抽签袋中抽取动物决定参观路线。11 月 21/22 日及 28/29 日周末举行（14/15 日因劳资行动已取消）。周六 11:00、12:00、12:45；周日 13:15、14:15、15:00。适合 7 岁以上，免费，先到先得。",
+      "region": "dublin-city",
+      "venue": "柯林斯军营死动物园实验室（Dead Zoo Lab）",
+      "address": "Benburb Street, Dublin 7, D07 XKV4",
+      "lat": 53.348857,
+      "lng": -6.286682,
+      "start": "2026-11-21T11:00:00+00:00",
+      "end": "2026-11-29T15:30:00+00:00",
+      "schedule_note_zh": "11 月 21/22 与 28/29 日周末；周六 11:00/12:00/12:45，周日 13:15/14:15/15:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，不用预约，先到先得",
+        "note_en": "Free, no booking, first come"
+      },
+      "tags": [
+        "博物馆",
+        "导览"
+      ],
+      "source_url": "https://www.museum.ie/en-IE/Museums/Decorative-Arts-History/Events/DZL-Drop-ins/Family-Tours-in-the-Dead-Zoo-Lab",
+      "source_name": "爱尔兰国立博物馆",
+      "age_hint": "7 岁以上，须大人陪同",
+      "booking_zh": "不用预约",
+      "title_en": "Dead Zoo Lab: lottery tours (late November weekends)",
+      "description_en": "A family lottery tour of the Dead Zoo Lab at Collins Barracks, themed “Life in the Dark”, lasting about 30 minutes. Stops are decided by drawing animal names from the lottery bag. Weekends of 21/22 and 28/29 November (14/15 November cancelled due to industrial action). Saturday 11:00, 12:00, 12:45; Sunday 13:15, 14:15, 15:00. Age 7+, free, first come first served.",
+      "venue_en": "Dead Zoo Lab, Collins Barracks",
+      "schedule_note_en": "Weekends 21–22 & 28–29 November; Saturday 11:00/12:00/12:45, Sunday 13:15/14:15/15:00",
+      "age_hint_en": "Age 7+, with an adult",
+      "booking_en": "No booking",
+      "source_name_en": "National Museum of Ireland",
+      "tags_en": [
+        "Museum",
+        "Tour"
+      ]
+    },
+    {
+      "id": "blanch-laser-bookmark-2026-11-21",
+      "title_zh": "布兰查斯敦图书馆：激光雕刻书签工作坊（10–12 岁）",
+      "description_zh": "由 Andrew Carson 指导的小小创客激光雕刻工作坊。学习数字设计基础技能，自己动手设计图案并使用激光切割机制作专属书签带回家。面向 10 至 12 岁少年。免费，需在 Eventbrite 预订。",
+      "region": "fingal",
+      "venue": "布兰查斯敦图书馆",
+      "address": "The Civic Centre, Blanchardstown Centre, Dublin 15",
+      "lat": 53.390758,
+      "lng": -6.391235,
+      "start": "2026-11-21T11:00:00+00:00",
+      "end": "2026-11-21T13:00:00+00:00",
+      "schedule_note_zh": "周六 11:00–13:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需在 Eventbrite 订票",
+        "note_en": "Free, booking required on Eventbrite"
+      },
+      "tags": [
+        "创客",
+        "手工",
+        "室内"
+      ],
+      "source_url": "https://www.eventbrite.ie/e/bookmark-makersdesign-laser-cut-your-own-ages-10-12-with-andrew-carson-tickets-2004320104387",
+      "source_name": "Fingal County Libraries",
+      "age_hint": "10–12 岁",
+      "booking_zh": "需在 Eventbrite 订票",
+      "title_en": "Blanchardstown Library: laser cut bookmark making (age 10–12)",
+      "description_en": "A hands-on laser cutting workshop for young makers with Andrew Carson. Learn digital design skills and design your own personalised bookmark brought to life with a laser cutter. For ages 10–12. Free, booking essential on Eventbrite.",
+      "venue_en": "Blanchardstown Library",
+      "schedule_note_en": "Saturday 11:00–13:00",
+      "age_hint_en": "Age 10–12",
+      "booking_en": "Book on Eventbrite",
+      "source_name_en": "Fingal County Libraries",
+      "tags_en": [
+        "Makers",
+        "Crafts",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "blackrock-santa-2026-11-22",
+      "title_zh": "黑石中心：圣诞老人到访与节日庆祝",
+      "description_zh": "圣诞老人降临黑石村购物中心！下午 14:00 起有魔术表演、脸绘彩绘，还有机会与圣诞老人和他的精灵助手合影留念并获得小礼物。活动免费，需提前在 Eventbrite 预订免费票（一张票限 1-4 名儿童及陪同成人）。",
+      "region": "dlr",
+      "venue": "黑石村购物中心",
+      "address": "Frascati Road, Blackrock, Co. Dublin, A94 F6D0",
+      "lat": 53.301826,
+      "lng": -6.180402,
+      "start": "2026-11-22T14:00:00+00:00",
+      "end": "2026-11-22T17:00:00+00:00",
+      "schedule_note_zh": "周日 14:00–17:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需在 Eventbrite 领票",
+        "note_en": "Free, booking essential via Eventbrite"
+      },
+      "tags": [
+        "圣诞",
+        "低龄",
+        "社区"
+      ],
+      "source_url": "https://www.eventbrite.ie/e/santa-is-coming-to-blackrock-village-centre-tickets-2004211826525",
+      "source_name": "Eventbrite",
+      "age_hint": "全家，适合低龄儿童",
+      "booking_zh": "需在 Eventbrite 领票",
+      "title_en": "Blackrock Centre: Santa arrives & festive fun",
+      "description_en": "Santa arrives at Blackrock Village Centre! From 14:00 enjoy a magic show, face painting, and meet Santa and his helpers with a gift for the children. Free event, booking essential via Eventbrite (one ticket covers 1–4 children plus accompanying adults).",
+      "venue_en": "Blackrock Village Centre",
+      "schedule_note_en": "Sunday 14:00–17:00",
+      "age_hint_en": "Whole family, best for young children",
+      "booking_en": "Book free tickets on Eventbrite",
+      "source_name_en": "Eventbrite",
+      "tags_en": [
+        "Christmas",
+        "Little ones",
+        "Community"
+      ]
+    },
+    {
+      "id": "ballyroan-christmas-market-2026-11-28",
+      "title_zh": "巴利罗安图书馆：社区圣诞手作市集",
+      "description_zh": "巴利罗安图书馆举办的年度圣诞市集，汇聚本地手工艺人摊位、精美节日礼品与手作物。中午 12:00 有 RUGS 尤克里里乐团现场演奏节日曲目，馆内还有面向小朋友的免费面部彩绘活动。免费入场，无需预约。",
+      "region": "south-dublin",
+      "venue": "巴利罗安图书馆",
+      "address": "54 Orchardstown Avenue, Rathfarnham, Dublin 14, D14 VY33",
+      "lat": 53.290628,
+      "lng": -6.299264,
+      "start": "2026-11-28T10:00:00+00:00",
+      "end": "2026-11-28T16:00:00+00:00",
+      "schedule_note_zh": "周六 10:00–16:00（节日音乐 12:00）",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费入场，无需预约",
+        "note_en": "Free entry, no booking required"
+      },
+      "tags": [
+        "市集",
+        "圣诞",
+        "室内",
+        "社区"
+      ],
+      "source_url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+      "source_name": "South Dublin Libraries",
+      "age_hint": "全家，老少咸宜",
+      "booking_zh": "无需预约",
+      "title_en": "Ballyroan Library: Christmas Craft Market",
+      "description_en": "Annual Christmas craft market at Ballyroan Library featuring local crafts, gifts, and festive stalls. Festive tunes from RUGS ukulele group at 12:00, plus free face painting for children on the library floor. Free entry, no booking needed.",
+      "venue_en": "Ballyroan Library",
+      "schedule_note_en": "Saturday 10:00–16:00 (music at 12:00)",
+      "age_hint_en": "Whole family",
+      "booking_en": "No booking required",
+      "source_name_en": "South Dublin Libraries",
+      "tags_en": [
+        "Market",
+        "Christmas",
+        "Indoor",
+        "Community"
+      ]
+    },
+    {
+      "id": "lucan-steam-freeplay-2026-11-28",
+      "title_zh": "卢肯图书馆：STEAM 自由搭建创意下午",
+      "description_zh": "卢肯图书馆的 STEAM 自由探索拼搭下午，适合 4 岁及以上儿童。提供乐高、科学构建积木等教具，发挥想象力动手拼搭各种模型。免费参加，需在 Eventbrite 预订。",
+      "region": "south-dublin",
+      "venue": "卢肯图书馆",
+      "address": "Lucan Shopping Centre, Newcastle Road, Lucan, Co. Dublin, K78 V295",
+      "lat": 53.347544,
+      "lng": -6.452286,
+      "start": "2026-11-28T14:00:00+00:00",
+      "end": "2026-11-28T15:30:00+00:00",
+      "schedule_note_zh": "周六 14:00–15:30",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需在 Eventbrite 领票",
+        "note_en": "Free, booking essential via Eventbrite"
+      },
+      "tags": [
+        "STEAM",
+        "乐高",
+        "室内"
+      ],
+      "source_url": "https://www.eventbrite.ie/e/steam-saturdays-lucan-library-tickets-2004217694075",
+      "source_name": "South Dublin Libraries",
+      "age_hint": "4 岁以上，须大人陪同",
+      "booking_zh": "需在 Eventbrite 领票",
+      "title_en": "Lucan Library: STEAM Saturday Freeplay Session",
+      "description_en": "A hands-on STEAM free-play afternoon at Lucan Library for children aged 4 and up. Build and create with Lego, construction sets and STEM toys to spark imagination. Free, booking required via Eventbrite.",
+      "venue_en": "Lucan Library",
+      "schedule_note_en": "Saturday 14:00–15:30",
+      "age_hint_en": "Age 4+, with an adult",
+      "booking_en": "Book on Eventbrite",
+      "source_name_en": "South Dublin Libraries",
+      "tags_en": [
+        "STEAM",
+        "Lego",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "balbriggan-choir-christmas-2026-12-05",
+      "title_zh": "巴尔布里根图书馆：IIMS 儿童与青年合唱团圣诞音乐会",
+      "description_zh": "爱尔兰音乐与歌曲学院（IIMS）儿童合唱团与青年合唱团在巴尔布里根图书馆举办圣诞音乐会。由获奖指挥 Rebecca Gilbert 带领 7 至 18 岁的青少年歌手演唱经典节日圣诗与歌曲，迎接温馨圣诞节。免费入场，无需预约。",
+      "region": "fingal",
+      "venue": "巴尔布里根图书馆",
+      "address": "Saint George's Square, Balbriggan, Co. Dublin, K32 TW27",
+      "lat": 53.608475,
+      "lng": -6.182129,
+      "start": "2026-12-05T11:00:00+00:00",
+      "end": "2026-12-05T12:00:00+00:00",
+      "schedule_note_zh": "周六 11:00–12:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，无需预约",
+        "note_en": "Free, no booking required"
+      },
+      "tags": [
+        "音乐",
+        "圣诞",
+        "室内",
+        "社区"
+      ],
+      "source_url": "https://www.fingal.ie/fingallibraries",
+      "source_name": "Fingal Libraries",
+      "age_hint": "全年龄，全家欢迎",
+      "booking_zh": "无需预约",
+      "title_en": "Balbriggan Library: IIMS Children's Choir Christmas Concert",
+      "description_en": "Celebrate the festive season with the Irish Institute of Music & Song (IIMS) Youth Choir and Children's Chorus at Balbriggan Library. Conducted by award-winning director Rebecca Gilbert, featuring festive choral favourites. Free, no booking required.",
+      "venue_en": "Balbriggan Library",
+      "schedule_note_en": "Saturday 11:00–12:00",
+      "age_hint_en": "All welcome, whole family",
+      "booking_en": "No booking required",
+      "source_name_en": "Fingal Libraries",
+      "tags_en": [
+        "Music",
+        "Christmas",
+        "Indoor",
+        "Community"
+      ]
+    },
+    {
+      "id": "socircular-christmas-market-2026-12-06",
+      "title_zh": "市政厅：So Circular 循环经济圣诞市集",
+      "description_zh": "都柏林市政厅圆形大厅举办的循环经济圣诞市集，由都柏林市议会（DCC）与 Rediscovery Centre 联合主办。现场有由社会企业、手工艺人带来的升级改造礼品、手作饰品、复古物件和可持续手作体验，适合全家一起逛。免费入场，无需预约。",
+      "region": "dublin-city",
+      "venue": "都柏林市政厅",
+      "address": "Dame Street, Dublin 2, D02 AF30",
+      "lat": 53.344048,
+      "lng": -6.267214,
+      "start": "2026-12-06T11:00:00+00:00",
+      "end": "2026-12-06T19:00:00+00:00",
+      "schedule_note_zh": "周日 11:00–19:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费入场，无需预约",
+        "note_en": "Free entry, no booking required"
+      },
+      "tags": [
+        "市集",
+        "圣诞",
+        "室内",
+        "社区"
+      ],
+      "source_url": "https://dublin.ie/whats-on/listings/so-circular-christmas-market/",
+      "source_name": "Dublin.ie",
+      "age_hint": "全家",
+      "booking_zh": "无需预约",
+      "title_en": "City Hall: So Circular Christmas Market",
+      "description_en": "A circular economy Christmas market in the Rotunda of Dublin City Hall, co-hosted by Dublin City Council and the Rediscovery Centre. Features social enterprises and local makers offering upcycled gifts, handcrafted goods, vintage finds and sustainable craft experiences. Free admission, no booking required.",
+      "venue_en": "Dublin City Hall",
+      "schedule_note_en": "Sunday 11:00–19:00",
+      "age_hint_en": "Whole family",
+      "booking_en": "No booking required",
+      "source_name_en": "Dublin.ie",
+      "tags_en": [
+        "Market",
+        "Christmas",
+        "Indoor",
+        "Community"
+      ]
+    },
+    {
+      "id": "stadium-panto-aladdin-2026-12-11",
+      "title_zh": "国家体育馆：圣诞童话剧《阿拉丁》",
+      "description_zh": "国家体育馆每年的传统家庭圣诞童话剧（Stadium Panto），今年上演《阿拉丁》（Aladdin）。由 Alan Hughes 主演 Sammy Sausages，Rob Murphy 饰演 Buffy。剧场有免费停车位，适合全家大小一起观看互动。",
+      "region": "dublin-city",
+      "venue": "国家体育馆",
+      "address": "South Circular Road, Dublin 8, D08 HY40",
+      "lat": 53.330801,
+      "lng": -6.280282,
+      "start": "2026-12-11",
+      "end": "2027-01-03",
+      "time_tbc": true,
+      "schedule_note_zh": "12 月 11 日至 2027 年 1 月 3 日，场次见官网",
+      "price": {
+        "kind": "paid",
+        "note_zh": "€34.50–€39.50，四人家庭票 €99",
+        "note_en": "€34.50–€39.50, family of four €99"
+      },
+      "tags": [
+        "演出",
+        "圣诞",
+        "室内"
+      ],
+      "source_url": "https://panto.ie/",
+      "source_name": "The Stadium Panto",
+      "age_hint": "全家",
+      "booking_zh": "官网购票",
+      "title_en": "National Stadium: panto Aladdin",
+      "description_en": "The annual family Christmas panto at the National Stadium, featuring Aladdin starring Alan Hughes as Sammy Sausages and Rob Murphy as Buffy. Plenty of music, comedy, and audience participation, with free on-site parking.",
+      "venue_en": "National Stadium",
+      "schedule_note_en": "11 December to 3 January 2027; check website for showtimes",
+      "age_hint_en": "Whole family",
+      "booking_en": "Book tickets online",
+      "source_name_en": "The Stadium Panto",
+      "tags_en": [
+        "Show",
+        "Christmas",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "retro-drivein-leopardstown-2026-12-11",
+      "title_zh": "莱珀斯敦：Retro 汽车影院圣诞经典电影",
+      "description_zh": "爱尔兰著名的 Retro 汽车露天电影院回归莱珀斯敦赛马场，放映《小鬼当家》、《极地特快》、《精灵 Elf》等圣诞经典电影。坐在温暖的车里通过车载调频收音机收听音频，大屏幕高清放映。适合全家自驾体验。",
+      "region": "dlr",
+      "venue": "莱珀斯敦赛马场",
+      "address": "Foxrock, Dublin 18, D18 V277",
+      "lat": 53.263857,
+      "lng": -6.189041,
+      "start": "2026-12-11",
+      "end": "2026-12-20",
+      "time_tbc": true,
+      "schedule_note_zh": "12 月 11–13 日及 18–20 日周末，场次见官网",
+      "price": {
+        "kind": "paid",
+        "note_zh": "5 座车 €36.80，7 座车 €39.40",
+        "note_en": "5-seater car €36.80, 7-seater car €39.40"
+      },
+      "tags": [
+        "电影",
+        "圣诞",
+        "户外"
+      ],
+      "source_url": "https://www.retrodrivein.ie/retro-drive-in.html",
+      "source_name": "Retro Drive-In Movies",
+      "age_hint": "全家",
+      "booking_zh": "官网或 Ticket Tailor 购票",
+      "title_en": "Leopardstown: Retro Drive-In Christmas Movies",
+      "description_en": "Retro Drive-in Movies returns to Leopardstown Racecourse screening Christmas classics like Home Alone, The Polar Express, and Elf. Watch from the comfort of your car on a massive screen with audio broadcast straight to your car radio.",
+      "venue_en": "Leopardstown Racecourse",
+      "schedule_note_en": "Weekends 11–13 & 18–20 December; session times on website",
+      "age_hint_en": "Whole family",
+      "booking_en": "Book tickets online",
+      "source_name_en": "Retro Drive-In Movies",
+      "tags_en": [
+        "Cinema",
+        "Christmas",
+        "Outdoor"
+      ]
+    },
+    {
+      "id": "rush-garland-craft-2026-12-19",
+      "title_zh": "罗什图书馆：Tarsila Krüse 圣诞彩旗手工坊（8–12 岁）",
+      "description_zh": "知名插画艺术家 Tarsila Krüse 指导的民间艺术风圣诞纸彩旗手工坊。利用色彩缤纷的纸张剪纸和拼贴，制作属于自己的节日彩旗装饰。面向 8 至 12 岁儿童。免费，需联系图书馆预约。",
+      "region": "fingal",
+      "venue": "罗什图书馆",
+      "address": "Chapel Green, Rush, Co. Dublin, K56 ED95",
+      "lat": 53.521862,
+      "lng": -6.10195,
+      "start": "2026-12-19T11:00:00+00:00",
+      "end": "2026-12-19T12:00:00+00:00",
+      "schedule_note_zh": "周六 11:00–12:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需向图书馆预约",
+        "note_en": "Free, booking required with library"
+      },
+      "tags": [
+        "手工",
+        "圣诞",
+        "室内"
+      ],
+      "source_url": "https://www.fingal.ie/fingallibraries",
+      "source_name": "Fingal Libraries",
+      "age_hint": "8–12 岁",
+      "booking_zh": "需向图书馆预约",
+      "title_en": "Rush Library: Christmas garland crafts with Tarsila Krüse (age 8–12)",
+      "description_en": "A creative folk-art-inspired paper Christmas garland workshop with illustrator and artist Tarsila Krüse at Rush Library. Make your own festive garland using cutouts and collage. For ages 8–12. Free, contact the library to reserve a place.",
+      "venue_en": "Rush Library",
+      "schedule_note_en": "Saturday 11:00–12:00",
+      "age_hint_en": "Age 8–12",
+      "booking_en": "Contact library to book",
+      "source_name_en": "Fingal Libraries",
+      "tags_en": [
+        "Crafts",
+        "Christmas",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "donabate-garland-craft-2026-12-19",
+      "title_zh": "多纳贝特图书馆：Tarsila Krüse 圣诞彩旗手工坊（8–12 岁）",
+      "description_zh": "艺术家 Tarsila Krüse 带来的民间艺术纸艺圣诞花环彩旗制作工坊。通过剪纸和拼贴，制作独一无二的圣诞挂饰。面向 8 至 12 岁儿童。免费，需联系多纳贝特图书馆预约。",
+      "region": "fingal",
+      "venue": "多纳贝特图书馆",
+      "address": "Ballisk House, Portrane Road, Donabate, Co. Dublin, K36 E009",
+      "lat": 53.489698,
+      "lng": -6.143155,
+      "start": "2026-12-19T14:30:00+00:00",
+      "end": "2026-12-19T15:30:00+00:00",
+      "schedule_note_zh": "周六 14:30–15:30",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，需向图书馆预约",
+        "note_en": "Free, booking required with library"
+      },
+      "tags": [
+        "手工",
+        "圣诞",
+        "室内"
+      ],
+      "source_url": "https://www.fingal.ie/fingallibraries",
+      "source_name": "Fingal Libraries",
+      "age_hint": "8–12 岁",
+      "booking_zh": "需向图书馆预约",
+      "title_en": "Donabate Library: Christmas garland crafts with Tarsila Krüse (age 8–12)",
+      "description_en": "A folk-art-inspired festive garland workshop with artist Tarsila Krüse at Donabate Library. Create unique Christmas paper garlands using collage and cutouts. For ages 8–12. Free, contact Donabate Library to reserve.",
+      "venue_en": "Donabate Library",
+      "schedule_note_en": "Saturday 14:30–15:30",
+      "age_hint_en": "Age 8–12",
+      "booking_en": "Contact library to book",
+      "source_name_en": "Fingal Libraries",
+      "tags_en": [
+        "Crafts",
+        "Christmas",
+        "Indoor"
+      ]
+    },
+    {
+      "id": "balbriggan-magic-reuben-2026-12-19",
+      "title_zh": "巴尔布里根图书馆：Reuben 圣诞魔术欢乐秀",
+      "description_zh": "人气魔术师与表演家 Reuben 带来充满活力的圣诞家庭魔术脱口秀，充满欢笑、奇趣魔术和互动游戏，教小朋友假期里可以玩的游戏。全家老少皆宜，免费参加，无需预约。",
+      "region": "fingal",
+      "venue": "巴尔布里根图书馆",
+      "address": "Saint George's Square, Balbriggan, Co. Dublin, K32 TW27",
+      "lat": 53.608475,
+      "lng": -6.182129,
+      "start": "2026-12-19T10:00:00+00:00",
+      "end": "2026-12-19T11:00:00+00:00",
+      "schedule_note_zh": "周六 10:00–11:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，无需预约",
+        "note_en": "Free, no booking required"
+      },
+      "tags": [
+        "魔术",
+        "圣诞",
+        "室内",
+        "社区"
+      ],
+      "source_url": "https://www.fingal.ie/fingallibraries",
+      "source_name": "Fingal Libraries",
+      "age_hint": "全家，老少咸宜",
+      "booking_zh": "无需预约",
+      "title_en": "Balbriggan Library: Christmas Magic Show with Reuben",
+      "description_en": "High-energy Christmas variety and comedy magic show with Reuben the Entertainer at Balbriggan Library. Packed with laughs, magic tricks and holiday party games. Suitable for the whole family. Free, no booking needed.",
+      "venue_en": "Balbriggan Library",
+      "schedule_note_en": "Saturday 10:00–11:00",
+      "age_hint_en": "Whole family",
+      "booking_en": "No booking required",
+      "source_name_en": "Fingal Libraries",
+      "tags_en": [
+        "Magic",
+        "Christmas",
+        "Indoor",
+        "Community"
+      ]
+    },
+    {
+      "id": "skerries-magic-reuben-2026-12-19",
+      "title_zh": "斯凯里斯图书馆：Reuben 圣诞魔术欢乐秀",
+      "description_zh": "人气表演家 Reuben 巡回至斯凯里斯图书馆，带来热闹幽默的圣诞魔术杂耍秀，有木偶、魔术、滑稽声音和全场互动游戏。免费入场，无需预约。",
+      "region": "fingal",
+      "venue": "斯凯里斯图书馆",
+      "address": "Strand Street, Skerries, Co. Dublin, K34 FT61",
+      "lat": 53.578573,
+      "lng": -6.106568,
+      "start": "2026-12-19T12:00:00+00:00",
+      "end": "2026-12-19T13:00:00+00:00",
+      "schedule_note_zh": "周六 12:00–13:00",
+      "price": {
+        "kind": "free",
+        "note_zh": "免费，无需预约",
+        "note_en": "Free, no booking required"
+      },
+      "tags": [
+        "魔术",
+        "圣诞",
+        "室内",
+        "社区"
+      ],
+      "source_url": "https://www.fingal.ie/fingallibraries",
+      "source_name": "Fingal Libraries",
+      "age_hint": "全家，老少咸宜",
+      "booking_zh": "无需预约",
+      "title_en": "Skerries Library: Christmas Magic Show with Reuben",
+      "description_en": "Reuben the Entertainer brings his high-energy Christmas variety and comedy magic show to Skerries Library. Lots of magic, puppets, and holiday laughs for all ages. Free, no booking required.",
+      "venue_en": "Skerries Library",
+      "schedule_note_en": "Saturday 12:00–13:00",
+      "age_hint_en": "Whole family",
+      "booking_en": "No booking required",
+      "source_name_en": "Fingal Libraries",
+      "tags_en": [
+        "Magic",
+        "Christmas",
+        "Indoor",
+        "Community"
+      ]
+    },
+    {
+      "id": "pavilion-home-alone-2026-12-20",
+      "title_zh": "亭阁剧院：家庭电影《小鬼当家》",
+      "description_zh": "邓莱里亭阁剧院大银幕放映经典节日家庭喜剧《小鬼当家》（Home Alone，PG 级，103 分钟）。跟随 8 岁的小凯文智斗两个笨贼，重温温馨欢乐的圣诞回忆。",
+      "region": "dlr",
+      "venue": "亭阁剧院",
+      "address": "Marine Road, Dún Laoghaire, Co. Dublin",
+      "lat": 53.29392,
+      "lng": -6.133892,
+      "start": "2026-12-20T17:30:00+00:00",
+      "end": "2026-12-20T19:15:00+00:00",
+      "schedule_note_zh": "周日 17:30 开始",
+      "price": {
+        "kind": "paid",
+        "note_zh": "儿童 €7.50，成人 €9.50，四人家庭票 €28",
+        "note_en": "Child €7.50, Adult €9.50, family of four €28"
+      },
+      "tags": [
+        "电影",
+        "圣诞",
+        "室内"
+      ],
+      "source_url": "https://www.paviliontheatre.ie/events/view/homealone26",
+      "source_name": "Pavilion Theatre",
+      "age_hint": "PG 级，适合 5 岁及以上全家",
+      "booking_zh": "官网购票",
+      "title_en": "Pavilion Theatre: Home Alone Christmas Screening",
+      "description_en": "A big-screen festive screening of the classic Christmas family comedy Home Alone (PG, 103 mins) at Pavilion Theatre, Dún Laoghaire. Join 8-year-old Kevin McCallister as he defends his home against bumbling burglars.",
+      "venue_en": "Pavilion Theatre",
+      "schedule_note_en": "Sunday 17:30",
+      "age_hint_en": "Rated PG, suitable for age 5+ and families",
+      "booking_en": "Book tickets online",
+      "source_name_en": "Pavilion Theatre",
+      "tags_en": [
+        "Cinema",
         "Christmas",
         "Indoor"
       ]
